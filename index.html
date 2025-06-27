@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TTS Mall - Sistema de Mensajes</title>
+    
+    <!-- CSS Base -->
+    <link rel="stylesheet" href="/v2/assets/css/base.css">
+    
+    
+    <!-- Favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎙️</text></svg>">
+</head>
+<body>
+    <!-- Header Principal -->
+  <!--   <header class="main-header">
+        <div class="main-header__container">
+            <h1 class="main-header__title">🎙️ Radio Barrio Independencia</h1>
+            <p class="main-header__subtitle">Sistema avanzado de Text-to-Speech para Mall Barrio Independencia</p>
+        </div>
+    </header> -->
+
+    <!-- Navegación Principal -->
+  <!--   <nav class="main-nav" role="navigation">
+        <div class="main-nav__container">
+            <div class="tabs">
+                <button class="tab tab--active" data-route="/configuracion" aria-current="page">
+                    <span class="tab__icon">⚙️</span>
+                    <span class="tab__text">Configuración</span>
+                </button>
+                <button class="tab" data-route="/campanas">
+                    <span class="tab__icon">📢</span>
+                    <span class="tab__text">Campañas y Mensajes</span>
+                </button>
+            </div>
+        </div>
+    </nav> -->
+
+    <!-- Container Principal para Módulos -->
+    <main class="main-container">
+        <div id="app-container" class="app-container">
+            <!-- Los módulos se cargarán aquí dinámicamente -->
+            <div class="loading loading--active">
+                <div class="loading__spinner"></div>
+                <p class="loading__text">Cargando sistema...</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Loading Indicator Global -->
+    <div id="global-loading" class="global-loading" aria-hidden="true">
+        <div class="global-loading__overlay"></div>
+        <div class="global-loading__content">
+            <div class="global-loading__spinner"></div>
+            <p class="global-loading__text">Procesando...</p>
+        </div>
+    </div>
+
+    <!-- Error Container Global -->
+    <div id="global-error" class="global-error" role="alert" aria-hidden="true">
+        <div class="global-error__content">
+            <span class="global-error__icon">⚠️</span>
+            <p class="global-error__message"></p>
+            <button class="global-error__close" aria-label="Cerrar mensaje de error">×</button>
+        </div>
+    </div>
+
+    <!-- Scripts Base -->
+    <script type="module">
+        // Import de módulos core creados por Steve
+        import { eventBus, SystemEvents } from '/v2/shared/event-bus.js';
+        import { moduleLoader } from '/v2/shared/module-loader.js';
+        import { router } from '/v2/shared/router.js';
+
+        // Inicialización del sistema
+        window.addEventListener('DOMContentLoaded', async () => {
+            console.log('[TTS-Mall] Inicializando sistema...');
+            
+            // Configurar module loader con el container
+            const container = document.getElementById('app-container');
+            moduleLoader.init(container);
+            
+            // Configurar navegación de tabs
+            document.querySelectorAll('.tab').forEach(tab => {
+                tab.addEventListener('click', (e) => {
+                    const route = e.currentTarget.dataset.route;
+                    router.navigate(route);
+                });
+            });
+            
+            // Escuchar cambios de navegación para actualizar tabs activos
+            eventBus.on(SystemEvents.NAVIGATION_CHANGE, ({ to }) => {
+                document.querySelectorAll('.tab').forEach(tab => {
+                    tab.classList.toggle('tab--active', tab.dataset.route === to);
+                    tab.setAttribute('aria-current', tab.dataset.route === to ? 'page' : 'false');
+                });
+            });
+            
+            // Configurar loading global
+            const globalLoading = document.getElementById('global-loading');
+            
+            eventBus.on('ui:loading:start', (data) => {
+                globalLoading.setAttribute('aria-hidden', 'false');
+                globalLoading.classList.add('global-loading--active');
+                if (data?.message) {
+                    globalLoading.querySelector('.global-loading__text').textContent = data.message;
+                }
+            });
+            
+            eventBus.on('ui:loading:end', () => {
+                globalLoading.classList.remove('global-loading--active');
+                setTimeout(() => {
+                    globalLoading.setAttribute('aria-hidden', 'true');
+                    globalLoading.querySelector('.global-loading__text').textContent = 'Procesando...';
+                }, 300);
+            });
+            
+            // Configurar manejo de errores global
+            const globalError = document.getElementById('global-error');
+            const errorMessage = globalError.querySelector('.global-error__message');
+            const errorClose = globalError.querySelector('.global-error__close');
+            
+            eventBus.on('ui:error:show', (data) => {
+                errorMessage.textContent = data.message || 'Ha ocurrido un error';
+                globalError.setAttribute('aria-hidden', 'false');
+                globalError.classList.add('global-error--active');
+            });
+            
+            errorClose.addEventListener('click', () => {
+                globalError.classList.remove('global-error--active');
+                setTimeout(() => {
+                    globalError.setAttribute('aria-hidden', 'true');
+                }, 300);
+            });
+            
+            // Escuchar errores de módulos
+            eventBus.on(SystemEvents.MODULE_ERROR, ({ name, error }) => {
+                console.error(`[TTS-Mall] Error en módulo ${name}:`, error);
+                eventBus.emit('ui:error:show', {
+                    message: `Error cargando el módulo: ${error}`
+                });
+            });
+            
+            // Inicializar router (esto cargará el módulo inicial)
+            router.init();
+            
+            console.log('[TTS-Mall] Sistema inicializado correctamente');
+        });
+    </script>
+</body>
+</html>

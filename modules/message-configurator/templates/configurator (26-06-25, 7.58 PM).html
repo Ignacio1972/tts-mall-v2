@@ -1,0 +1,175 @@
+<!-- Message Configurator Template -->
+<div class="configurator-container">
+    <!-- Header -->
+    <div class="configurator-header">
+        <h1>🎙️ Radio Barrio Independencia</h1>
+        <p class="header-subtitle">Sistema avanzado de Text-to-Speech para Mall Barrio Independencia</p>
+    </div>
+    
+    <!-- Navigation Tabs -->
+    <div class="configurator-tabs">
+        <button class="tab-button tab-button--active" data-tab="configuracion">
+            ⚙️ Configuración
+        </button>
+        <button class="tab-button" data-tab="campanas">
+            📋 Campañas y Mensajes
+        </button>
+    </div>
+    
+    <!-- Main Content -->
+    <div class="configurator-content">
+        <!-- Row 1: Metadatos -->
+        <div class="form-row-inline">
+            <input type="text" 
+                   id="message-name" 
+                   data-field="name"
+                   placeholder="Nombre del mensaje (ej: Oferta fin de semana)" 
+                   class="form-control flex-grow">
+            
+            <select id="message-category" data-field="category" class="form-control">
+                <option value="">Categoría</option>
+                <option value="ofertas">🛒 Ofertas</option>
+                <option value="eventos">🎉 Eventos</option>
+                <option value="informacion">ℹ️ Información</option>
+                <option value="emergencias">🚨 Emergencias</option>
+            </select>
+            
+            <select id="message-voice" data-field="voice" class="form-control">
+                <option value="fernanda">👩 Fernanda (Profesional)</option>
+                <option value="cristian">👨 Cristian (Juvenil)</option>
+                <option value="valeria">👩 Valeria (Alegre)</option>
+                <option value="yorman">👨 Yorman (Profundo)</option>
+                <option value="alejandro">👨 Alejandro (Neutral)</option>
+            </select>
+        </div>
+        
+        <!-- Etiquetas -->
+        <div class="form-group">
+            <label>Etiquetas:</label>
+            <div id="tags-container" data-component="tagInput"></div>
+        </div>
+        
+        <!-- Row 2: Mensaje y Acciones -->
+        <div class="message-section">
+            <div class="message-header">
+                <h3>✏️ Mensaje</h3>
+                <button class="btn btn-link" data-action="use-template">
+                    📋 Usar plantilla
+                </button>
+            </div>
+            
+            <!-- Textarea único estilo legacy -->
+            <div class="textarea-wrapper">
+                <textarea id="message-text" 
+                          data-field="text"
+                          class="legacy-textarea"
+                          rows="8" 
+                          maxlength="500"
+                          placeholder="Escribe aquí tu mensaje..."></textarea>
+                <div class="char-counter">
+                    <span id="char-count">0</span> / 500 caracteres
+                </div>
+            </div>
+            
+            <!-- Botones de acción debajo del textarea -->
+            <div class="message-actions">
+                <button class="btn btn-primary" data-action="generate-audio">
+                    🎧 Generar Audio
+                </button>
+                <button class="btn btn-secondary" data-action="save-message">
+                    💾 Guardar Mensaje
+                </button>
+            </div>
+        </div>
+        
+        <!-- Audio Player (movido aquí, justo después del mensaje) -->
+        <div id="audio-player-container" class="audio-section" style="display: none;">
+            <div class="result-header">
+                <h3>🎵 Anuncio Generado</h3>
+                <button class="btn btn-secondary" data-action="clear-result">
+                    ✖️ Limpiar
+                </button>
+            </div>
+            
+            <div class="audio-container">
+                <audio id="audio-player" controls></audio>
+            </div>
+            
+            <div class="audio-actions">
+                <button class="btn btn-success" data-action="send-radio">
+                    📻 Enviar a Radio
+                </button>
+                <button class="btn btn-secondary" data-action="download-audio">
+                    💾 Descargar
+                </button>
+            </div>
+            
+            <div class="form-group">
+                <label>Texto procesado:</label>
+                <div id="processedText" class="processed-text"></div>
+            </div>
+        </div>
+        
+        <!-- Botones de acción principal (movidos aquí) -->
+        <div class="main-actions">
+            <button class="btn btn-secondary" data-action="new-message">
+                ➕ Nuevo
+            </button>
+            <button class="btn btn-secondary" data-action="load-saved">
+                📂 Cargar
+            </button>
+        </div>
+        
+        <!-- Row 3: Controles de Voz SIMPLIFICADOS -->
+        <div class="controls-section">
+            <div class="controls-header">
+                <h3>🎛️ Controles de Voz</h3>
+                <button class="btn btn-link" data-action="reset-controls">
+                    ↺ Restaurar valores
+                </button>
+            </div>
+            
+            <!-- Controles en una sola fila -->
+            <div class="voice-controls-container">
+                <div class="controls-row">
+                    <!-- Expresividad -->
+                    <div class="control-item">
+                        <label>🎭 Expresividad</label>
+                        <div id="style-slider-container" 
+                             data-component="styleSlider" 
+                             data-slider-config='{"label":"","icon":"","min":0,"max":100,"unit":"%","value":50}'></div>
+                    </div>
+                    
+                    <!-- Estabilidad -->
+                    <div class="control-item">
+                        <label>🎯 Estabilidad</label>
+                        <div id="stability-slider-container" 
+                             data-component="stabilitySlider" 
+                             data-slider-config='{"label":"","icon":"","min":0,"max":100,"unit":"%","value":75}'></div>
+                    </div>
+                    
+                    <!-- Fidelidad -->
+                    <div class="control-item">
+                        <label>🔊 Fidelidad</label>
+                        <div id="similarity-slider-container" 
+                             data-component="similaritySlider" 
+                             data-slider-config='{"label":"","icon":"","min":0,"max":100,"unit":"%","value":80}'></div>
+                    </div>
+                    
+                    <!-- Speaker Boost Toggle -->
+                    <div class="control-item control-item--toggle">
+                        <div id="speaker-boost-container" data-component="speakerBoostToggle"></div>
+                    </div>
+                </div>
+                
+                <!-- Profile Selector -->
+                <div class="profile-section">
+                    <div id="voice-profiles-container"></div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Estado -->
+        <div id="generation-status" class="status-container"></div>
+    </div>
+</div>

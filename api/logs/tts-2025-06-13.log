@@ -1,0 +1,945 @@
+[2025-06-13 00:19:34] [TEST] Texto original: Buenos días clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!
+[2025-06-13 00:19:34] [TEST] Texto procesado con SSML: <speak><prosody rate="medium">Buenos días clientes, <break time="200ms"/> les informamos que tenemos una <emphasis level="strong">oferta</emphasis> especial en carnes rojas con <emphasis level="strong"><say-as interpret-as="percentage">30%</say-as></emphasis> de <emphasis level="strong">descuento</emphasis>. <break time="0.5s"/> Solo por <emphasis level="strong">hoy</emphasis>!</prosody></speak>
+[2025-06-13 00:19:34] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-13 00:19:34] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\">Buenos d\u00edas clientes, <break time=\"200ms\"\/> les informamos que tenemos una <emphasis level=\"strong\">oferta<\/emphasis> especial en carnes rojas con <emphasis level=\"strong\"><say-as interpret-as=\"percentage\">30%<\/say-as><\/emphasis> de <emphasis level=\"strong\">descuento<\/emphasis>. <break time=\"0.5s\"\/> Solo por <emphasis level=\"strong\">hoy<\/emphasis>!<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 00:19:36] [TEST] Respuesta HTTP: 200
+[2025-06-13 00:19:36] [TEST] Audio generado exitosamente, tamaño: 120417 bytes
+[2025-06-13 00:30:02] [TEST] Datos recibidos: {"test":"list_templates"}
+[2025-06-13 00:30:04] [TEST] Datos recibidos: {"test":"generate_audio","text":"Buenos d\u00edas clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!","voice":"fernanda","speed":"normal","emphasis":true}
+[2025-06-13 00:30:04] [TEST] Iniciando generación de audio
+[2025-06-13 00:30:04] [TEST] Generando desde texto directo
+[2025-06-13 00:30:04] [TEST] Texto original: Buenos días clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!
+[2025-06-13 00:30:04] [TEST] Texto procesado con SSML: <speak><prosody rate="medium">Buenos días clientes, <break time="200ms"/> les informamos que tenemos una <emphasis level="strong">oferta</emphasis> especial en carnes rojas con <emphasis level="strong"><say-as interpret-as="percentage">30%</say-as></emphasis> de <emphasis level="strong">descuento</emphasis>. <break time="0.5s"/> Solo por <emphasis level="strong">hoy</emphasis>!</prosody></speak>
+[2025-06-13 00:30:04] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-13 00:30:04] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\">Buenos d\u00edas clientes, <break time=\"200ms\"\/> les informamos que tenemos una <emphasis level=\"strong\">oferta<\/emphasis> especial en carnes rojas con <emphasis level=\"strong\"><say-as interpret-as=\"percentage\">30%<\/say-as><\/emphasis> de <emphasis level=\"strong\">descuento<\/emphasis>. <break time=\"0.5s\"\/> Solo por <emphasis level=\"strong\">hoy<\/emphasis>!<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 00:30:06] [TEST] Respuesta HTTP: 200
+[2025-06-13 00:30:06] [TEST] Audio generado exitosamente, tamaño: 128358 bytes
+[2025-06-13 00:30:06] [TEST] Audio generado exitosamente: test_1749774606.mp3
+[2025-06-13 00:30:13] [TEST] Datos recibidos: {"test":"generate_audio","text":"","voice":"fernanda","template":"descuento_precio","template_category":"ofertas","template_variables":{"producto":"carnes rojas","precio_antes":"9.990","precio_ahora":"6.990","duracion":"V\u00e1lido hasta el domingo"},"speed":"normal","emphasis":true}
+[2025-06-13 00:30:13] [TEST] Iniciando generación de audio
+[2025-06-13 00:30:13] [TEST] Generando desde template: ofertas/descuento_precio
+[2025-06-13 00:30:13] [TEST] Usando template: Descuento con Precios
+[2025-06-13 00:30:13] [TEST] Texto original: Oferta especial en carnes rojas. Antes $9.990, ahora solo $6.990. Válido hasta el domingo.
+[2025-06-13 00:30:13] [TEST] Texto procesado con SSML: <speak><prosody rate="medium"><emphasis level="strong">Oferta</emphasis> especial en carnes rojas. <break time="0.5s"/> Antes <emphasis level="strong"><say-as interpret-as="currency">$$9.99</say-as></emphasis>0, <break time="200ms"/> <emphasis level="strong">ahora</emphasis> solo <emphasis level="strong"><say-as interpret-as="currency">$$6.99</say-as></emphasis>0. <break time="0.5s"/> Válido hasta el domingo.</prosody></speak>
+[2025-06-13 00:30:13] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-13 00:30:13] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\"><emphasis level=\"strong\">Oferta<\/emphasis> especial en carnes rojas. <break time=\"0.5s\"\/> Antes <emphasis level=\"strong\"><say-as interpret-as=\"currency\">$$9.99<\/say-as><\/emphasis>0, <break time=\"200ms\"\/> <emphasis level=\"strong\">ahora<\/emphasis> solo <emphasis level=\"strong\"><say-as interpret-as=\"currency\">$$6.99<\/say-as><\/emphasis>0. <break time=\"0.5s\"\/> V\u00e1lido hasta el domingo.<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 00:30:15] [TEST] Respuesta HTTP: 200
+[2025-06-13 00:30:15] [TEST] Audio generado exitosamente, tamaño: 142569 bytes
+[2025-06-13 00:30:15] [TEST] Audio generado exitosamente: test_1749774615.mp3
+[2025-06-13 00:30:23] [TEST] Datos recibidos: {"test":"generate_audio","text":"","voice":"fernanda","template":"liquidacion","template_category":"ofertas","template_variables":{"temporada":"verano","producto":"Toda la ropa","descuento":"70","mensaje_urgencia":"\u00daltimas unidades disponibles"},"speed":"normal","emphasis":true}
+[2025-06-13 00:30:23] [TEST] Iniciando generación de audio
+[2025-06-13 00:30:23] [TEST] Generando desde template: ofertas/liquidacion
+[2025-06-13 00:30:23] [TEST] Usando template: Liquidación
+[2025-06-13 00:30:23] [TEST] Texto original: Última liquidación de verano. Toda la ropa con hasta 70% de descuento. Últimas unidades disponibles.
+[2025-06-13 00:30:23] [TEST] Texto procesado con SSML: <speak><prosody rate="medium"><emphasis level="strong">Última</emphasis> <emphasis level="strong">liquidación</emphasis> de verano. <break time="0.5s"/> Toda la ropa con hasta <emphasis level="strong"><say-as interpret-as="percentage">70%</say-as></emphasis> de <emphasis level="strong">descuento</emphasis>. <break time="0.5s"/> <emphasis level="strong">Últimas</emphasis> unidades disponibles.</prosody></speak>
+[2025-06-13 00:30:23] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-13 00:30:23] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\"><emphasis level=\"strong\">\u00daltima<\/emphasis> <emphasis level=\"strong\">liquidaci\u00f3n<\/emphasis> de verano. <break time=\"0.5s\"\/> Toda la ropa con hasta <emphasis level=\"strong\"><say-as interpret-as=\"percentage\">70%<\/say-as><\/emphasis> de <emphasis level=\"strong\">descuento<\/emphasis>. <break time=\"0.5s\"\/> <emphasis level=\"strong\">\u00daltimas<\/emphasis> unidades disponibles.<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 00:30:25] [TEST] Respuesta HTTP: 200
+[2025-06-13 00:30:25] [TEST] Audio generado exitosamente, tamaño: 117909 bytes
+[2025-06-13 00:30:25] [TEST] Audio generado exitosamente: test_1749774625.mp3
+[2025-06-13 00:30:37] [TEST] Datos recibidos: {"test":"generate_audio","text":"","voice":"cristian","template":"liquidacion","template_category":"ofertas","template_variables":{"temporada":"verano","producto":"Toda la ropa","descuento":"70","mensaje_urgencia":"\u00daltimas unidades disponibles"},"speed":"normal","emphasis":true}
+[2025-06-13 00:30:37] [TEST] Iniciando generación de audio
+[2025-06-13 00:30:37] [TEST] Generando desde template: ofertas/liquidacion
+[2025-06-13 00:30:37] [TEST] Usando template: Liquidación
+[2025-06-13 00:30:37] [TEST] Texto original: Última liquidación de verano. Toda la ropa con hasta 70% de descuento. Últimas unidades disponibles.
+[2025-06-13 00:30:37] [TEST] Texto procesado con SSML: <speak><prosody rate="medium"><emphasis level="strong">Última</emphasis> <emphasis level="strong">liquidación</emphasis> de verano. <break time="0.5s"/> Toda la ropa con hasta <emphasis level="strong"><say-as interpret-as="percentage">70%</say-as></emphasis> de <emphasis level="strong">descuento</emphasis>. <break time="0.5s"/> <emphasis level="strong">Últimas</emphasis> unidades disponibles.</prosody></speak>
+[2025-06-13 00:30:37] [TEST] TTS Enhanced - Voz: cristian -> ID: nNS8uylvF9GBWVSiIt5h
+[2025-06-13 00:30:37] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\"><emphasis level=\"strong\">\u00daltima<\/emphasis> <emphasis level=\"strong\">liquidaci\u00f3n<\/emphasis> de verano. <break time=\"0.5s\"\/> Toda la ropa con hasta <emphasis level=\"strong\"><say-as interpret-as=\"percentage\">70%<\/say-as><\/emphasis> de <emphasis level=\"strong\">descuento<\/emphasis>. <break time=\"0.5s\"\/> <emphasis level=\"strong\">\u00daltimas<\/emphasis> unidades disponibles.<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 00:30:39] [TEST] Respuesta HTTP: 200
+[2025-06-13 00:30:39] [TEST] Audio generado exitosamente, tamaño: 111222 bytes
+[2025-06-13 00:30:39] [TEST] Audio generado exitosamente: test_1749774639.mp3
+[2025-06-13 00:30:53] [TEST] Datos recibidos: {"test":"generate_audio","text":"","voice":"rosa","template":"liquidacion","template_category":"ofertas","template_variables":{"temporada":"verano","producto":"Toda la ropa","descuento":"70","mensaje_urgencia":"\u00daltimas unidades disponibles"},"speed":"normal","emphasis":true}
+[2025-06-13 00:30:53] [TEST] Iniciando generación de audio
+[2025-06-13 00:30:53] [TEST] Generando desde template: ofertas/liquidacion
+[2025-06-13 00:30:53] [TEST] Usando template: Liquidación
+[2025-06-13 00:30:53] [TEST] Texto original: Última liquidación de verano. Toda la ropa con hasta 70% de descuento. Últimas unidades disponibles.
+[2025-06-13 00:30:53] [TEST] Texto procesado con SSML: <speak><prosody rate="medium"><emphasis level="strong">Última</emphasis> <emphasis level="strong">liquidación</emphasis> de verano. <break time="0.5s"/> Toda la ropa con hasta <emphasis level="strong"><say-as interpret-as="percentage">70%</say-as></emphasis> de <emphasis level="strong">descuento</emphasis>. <break time="0.5s"/> <emphasis level="strong">Últimas</emphasis> unidades disponibles.</prosody></speak>
+[2025-06-13 00:30:53] [TEST] TTS Enhanced - Voz: rosa -> ID: Yeu6FDmacNCxWs1YwWdK
+[2025-06-13 00:30:53] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\"><emphasis level=\"strong\">\u00daltima<\/emphasis> <emphasis level=\"strong\">liquidaci\u00f3n<\/emphasis> de verano. <break time=\"0.5s\"\/> Toda la ropa con hasta <emphasis level=\"strong\"><say-as interpret-as=\"percentage\">70%<\/say-as><\/emphasis> de <emphasis level=\"strong\">descuento<\/emphasis>. <break time=\"0.5s\"\/> <emphasis level=\"strong\">\u00daltimas<\/emphasis> unidades disponibles.<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 00:30:55] [TEST] Respuesta HTTP: 200
+[2025-06-13 00:30:55] [TEST] Audio generado exitosamente, tamaño: 127104 bytes
+[2025-06-13 00:30:55] [TEST] Audio generado exitosamente: test_1749774655.mp3
+[2025-06-13 00:31:00] [TEST] Datos recibidos: {"test":"generate_audio","text":"","voice":"alejandro","template":"liquidacion","template_category":"ofertas","template_variables":{"temporada":"verano","producto":"Toda la ropa","descuento":"70","mensaje_urgencia":"\u00daltimas unidades disponibles"},"speed":"normal","emphasis":true}
+[2025-06-13 00:31:00] [TEST] Iniciando generación de audio
+[2025-06-13 00:31:00] [TEST] Generando desde template: ofertas/liquidacion
+[2025-06-13 00:31:00] [TEST] Usando template: Liquidación
+[2025-06-13 00:31:00] [TEST] Texto original: Última liquidación de verano. Toda la ropa con hasta 70% de descuento. Últimas unidades disponibles.
+[2025-06-13 00:31:00] [TEST] Texto procesado con SSML: <speak><prosody rate="medium"><emphasis level="strong">Última</emphasis> <emphasis level="strong">liquidación</emphasis> de verano. <break time="0.5s"/> Toda la ropa con hasta <emphasis level="strong"><say-as interpret-as="percentage">70%</say-as></emphasis> de <emphasis level="strong">descuento</emphasis>. <break time="0.5s"/> <emphasis level="strong">Últimas</emphasis> unidades disponibles.</prosody></speak>
+[2025-06-13 00:31:00] [TEST] TTS Enhanced - Voz: alejandro -> ID: 0cheeVA5B3Cv6DGq65cT
+[2025-06-13 00:31:00] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\"><emphasis level=\"strong\">\u00daltima<\/emphasis> <emphasis level=\"strong\">liquidaci\u00f3n<\/emphasis> de verano. <break time=\"0.5s\"\/> Toda la ropa con hasta <emphasis level=\"strong\"><say-as interpret-as=\"percentage\">70%<\/say-as><\/emphasis> de <emphasis level=\"strong\">descuento<\/emphasis>. <break time=\"0.5s\"\/> <emphasis level=\"strong\">\u00daltimas<\/emphasis> unidades disponibles.<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 00:31:02] [TEST] Respuesta HTTP: 200
+[2025-06-13 00:31:02] [TEST] Audio generado exitosamente, tamaño: 107460 bytes
+[2025-06-13 00:31:02] [TEST] Audio generado exitosamente: test_1749774662.mp3
+[2025-06-13 00:31:18] [TEST] Datos recibidos: {"test":"generate_audio","text":"","voice":"alejandro","template":"apertura","template_category":"horarios","template_variables":{"momento":"d\u00edas","negocio":"nuestro supermercado","hora_cierre":"10 de la noche","mensaje_extra":"Gracias por su preferencia"},"speed":"normal","emphasis":true}
+[2025-06-13 00:31:18] [TEST] Iniciando generación de audio
+[2025-06-13 00:31:18] [TEST] Generando desde template: horarios/apertura
+[2025-06-13 00:31:18] [TEST] Usando template: Apertura
+[2025-06-13 00:31:18] [TEST] Texto original: Buenos días, les informamos que nuestro supermercado ya está abierto. Los esperamos hasta las 10 de la noche. Gracias por su preferencia
+[2025-06-13 00:31:18] [TEST] Texto procesado con SSML: <speak><prosody rate="medium">Buenos días, <break time="200ms"/> les informamos que nuestro supermercado ya está abierto. <break time="1s"/> Los esperamos hasta las 10 de la noche. <break time="1s"/> Gracias por su preferencia</prosody></speak>
+[2025-06-13 00:31:18] [TEST] TTS Enhanced - Voz: alejandro -> ID: 0cheeVA5B3Cv6DGq65cT
+[2025-06-13 00:31:18] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\">Buenos d\u00edas, <break time=\"200ms\"\/> les informamos que nuestro supermercado ya est\u00e1 abierto. <break time=\"1s\"\/> Los esperamos hasta las 10 de la noche. <break time=\"1s\"\/> Gracias por su preferencia<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 00:31:21] [TEST] Respuesta HTTP: 200
+[2025-06-13 00:31:21] [TEST] Audio generado exitosamente, tamaño: 142569 bytes
+[2025-06-13 00:31:21] [TEST] Audio generado exitosamente: test_1749774681.mp3
+[2025-06-13 00:31:31] [TEST] Datos recibidos: {"test":"generate_audio","text":"","voice":"alejandro","template":"proximo_cierre","template_category":"horarios","template_variables":{"minutos":"30","mensaje_extra":"Ma\u00f1ana los esperamos desde las 8 de la ma\u00f1ana"},"speed":"normal","emphasis":true}
+[2025-06-13 00:31:31] [TEST] Iniciando generación de audio
+[2025-06-13 00:31:31] [TEST] Generando desde template: horarios/proximo_cierre
+[2025-06-13 00:31:31] [TEST] Usando template: Próximo Cierre
+[2025-06-13 00:31:31] [TEST] Texto original: Estimados clientes, les informamos que cerraremos en 30 minutos. Por favor, acérquense a las cajas. Mañana los esperamos desde las 8 de la mañana
+[2025-06-13 00:31:31] [TEST] Texto procesado con SSML: <speak><prosody rate="slow">Estimados clientes, <break time="200ms"/> les informamos que cerraremos en 30 minutos. <break time="1s"/> Por favor, <break time="200ms"/> acérquense a las cajas. <break time="1s"/> Mañana los esperamos desde las 8 de la mañana</prosody></speak>
+[2025-06-13 00:31:31] [TEST] TTS Enhanced - Voz: alejandro -> ID: 0cheeVA5B3Cv6DGq65cT
+[2025-06-13 00:31:31] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"slow\">Estimados clientes, <break time=\"200ms\"\/> les informamos que cerraremos en 30 minutos. <break time=\"1s\"\/> Por favor, <break time=\"200ms\"\/> ac\u00e9rquense a las cajas. <break time=\"1s\"\/> Ma\u00f1ana los esperamos desde las 8 de la ma\u00f1ana<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 00:31:33] [TEST] Respuesta HTTP: 200
+[2025-06-13 00:31:33] [TEST] Audio generado exitosamente, tamaño: 159705 bytes
+[2025-06-13 00:31:33] [TEST] Audio generado exitosamente: test_1749774693.mp3
+[2025-06-13 00:31:48] [TEST] Datos recibidos: {"test":"generate_audio","text":"","voice":"rosa","template":"proximo_cierre","template_category":"horarios","template_variables":{"minutos":"30","mensaje_extra":"Ma\u00f1ana los esperamos desde las 8 de la ma\u00f1ana"},"speed":"normal","emphasis":true}
+[2025-06-13 00:31:48] [TEST] Iniciando generación de audio
+[2025-06-13 00:31:48] [TEST] Generando desde template: horarios/proximo_cierre
+[2025-06-13 00:31:48] [TEST] Usando template: Próximo Cierre
+[2025-06-13 00:31:48] [TEST] Texto original: Estimados clientes, les informamos que cerraremos en 30 minutos. Por favor, acérquense a las cajas. Mañana los esperamos desde las 8 de la mañana
+[2025-06-13 00:31:48] [TEST] Texto procesado con SSML: <speak><prosody rate="slow">Estimados clientes, <break time="200ms"/> les informamos que cerraremos en 30 minutos. <break time="1s"/> Por favor, <break time="200ms"/> acérquense a las cajas. <break time="1s"/> Mañana los esperamos desde las 8 de la mañana</prosody></speak>
+[2025-06-13 00:31:48] [TEST] TTS Enhanced - Voz: rosa -> ID: Yeu6FDmacNCxWs1YwWdK
+[2025-06-13 00:31:48] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"slow\">Estimados clientes, <break time=\"200ms\"\/> les informamos que cerraremos en 30 minutos. <break time=\"1s\"\/> Por favor, <break time=\"200ms\"\/> ac\u00e9rquense a las cajas. <break time=\"1s\"\/> Ma\u00f1ana los esperamos desde las 8 de la ma\u00f1ana<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 00:31:50] [TEST] Respuesta HTTP: 200
+[2025-06-13 00:31:50] [TEST] Audio generado exitosamente, tamaño: 182693 bytes
+[2025-06-13 00:31:50] [TEST] Audio generado exitosamente: test_1749774710.mp3
+[2025-06-13 00:31:52] [TEST] Datos recibidos: {"test":"generate_audio","text":"","voice":"rosa","template":"proximo_cierre","template_category":"horarios","template_variables":{"minutos":"30","mensaje_extra":"Ma\u00f1ana los esperamos desde las 8 de la ma\u00f1ana"},"speed":"normal","emphasis":true}
+[2025-06-13 00:31:52] [TEST] Iniciando generación de audio
+[2025-06-13 00:31:52] [TEST] Generando desde template: horarios/proximo_cierre
+[2025-06-13 00:31:52] [TEST] Usando template: Próximo Cierre
+[2025-06-13 00:31:52] [TEST] Texto original: Estimados clientes, les informamos que cerraremos en 30 minutos. Por favor, acérquense a las cajas. Mañana los esperamos desde las 8 de la mañana
+[2025-06-13 00:31:52] [TEST] Texto procesado con SSML: <speak><prosody rate="slow">Estimados clientes, <break time="200ms"/> les informamos que cerraremos en 30 minutos. <break time="1s"/> Por favor, <break time="200ms"/> acérquense a las cajas. <break time="1s"/> Mañana los esperamos desde las 8 de la mañana</prosody></speak>
+[2025-06-13 00:31:52] [TEST] TTS Enhanced - Voz: rosa -> ID: Yeu6FDmacNCxWs1YwWdK
+[2025-06-13 00:31:52] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"slow\">Estimados clientes, <break time=\"200ms\"\/> les informamos que cerraremos en 30 minutos. <break time=\"1s\"\/> Por favor, <break time=\"200ms\"\/> ac\u00e9rquense a las cajas. <break time=\"1s\"\/> Ma\u00f1ana los esperamos desde las 8 de la ma\u00f1ana<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 00:31:54] [TEST] Respuesta HTTP: 200
+[2025-06-13 00:31:54] [TEST] Audio generado exitosamente, tamaño: 184782 bytes
+[2025-06-13 00:31:54] [TEST] Audio generado exitosamente: test_1749774714.mp3
+[2025-06-13 00:31:59] [TEST] Datos recibidos: {"test":"generate_audio","text":"","voice":"fernanda","template":"proximo_cierre","template_category":"horarios","template_variables":{"minutos":"30","mensaje_extra":"Ma\u00f1ana los esperamos desde las 8 de la ma\u00f1ana"},"speed":"normal","emphasis":true}
+[2025-06-13 00:31:59] [TEST] Iniciando generación de audio
+[2025-06-13 00:31:59] [TEST] Generando desde template: horarios/proximo_cierre
+[2025-06-13 00:31:59] [TEST] Usando template: Próximo Cierre
+[2025-06-13 00:31:59] [TEST] Texto original: Estimados clientes, les informamos que cerraremos en 30 minutos. Por favor, acérquense a las cajas. Mañana los esperamos desde las 8 de la mañana
+[2025-06-13 00:31:59] [TEST] Texto procesado con SSML: <speak><prosody rate="slow">Estimados clientes, <break time="200ms"/> les informamos que cerraremos en 30 minutos. <break time="1s"/> Por favor, <break time="200ms"/> acérquense a las cajas. <break time="1s"/> Mañana los esperamos desde las 8 de la mañana</prosody></speak>
+[2025-06-13 00:31:59] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-13 00:31:59] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"slow\">Estimados clientes, <break time=\"200ms\"\/> les informamos que cerraremos en 30 minutos. <break time=\"1s\"\/> Por favor, <break time=\"200ms\"\/> ac\u00e9rquense a las cajas. <break time=\"1s\"\/> Ma\u00f1ana los esperamos desde las 8 de la ma\u00f1ana<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 00:32:01] [TEST] Respuesta HTTP: 200
+[2025-06-13 00:32:01] [TEST] Audio generado exitosamente, tamaño: 178095 bytes
+[2025-06-13 00:32:01] [TEST] Audio generado exitosamente: test_1749774721.mp3
+[2025-06-13 00:32:23] [TEST] Datos recibidos: {"test":"generate_audio","text":"","voice":"fernanda","template":"evento_especial","template_category":"eventos","template_variables":{"saludo":"Estimados clientes","evento":"nuestra degustaci\u00f3n de vinos","cuando":"en 30 minutos","ubicacion":"el pasillo central","detalles":"Tendremos productos con descuentos especiales"},"speed":"normal","emphasis":true}
+[2025-06-13 00:32:23] [TEST] Iniciando generación de audio
+[2025-06-13 00:32:23] [TEST] Generando desde template: eventos/evento_especial
+[2025-06-13 00:32:23] [TEST] Usando template: Evento Especial
+[2025-06-13 00:32:23] [TEST] Texto original: Estimados clientes, los invitamos a nuestra degustación de vinos que se realizará en 30 minutos en el pasillo central. Tendremos productos con descuentos especiales.
+[2025-06-13 00:32:23] [TEST] Texto procesado con SSML: <speak><prosody rate="medium">Estimados clientes, <break time="200ms"/> los invitamos a nuestra degustación de vinos que se realizará en 30 minutos en el pasillo central. <break time="1s"/> Tendremos productos con descuentos especiales.</prosody></speak>
+[2025-06-13 00:32:23] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-13 00:32:23] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\">Estimados clientes, <break time=\"200ms\"\/> los invitamos a nuestra degustaci\u00f3n de vinos que se realizar\u00e1 en 30 minutos en el pasillo central. <break time=\"1s\"\/> Tendremos productos con descuentos especiales.<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 00:32:26] [TEST] Respuesta HTTP: 200
+[2025-06-13 00:32:26] [TEST] Audio generado exitosamente, tamaño: 164720 bytes
+[2025-06-13 00:32:26] [TEST] Audio generado exitosamente: test_1749774746.mp3
+[2025-06-13 01:10:43] [TEST] Datos recibidos: {"test":"generate_audio","text":"","voice":"fernanda","template":"evento_especial","template_category":"eventos","template_variables":{"saludo":"Estimados clientes","evento":"nuestra degustaci\u00f3n de vinos","cuando":"en 30 minutos","ubicacion":"el pasillo central","detalles":"Tendremos productos con descuentos especiales"},"speed":"normal","emphasis":true}
+[2025-06-13 01:10:43] [TEST] Iniciando generación de audio
+[2025-06-13 01:10:43] [TEST] Generando desde template: eventos/evento_especial
+[2025-06-13 01:10:43] [TEST] Usando template: Evento Especial
+[2025-06-13 01:10:43] [TEST] Texto original: Estimados clientes, los invitamos a nuestra degustación de vinos que se realizará en 30 minutos en el pasillo central. Tendremos productos con descuentos especiales.
+[2025-06-13 01:10:43] [TEST] Texto procesado con SSML: <speak><prosody rate="medium">Estimados clientes, <break time="200ms"/> los invitamos a nuestra degustación de vinos que se realizará en 30 minutos en el pasillo central. <break time="1s"/> Tendremos productos con descuentos especiales.</prosody></speak>
+[2025-06-13 01:10:43] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-13 01:10:43] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\">Estimados clientes, <break time=\"200ms\"\/> los invitamos a nuestra degustaci\u00f3n de vinos que se realizar\u00e1 en 30 minutos en el pasillo central. <break time=\"1s\"\/> Tendremos productos con descuentos especiales.<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 01:10:45] [TEST] Respuesta HTTP: 200
+[2025-06-13 01:10:45] [TEST] Audio generado exitosamente, tamaño: 167646 bytes
+[2025-06-13 01:10:45] [TEST] Audio generado exitosamente: test_1749777045.mp3
+[2025-06-13 01:10:51] [TEST] Datos recibidos: {"test":"generate_audio","text":"Buenos d\u00edas clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!","voice":"fernanda","speed":"normal","emphasis":true}
+[2025-06-13 01:10:51] [TEST] Iniciando generación de audio
+[2025-06-13 01:10:51] [TEST] Generando desde texto directo
+[2025-06-13 01:10:51] [TEST] Texto original: Buenos días clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!
+[2025-06-13 01:10:51] [TEST] Texto procesado con SSML: <speak><prosody rate="medium">Buenos días clientes, <break time="200ms"/> les informamos que tenemos una <emphasis level="strong">oferta</emphasis> especial en carnes rojas con <emphasis level="strong"><say-as interpret-as="percentage">30%</say-as></emphasis> de <emphasis level="strong">descuento</emphasis>. <break time="0.5s"/> Solo por <emphasis level="strong">hoy</emphasis>!</prosody></speak>
+[2025-06-13 01:10:51] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-13 01:10:51] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\">Buenos d\u00edas clientes, <break time=\"200ms\"\/> les informamos que tenemos una <emphasis level=\"strong\">oferta<\/emphasis> especial en carnes rojas con <emphasis level=\"strong\"><say-as interpret-as=\"percentage\">30%<\/say-as><\/emphasis> de <emphasis level=\"strong\">descuento<\/emphasis>. <break time=\"0.5s\"\/> Solo por <emphasis level=\"strong\">hoy<\/emphasis>!<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 01:10:52] [TEST] Respuesta HTTP: 200
+[2025-06-13 01:10:52] [TEST] Audio generado exitosamente, tamaño: 121671 bytes
+[2025-06-13 01:10:52] [TEST] Audio generado exitosamente: test_1749777052.mp3
+[2025-06-13 13:26:06] [TEST] Datos recibidos: {"test":"list_templates"}
+[2025-06-13 13:26:09] [TEST] Datos recibidos: {"test":"generate_audio","text":"Buenos d\u00edas clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!","voice":"fernanda","speed":"normal","emphasis":true}
+[2025-06-13 13:26:09] [TEST] Iniciando generación de audio
+[2025-06-13 13:26:09] [TEST] Generando desde texto directo
+[2025-06-13 13:26:09] [TEST] Texto original: Buenos días clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!
+[2025-06-13 13:26:09] [TEST] Texto procesado con SSML: <speak><prosody rate="medium">Buenos días clientes, <break time="200ms"/> les informamos que tenemos una <emphasis level="strong">oferta</emphasis> especial en carnes rojas con <emphasis level="strong"><say-as interpret-as="percentage">30%</say-as></emphasis> de <emphasis level="strong">descuento</emphasis>. <break time="0.5s"/> Solo por <emphasis level="strong">hoy</emphasis>!</prosody></speak>
+[2025-06-13 13:26:09] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-13 13:26:09] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\">Buenos d\u00edas clientes, <break time=\"200ms\"\/> les informamos que tenemos una <emphasis level=\"strong\">oferta<\/emphasis> especial en carnes rojas con <emphasis level=\"strong\"><say-as interpret-as=\"percentage\">30%<\/say-as><\/emphasis> de <emphasis level=\"strong\">descuento<\/emphasis>. <break time=\"0.5s\"\/> Solo por <emphasis level=\"strong\">hoy<\/emphasis>!<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 13:26:11] [TEST] Respuesta HTTP: 200
+[2025-06-13 13:26:11] [TEST] Audio generado exitosamente, tamaño: 127104 bytes
+[2025-06-13 13:26:11] [TEST] Audio generado exitosamente: test_1749821171.mp3
+[2025-06-13 13:26:20] [TEST] Datos recibidos: {"test":"generate_audio","text":"","voice":"fernanda","template":"dos_por_uno","template_category":"ofertas","template_variables":{"tipo":"2x1","producto":"bebidas y jugos","detalle":"Lleva 2 y paga solo 1","duracion":"Solo este fin de semana"},"speed":"normal","emphasis":true}
+[2025-06-13 13:26:20] [TEST] Iniciando generación de audio
+[2025-06-13 13:26:20] [TEST] Generando desde template: ofertas/dos_por_uno
+[2025-06-13 13:26:20] [TEST] Usando template: 2x1 o 3x2
+[2025-06-13 13:26:20] [TEST] Texto original: Increíble promoción 2x1 en bebidas y jugos. Lleva 2 y paga solo 1. Solo este fin de semana.
+[2025-06-13 13:26:20] [TEST] Texto procesado con SSML: <speak><prosody rate="medium">Increíble <emphasis level="strong">promoción</emphasis> <emphasis level="strong">2x1</emphasis> en bebidas y jugos. <break time="0.5s"/> Lleva 2 y paga solo 1. <break time="0.5s"/> Solo este fin de semana.</prosody></speak>
+[2025-06-13 13:26:20] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-13 13:26:20] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\">Incre\u00edble <emphasis level=\"strong\">promoci\u00f3n<\/emphasis> <emphasis level=\"strong\">2x1<\/emphasis> en bebidas y jugos. <break time=\"0.5s\"\/> Lleva 2 y paga solo 1. <break time=\"0.5s\"\/> Solo este fin de semana.<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 13:26:22] [TEST] Respuesta HTTP: 200
+[2025-06-13 13:26:22] [TEST] Audio generado exitosamente, tamaño: 123342 bytes
+[2025-06-13 13:26:22] [TEST] Audio generado exitosamente: test_1749821182.mp3
+[2025-06-13 13:26:35] [TEST] Datos recibidos: {"test":"generate_audio","text":"","voice":"fernanda","template":"liquidacion","template_category":"ofertas","template_variables":{"temporada":"verano","producto":"Toda la ropa","descuento":"70","mensaje_urgencia":"\u00daltimas unidades disponibles"},"speed":"normal","emphasis":true}
+[2025-06-13 13:26:35] [TEST] Iniciando generación de audio
+[2025-06-13 13:26:35] [TEST] Generando desde template: ofertas/liquidacion
+[2025-06-13 13:26:35] [TEST] Usando template: Liquidación
+[2025-06-13 13:26:35] [TEST] Texto original: Última liquidación de verano. Toda la ropa con hasta 70% de descuento. Últimas unidades disponibles.
+[2025-06-13 13:26:35] [TEST] Texto procesado con SSML: <speak><prosody rate="medium"><emphasis level="strong">Última</emphasis> <emphasis level="strong">liquidación</emphasis> de verano. <break time="0.5s"/> Toda la ropa con hasta <emphasis level="strong"><say-as interpret-as="percentage">70%</say-as></emphasis> de <emphasis level="strong">descuento</emphasis>. <break time="0.5s"/> <emphasis level="strong">Últimas</emphasis> unidades disponibles.</prosody></speak>
+[2025-06-13 13:26:35] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-13 13:26:35] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\"><emphasis level=\"strong\">\u00daltima<\/emphasis> <emphasis level=\"strong\">liquidaci\u00f3n<\/emphasis> de verano. <break time=\"0.5s\"\/> Toda la ropa con hasta <emphasis level=\"strong\"><say-as interpret-as=\"percentage\">70%<\/say-as><\/emphasis> de <emphasis level=\"strong\">descuento<\/emphasis>. <break time=\"0.5s\"\/> <emphasis level=\"strong\">\u00daltimas<\/emphasis> unidades disponibles.<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 13:26:36] [TEST] Respuesta HTTP: 200
+[2025-06-13 13:26:36] [TEST] Audio generado exitosamente, tamaño: 115819 bytes
+[2025-06-13 13:26:36] [TEST] Audio generado exitosamente: test_1749821196.mp3
+[2025-06-13 13:36:30] Datos recibidos: {"action":"preview","text":"hola que tal , quiero mas amigos","voice_id":"rosa","model_id":"eleven_multilingual_v2"}
+[2025-06-13 13:36:30] Iniciando TTS - Texto: 'hola que tal , quiero mas amigos', Voz: 'rosa'
+[2025-06-13 13:36:30] Usando sistema de anuncios avanzado
+[2025-06-13 13:36:30] Texto original: hola que tal , quiero mas amigos
+[2025-06-13 13:36:30] Texto procesado con SSML: <speak><prosody rate="medium">hola que tal , <break time="200ms"/> quiero mas amigos</prosody></speak>
+[2025-06-13 13:36:30] TTS Enhanced - Voz: rosa -> ID: Yeu6FDmacNCxWs1YwWdK
+[2025-06-13 13:36:30] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\">hola que tal , <break time=\"200ms\"\/> quiero mas amigos<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 13:36:31] Respuesta HTTP: 200
+[2025-06-13 13:36:31] Audio generado exitosamente, tamaño: 36407 bytes
+[2025-06-13 13:36:31] Texto procesado: <speak><prosody rate="medium">hola que tal , <break time="200ms"/> quiero mas amigos</prosody></speak>
+[2025-06-13 13:36:31] Archivo temporal creado: tts20250613133631.mp3
+[2025-06-13 13:36:31] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/tts20250613133631.mp3.copy
+[2025-06-13 13:36:31] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_684c295fb702b.mp3' 2>&1
+[2025-06-13 13:36:32] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_684c295fb702b.mp3
+[2025-06-13 13:36:32] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_684c296015b0c.txt
+[2025-06-13 13:36:32] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_684c295fb702b.mp3' | file '/var/www/tts-radio/api/temp/tts20250613133631.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_684c295fb702b.mp3'
+[2025-06-13 13:36:32] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_684c296015b0c.txt' -c copy -y '/var/www/tts-radio/api/temp/tts20250613133631_with_silence.mp3' 2>&1
+[2025-06-13 13:36:32] Silencio agregado exitosamente. Tamaño: 60743 bytes
+[2025-06-13 13:36:32] Archivo final: /var/www/tts-radio/api/temp/tts20250613133631_with_silence.mp3
+[2025-06-13 13:36:32] Silencio agregado exitosamente
+[2025-06-13 13:36:32] Subiendo archivo a AzuraCast: Grabaciones/tts20250613133632.mp3
+[2025-06-13 13:36:32] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-13 13:36:32] Proceso completado exitosamente - File ID: 1463
+[2025-06-13 13:36:43] Datos recibidos: {"action":"preview","text":"hola que tal , quiero mas amigos todo bien","voice_id":"rosa","model_id":"eleven_multilingual_v2"}
+[2025-06-13 13:36:43] Iniciando TTS - Texto: 'hola que tal , quiero mas amigos todo bien', Voz: 'rosa'
+[2025-06-13 13:36:43] Usando sistema de anuncios avanzado
+[2025-06-13 13:36:43] Texto original: hola que tal , quiero mas amigos todo bien
+[2025-06-13 13:36:43] Texto procesado con SSML: <speak><prosody rate="medium">hola que tal , <break time="200ms"/> quiero mas amigos todo bien</prosody></speak>
+[2025-06-13 13:36:43] TTS Enhanced - Voz: rosa -> ID: Yeu6FDmacNCxWs1YwWdK
+[2025-06-13 13:36:43] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\">hola que tal , <break time=\"200ms\"\/> quiero mas amigos todo bien<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 13:36:44] Respuesta HTTP: 200
+[2025-06-13 13:36:44] Audio generado exitosamente, tamaño: 42258 bytes
+[2025-06-13 13:36:44] Texto procesado: <speak><prosody rate="medium">hola que tal , <break time="200ms"/> quiero mas amigos todo bien</prosody></speak>
+[2025-06-13 13:36:44] Archivo temporal creado: tts20250613133644.mp3
+[2025-06-13 13:36:44] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/tts20250613133644.mp3.copy
+[2025-06-13 13:36:44] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_684c296ca9d9e.mp3' 2>&1
+[2025-06-13 13:36:44] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_684c296ca9d9e.mp3
+[2025-06-13 13:36:44] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_684c296cc968e.txt
+[2025-06-13 13:36:44] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_684c296ca9d9e.mp3' | file '/var/www/tts-radio/api/temp/tts20250613133644.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_684c296ca9d9e.mp3'
+[2025-06-13 13:36:44] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_684c296cc968e.txt' -c copy -y '/var/www/tts-radio/api/temp/tts20250613133644_with_silence.mp3' 2>&1
+[2025-06-13 13:36:44] Silencio agregado exitosamente. Tamaño: 66594 bytes
+[2025-06-13 13:36:44] Archivo final: /var/www/tts-radio/api/temp/tts20250613133644_with_silence.mp3
+[2025-06-13 13:36:44] Silencio agregado exitosamente
+[2025-06-13 13:36:44] Subiendo archivo a AzuraCast: Grabaciones/tts20250613133644.mp3
+[2025-06-13 13:36:45] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-13 13:36:45] Proceso completado exitosamente - File ID: 1464
+[2025-06-13 13:36:49] Datos recibidos: {"action":"send_to_radio","filename":"tts20250613133644.mp3","message":"hola que tal , quiero mas amigos todo bien"}
+[2025-06-13 13:36:49] Interrumpiendo radio con archivo: tts20250613133644.mp3
+[2025-06-13 13:36:50] Interrupción ejecutada. Respuesta: 1887
+END
+[2025-06-13 13:36:50] ¡Interrupción exitosa! RID: 1887
+[2025-06-13 14:38:16] [TEST] Datos recibidos: {"test":"list_templates"}
+[2025-06-13 14:38:21] [TEST] Datos recibidos: {"test":"generate_audio","text":"Buenos d\u00edas clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!","voice":"fernanda","speed":"normal","emphasis":true}
+[2025-06-13 14:38:21] [TEST] Iniciando generación de audio
+[2025-06-13 14:38:21] [TEST] Generando desde texto directo
+[2025-06-13 14:38:21] [TEST] Texto original: Buenos días clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!
+[2025-06-13 14:38:21] [TEST] Texto procesado con SSML: <speak><prosody rate="medium">Buenos días clientes, <break time="200ms"/> les informamos que tenemos una <emphasis level="strong">oferta</emphasis> especial en carnes rojas con <emphasis level="strong"><say-as interpret-as="percentage">30%</say-as></emphasis> de <emphasis level="strong">descuento</emphasis>. <break time="0.5s"/> Solo por <emphasis level="strong">hoy</emphasis>!</prosody></speak>
+[2025-06-13 14:38:21] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-13 14:38:21] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\">Buenos d\u00edas clientes, <break time=\"200ms\"\/> les informamos que tenemos una <emphasis level=\"strong\">oferta<\/emphasis> especial en carnes rojas con <emphasis level=\"strong\"><say-as interpret-as=\"percentage\">30%<\/say-as><\/emphasis> de <emphasis level=\"strong\">descuento<\/emphasis>. <break time=\"0.5s\"\/> Solo por <emphasis level=\"strong\">hoy<\/emphasis>!<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 14:38:22] [TEST] Respuesta HTTP: 200
+[2025-06-13 14:38:22] [TEST] Audio generado exitosamente, tamaño: 124596 bytes
+[2025-06-13 14:38:22] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1749825502.mp3.copy
+[2025-06-13 14:38:22] [TEST] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_684c37decdc08.mp3' 2>&1
+[2025-06-13 14:38:23] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_684c37decdc08.mp3
+[2025-06-13 14:38:23] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_684c37df12985.txt
+[2025-06-13 14:38:23] [TEST] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_684c37decdc08.mp3' | file '/var/www/tts-radio/api/temp/test_1749825502.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_684c37decdc08.mp3'
+[2025-06-13 14:38:23] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_684c37df12985.txt' -c copy -y '/var/www/tts-radio/api/temp/test_1749825502_with_silence.mp3' 2>&1
+[2025-06-13 14:38:23] [TEST] Silencio agregado exitosamente. Tamaño: 148932 bytes
+[2025-06-13 14:38:23] [TEST] Archivo final: /var/www/tts-radio/api/temp/test_1749825502_with_silence.mp3
+[2025-06-13 14:38:23] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250613143823.mp3
+[2025-06-13 14:38:23] [TEST] Audio generado y subido exitosamente: tts20250613143823.mp3
+[2025-06-13 14:38:55] [TEST] Datos recibidos: {"test":"generate_audio","text":"Buenos d\u00edas clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!","voice":"fernanda","speed":"normal","emphasis":true}
+[2025-06-13 14:38:55] [TEST] Iniciando generación de audio
+[2025-06-13 14:38:55] [TEST] Generando desde texto directo
+[2025-06-13 14:38:55] [TEST] Texto original: Buenos días clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!
+[2025-06-13 14:38:55] [TEST] Texto procesado con SSML: <speak><prosody rate="medium">Buenos días clientes, <break time="200ms"/> les informamos que tenemos una <emphasis level="strong">oferta</emphasis> especial en carnes rojas con <emphasis level="strong"><say-as interpret-as="percentage">30%</say-as></emphasis> de <emphasis level="strong">descuento</emphasis>. <break time="0.5s"/> Solo por <emphasis level="strong">hoy</emphasis>!</prosody></speak>
+[2025-06-13 14:38:55] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-13 14:38:55] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\">Buenos d\u00edas clientes, <break time=\"200ms\"\/> les informamos que tenemos una <emphasis level=\"strong\">oferta<\/emphasis> especial en carnes rojas con <emphasis level=\"strong\"><say-as interpret-as=\"percentage\">30%<\/say-as><\/emphasis> de <emphasis level=\"strong\">descuento<\/emphasis>. <break time=\"0.5s\"\/> Solo por <emphasis level=\"strong\">hoy<\/emphasis>!<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 14:38:57] [TEST] Respuesta HTTP: 200
+[2025-06-13 14:38:57] [TEST] Audio generado exitosamente, tamaño: 125432 bytes
+[2025-06-13 14:38:57] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1749825537.mp3.copy
+[2025-06-13 14:38:57] [TEST] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_684c3801ab57b.mp3' 2>&1
+[2025-06-13 14:38:57] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_684c3801ab57b.mp3
+[2025-06-13 14:38:57] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_684c3801d9fec.txt
+[2025-06-13 14:38:57] [TEST] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_684c3801ab57b.mp3' | file '/var/www/tts-radio/api/temp/test_1749825537.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_684c3801ab57b.mp3'
+[2025-06-13 14:38:57] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_684c3801d9fec.txt' -c copy -y '/var/www/tts-radio/api/temp/test_1749825537_with_silence.mp3' 2>&1
+[2025-06-13 14:38:58] [TEST] Silencio agregado exitosamente. Tamaño: 149768 bytes
+[2025-06-13 14:38:58] [TEST] Archivo final: /var/www/tts-radio/api/temp/test_1749825537_with_silence.mp3
+[2025-06-13 14:38:58] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250613143858.mp3
+[2025-06-13 14:38:58] [TEST] Audio generado y subido exitosamente: tts20250613143858.mp3
+[2025-06-13 14:39:09] [TEST] Datos recibidos: {"test":"generate_audio","text":"","voice":"fernanda","template":"descuento_simple","template_category":"ofertas","template_variables":{"producto":"todas las frutas","descuento":"30","duracion":"Solo por hoy"},"speed":"normal","emphasis":true}
+[2025-06-13 14:39:09] [TEST] Iniciando generación de audio
+[2025-06-13 14:39:09] [TEST] Generando desde template: ofertas/descuento_simple
+[2025-06-13 14:39:09] [TEST] Usando template: Descuento Simple
+[2025-06-13 14:39:09] [TEST] Texto original: Atención clientes, todas las frutas con un 30% de descuento. Solo por hoy.
+[2025-06-13 14:39:09] [TEST] Texto procesado con SSML: <speak><prosody rate="medium"><emphasis level="strong">Atención</emphasis> clientes, <break time="200ms"/> todas las frutas con un <emphasis level="strong"><say-as interpret-as="percentage">30%</say-as></emphasis> de <emphasis level="strong">descuento</emphasis>. <break time="0.5s"/> Solo por <emphasis level="strong">hoy</emphasis>.</prosody></speak>
+[2025-06-13 14:39:09] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-13 14:39:09] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\"><emphasis level=\"strong\">Atenci\u00f3n<\/emphasis> clientes, <break time=\"200ms\"\/> todas las frutas con un <emphasis level=\"strong\"><say-as interpret-as=\"percentage\">30%<\/say-as><\/emphasis> de <emphasis level=\"strong\">descuento<\/emphasis>. <break time=\"0.5s\"\/> Solo por <emphasis level=\"strong\">hoy<\/emphasis>.<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 14:39:11] [TEST] Respuesta HTTP: 200
+[2025-06-13 14:39:11] [TEST] Audio generado exitosamente, tamaño: 89906 bytes
+[2025-06-13 14:39:11] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1749825551.mp3.copy
+[2025-06-13 14:39:11] [TEST] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_684c380fb0a14.mp3' 2>&1
+[2025-06-13 14:39:11] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_684c380fb0a14.mp3
+[2025-06-13 14:39:11] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_684c380fca986.txt
+[2025-06-13 14:39:11] [TEST] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_684c380fb0a14.mp3' | file '/var/www/tts-radio/api/temp/test_1749825551.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_684c380fb0a14.mp3'
+[2025-06-13 14:39:11] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_684c380fca986.txt' -c copy -y '/var/www/tts-radio/api/temp/test_1749825551_with_silence.mp3' 2>&1
+[2025-06-13 14:39:11] [TEST] Silencio agregado exitosamente. Tamaño: 114242 bytes
+[2025-06-13 14:39:11] [TEST] Archivo final: /var/www/tts-radio/api/temp/test_1749825551_with_silence.mp3
+[2025-06-13 14:39:11] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250613143911.mp3
+[2025-06-13 14:39:12] [TEST] Audio generado y subido exitosamente: tts20250613143911.mp3
+[2025-06-13 14:39:21] [TEST] Datos recibidos: {"test":"generate_audio","text":"Buenos d\u00edas clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!","voice":"fernanda","speed":"lento","emphasis":true}
+[2025-06-13 14:39:21] [TEST] Iniciando generación de audio
+[2025-06-13 14:39:21] [TEST] Generando desde texto directo
+[2025-06-13 14:39:21] [TEST] Texto original: Buenos días clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!
+[2025-06-13 14:39:21] [TEST] Texto procesado con SSML: <speak><prosody rate="slow">Buenos días clientes, <break time="200ms"/> les informamos que tenemos una <emphasis level="strong">oferta</emphasis> especial en carnes rojas con <emphasis level="strong"><say-as interpret-as="percentage">30%</say-as></emphasis> de <emphasis level="strong">descuento</emphasis>. <break time="0.5s"/> Solo por <emphasis level="strong">hoy</emphasis>!</prosody></speak>
+[2025-06-13 14:39:21] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-13 14:39:21] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"slow\">Buenos d\u00edas clientes, <break time=\"200ms\"\/> les informamos que tenemos una <emphasis level=\"strong\">oferta<\/emphasis> especial en carnes rojas con <emphasis level=\"strong\"><say-as interpret-as=\"percentage\">30%<\/say-as><\/emphasis> de <emphasis level=\"strong\">descuento<\/emphasis>. <break time=\"0.5s\"\/> Solo por <emphasis level=\"strong\">hoy<\/emphasis>!<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 14:39:23] [TEST] Respuesta HTTP: 200
+[2025-06-13 14:39:23] [TEST] Audio generado exitosamente, tamaño: 122507 bytes
+[2025-06-13 14:39:23] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1749825563.mp3.copy
+[2025-06-13 14:39:23] [TEST] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_684c381b53e68.mp3' 2>&1
+[2025-06-13 14:39:23] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_684c381b53e68.mp3
+[2025-06-13 14:39:23] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_684c381b709fd.txt
+[2025-06-13 14:39:23] [TEST] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_684c381b53e68.mp3' | file '/var/www/tts-radio/api/temp/test_1749825563.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_684c381b53e68.mp3'
+[2025-06-13 14:39:23] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_684c381b709fd.txt' -c copy -y '/var/www/tts-radio/api/temp/test_1749825563_with_silence.mp3' 2>&1
+[2025-06-13 14:39:23] [TEST] Silencio agregado exitosamente. Tamaño: 146843 bytes
+[2025-06-13 14:39:23] [TEST] Archivo final: /var/www/tts-radio/api/temp/test_1749825563_with_silence.mp3
+[2025-06-13 14:39:23] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250613143923.mp3
+[2025-06-13 14:39:24] [TEST] Audio generado y subido exitosamente: tts20250613143923.mp3
+[2025-06-13 14:39:57] [TEST] Datos recibidos: {"test":"list_templates"}
+[2025-06-13 14:40:09] [TEST] Datos recibidos: {"test":"list_templates"}
+[2025-06-13 14:40:12] [TEST] Datos recibidos: {"test":"generate_audio","text":"Buenos d\u00edas clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!","voice":"fernanda","speed":"normal","emphasis":true}
+[2025-06-13 14:40:12] [TEST] Iniciando generación de audio
+[2025-06-13 14:40:12] [TEST] Generando desde texto directo
+[2025-06-13 14:40:12] [TEST] Texto original: Buenos días clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!
+[2025-06-13 14:40:12] [TEST] Texto procesado con SSML: <speak><prosody rate="medium">Buenos días clientes, <break time="200ms"/> les informamos que tenemos una <emphasis level="strong">oferta</emphasis> especial en carnes rojas con <emphasis level="strong"><say-as interpret-as="percentage">30%</say-as></emphasis> de <emphasis level="strong">descuento</emphasis>. <break time="0.5s"/> Solo por <emphasis level="strong">hoy</emphasis>!</prosody></speak>
+[2025-06-13 14:40:12] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-13 14:40:12] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\">Buenos d\u00edas clientes, <break time=\"200ms\"\/> les informamos que tenemos una <emphasis level=\"strong\">oferta<\/emphasis> especial en carnes rojas con <emphasis level=\"strong\"><say-as interpret-as=\"percentage\">30%<\/say-as><\/emphasis> de <emphasis level=\"strong\">descuento<\/emphasis>. <break time=\"0.5s\"\/> Solo por <emphasis level=\"strong\">hoy<\/emphasis>!<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 14:40:14] [TEST] Respuesta HTTP: 200
+[2025-06-13 14:40:14] [TEST] Audio generado exitosamente, tamaño: 127104 bytes
+[2025-06-13 14:40:14] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1749825614.mp3.copy
+[2025-06-13 14:40:14] [TEST] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_684c384e37992.mp3' 2>&1
+[2025-06-13 14:40:14] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_684c384e37992.mp3
+[2025-06-13 14:40:14] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_684c384e51c99.txt
+[2025-06-13 14:40:14] [TEST] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_684c384e37992.mp3' | file '/var/www/tts-radio/api/temp/test_1749825614.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_684c384e37992.mp3'
+[2025-06-13 14:40:14] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_684c384e51c99.txt' -c copy -y '/var/www/tts-radio/api/temp/test_1749825614_with_silence.mp3' 2>&1
+[2025-06-13 14:40:14] [TEST] Silencio agregado exitosamente. Tamaño: 151440 bytes
+[2025-06-13 14:40:14] [TEST] Archivo final: /var/www/tts-radio/api/temp/test_1749825614_with_silence.mp3
+[2025-06-13 14:40:14] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250613144014.mp3
+[2025-06-13 14:40:14] [TEST] Audio generado y subido exitosamente: tts20250613144014.mp3
+[2025-06-13 14:40:28] Datos recibidos: {"action":"preview","text":"hola que tal","voice_id":"rosa","model_id":"eleven_multilingual_v2"}
+[2025-06-13 14:40:28] Iniciando TTS - Texto: 'hola que tal', Voz: 'rosa'
+[2025-06-13 14:40:28] Usando sistema de anuncios avanzado
+[2025-06-13 14:40:28] Texto original: hola que tal
+[2025-06-13 14:40:28] Texto procesado con SSML: <speak><prosody rate="medium">hola que tal</prosody></speak>
+[2025-06-13 14:40:28] TTS Enhanced - Voz: rosa -> ID: Yeu6FDmacNCxWs1YwWdK
+[2025-06-13 14:40:28] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\">hola que tal<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 14:40:29] Respuesta HTTP: 200
+[2025-06-13 14:40:29] Audio generado exitosamente, tamaño: 18435 bytes
+[2025-06-13 14:40:29] Texto procesado: <speak><prosody rate="medium">hola que tal</prosody></speak>
+[2025-06-13 14:40:29] Archivo temporal creado: tts20250613144029.mp3
+[2025-06-13 14:40:29] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/tts20250613144029.mp3.copy
+[2025-06-13 14:40:29] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_684c385deaf6a.mp3' 2>&1
+[2025-06-13 14:40:30] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_684c385deaf6a.mp3
+[2025-06-13 14:40:30] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_684c385e11734.txt
+[2025-06-13 14:40:30] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_684c385deaf6a.mp3' | file '/var/www/tts-radio/api/temp/tts20250613144029.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_684c385deaf6a.mp3'
+[2025-06-13 14:40:30] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_684c385e11734.txt' -c copy -y '/var/www/tts-radio/api/temp/tts20250613144029_with_silence.mp3' 2>&1
+[2025-06-13 14:40:30] Silencio agregado exitosamente. Tamaño: 42771 bytes
+[2025-06-13 14:40:30] Archivo final: /var/www/tts-radio/api/temp/tts20250613144029_with_silence.mp3
+[2025-06-13 14:40:30] Silencio agregado exitosamente
+[2025-06-13 14:40:30] Subiendo archivo a AzuraCast: Grabaciones/tts20250613144030.mp3
+[2025-06-13 14:40:30] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-13 14:40:30] Proceso completado exitosamente - File ID: 1470
+[2025-06-13 14:41:12] [TEST] Datos recibidos: {"test":"generate_audio","text":"Buenos d\u00edas clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!","voice":"fernanda","speed":"normal","emphasis":true}
+[2025-06-13 14:41:12] [TEST] Iniciando generación de audio
+[2025-06-13 14:41:12] [TEST] Generando desde texto directo
+[2025-06-13 14:41:12] [TEST] Texto original: Buenos días clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!
+[2025-06-13 14:41:12] [TEST] Texto procesado con SSML: <speak><prosody rate="medium">Buenos días clientes, <break time="200ms"/> les informamos que tenemos una <emphasis level="strong">oferta</emphasis> especial en carnes rojas con <emphasis level="strong"><say-as interpret-as="percentage">30%</say-as></emphasis> de <emphasis level="strong">descuento</emphasis>. <break time="0.5s"/> Solo por <emphasis level="strong">hoy</emphasis>!</prosody></speak>
+[2025-06-13 14:41:12] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-13 14:41:12] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\">Buenos d\u00edas clientes, <break time=\"200ms\"\/> les informamos que tenemos una <emphasis level=\"strong\">oferta<\/emphasis> especial en carnes rojas con <emphasis level=\"strong\"><say-as interpret-as=\"percentage\">30%<\/say-as><\/emphasis> de <emphasis level=\"strong\">descuento<\/emphasis>. <break time=\"0.5s\"\/> Solo por <emphasis level=\"strong\">hoy<\/emphasis>!<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 14:41:14] [TEST] Respuesta HTTP: 200
+[2025-06-13 14:41:14] [TEST] Audio generado exitosamente, tamaño: 127104 bytes
+[2025-06-13 14:41:14] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1749825674.mp3.copy
+[2025-06-13 14:41:14] [TEST] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_684c388a37ec4.mp3' 2>&1
+[2025-06-13 14:41:14] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_684c388a37ec4.mp3
+[2025-06-13 14:41:14] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_684c388a53cc0.txt
+[2025-06-13 14:41:14] [TEST] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_684c388a37ec4.mp3' | file '/var/www/tts-radio/api/temp/test_1749825674.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_684c388a37ec4.mp3'
+[2025-06-13 14:41:14] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_684c388a53cc0.txt' -c copy -y '/var/www/tts-radio/api/temp/test_1749825674_with_silence.mp3' 2>&1
+[2025-06-13 14:41:14] [TEST] Silencio agregado exitosamente. Tamaño: 151440 bytes
+[2025-06-13 14:41:14] [TEST] Archivo final: /var/www/tts-radio/api/temp/test_1749825674_with_silence.mp3
+[2025-06-13 14:41:14] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250613144114.mp3
+[2025-06-13 14:41:14] [TEST] Audio generado y subido exitosamente: tts20250613144114.mp3
+[2025-06-13 14:41:51] [TEST] Datos recibidos: {"test":"generate_audio","text":"Buenos d\u00edas clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!","voice":"fernanda","speed":"normal","emphasis":true}
+[2025-06-13 14:41:51] [TEST] Iniciando generación de audio
+[2025-06-13 14:41:51] [TEST] Generando desde texto directo
+[2025-06-13 14:41:51] [TEST] Texto original: Buenos días clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!
+[2025-06-13 14:41:51] [TEST] Texto procesado con SSML: <speak><prosody rate="medium">Buenos días clientes, <break time="200ms"/> les informamos que tenemos una <emphasis level="strong">oferta</emphasis> especial en carnes rojas con <emphasis level="strong"><say-as interpret-as="percentage">30%</say-as></emphasis> de <emphasis level="strong">descuento</emphasis>. <break time="0.5s"/> Solo por <emphasis level="strong">hoy</emphasis>!</prosody></speak>
+[2025-06-13 14:41:51] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-13 14:41:51] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\">Buenos d\u00edas clientes, <break time=\"200ms\"\/> les informamos que tenemos una <emphasis level=\"strong\">oferta<\/emphasis> especial en carnes rojas con <emphasis level=\"strong\"><say-as interpret-as=\"percentage\">30%<\/say-as><\/emphasis> de <emphasis level=\"strong\">descuento<\/emphasis>. <break time=\"0.5s\"\/> Solo por <emphasis level=\"strong\">hoy<\/emphasis>!<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 14:41:54] [TEST] Respuesta HTTP: 200
+[2025-06-13 14:41:54] [TEST] Audio generado exitosamente, tamaño: 127104 bytes
+[2025-06-13 14:41:54] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1749825714.mp3.copy
+[2025-06-13 14:41:54] [TEST] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_684c38b253d56.mp3' 2>&1
+[2025-06-13 14:41:54] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_684c38b253d56.mp3
+[2025-06-13 14:41:54] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_684c38b26f23a.txt
+[2025-06-13 14:41:54] [TEST] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_684c38b253d56.mp3' | file '/var/www/tts-radio/api/temp/test_1749825714.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_684c38b253d56.mp3'
+[2025-06-13 14:41:54] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_684c38b26f23a.txt' -c copy -y '/var/www/tts-radio/api/temp/test_1749825714_with_silence.mp3' 2>&1
+[2025-06-13 14:41:54] [TEST] Silencio agregado exitosamente. Tamaño: 151440 bytes
+[2025-06-13 14:41:54] [TEST] Archivo final: /var/www/tts-radio/api/temp/test_1749825714_with_silence.mp3
+[2025-06-13 14:41:54] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250613144154.mp3
+[2025-06-13 14:41:54] [TEST] Audio generado y subido exitosamente: tts20250613144154.mp3
+[2025-06-13 14:45:49] [TEST] Datos recibidos: {"test":"generate_audio","text":"Buenos d\u00edas clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!","voice":"fernanda","speed":"normal","emphasis":true}
+[2025-06-13 14:45:49] [TEST] Iniciando generación de audio
+[2025-06-13 14:45:49] [TEST] Generando desde texto directo
+[2025-06-13 14:45:49] [TEST] Texto original: Buenos días clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!
+[2025-06-13 14:45:49] [TEST] Texto procesado con SSML: <speak><prosody rate="medium">Buenos días clientes, <break time="200ms"/> les informamos que tenemos una <emphasis level="strong">oferta</emphasis> especial en carnes rojas con <emphasis level="strong"><say-as interpret-as="percentage">30%</say-as></emphasis> de <emphasis level="strong">descuento</emphasis>. <break time="0.5s"/> Solo por <emphasis level="strong">hoy</emphasis>!</prosody></speak>
+[2025-06-13 14:45:49] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-13 14:45:49] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\">Buenos d\u00edas clientes, <break time=\"200ms\"\/> les informamos que tenemos una <emphasis level=\"strong\">oferta<\/emphasis> especial en carnes rojas con <emphasis level=\"strong\"><say-as interpret-as=\"percentage\">30%<\/say-as><\/emphasis> de <emphasis level=\"strong\">descuento<\/emphasis>. <break time=\"0.5s\"\/> Solo por <emphasis level=\"strong\">hoy<\/emphasis>!<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 14:45:51] [TEST] Respuesta HTTP: 200
+[2025-06-13 14:45:51] [TEST] Audio generado exitosamente, tamaño: 126268 bytes
+[2025-06-13 14:45:51] [TEST] Archivo temporal creado para preview: test_1749825951.mp3
+[2025-06-13 14:45:51] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1749825951.mp3.copy
+[2025-06-13 14:45:51] [TEST] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_684c399f6fa98.mp3' 2>&1
+[2025-06-13 14:45:51] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_684c399f6fa98.mp3
+[2025-06-13 14:45:51] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_684c399f8aef1.txt
+[2025-06-13 14:45:51] [TEST] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_684c399f6fa98.mp3' | file '/var/www/tts-radio/api/temp/test_1749825951.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_684c399f6fa98.mp3'
+[2025-06-13 14:45:51] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_684c399f8aef1.txt' -c copy -y '/var/www/tts-radio/api/temp/test_1749825951_with_silence.mp3' 2>&1
+[2025-06-13 14:45:51] [TEST] Silencio agregado exitosamente. Tamaño: 150604 bytes
+[2025-06-13 14:45:51] [TEST] Archivo final: /var/www/tts-radio/api/temp/test_1749825951_with_silence.mp3
+[2025-06-13 14:45:51] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250613144551.mp3
+[2025-06-13 14:45:52] [TEST] Audio generado y subido exitosamente: tts20250613144551.mp3
+[2025-06-13 14:46:01] [TEST] Datos recibidos: {"test":"send_to_radio","filename":"test_1749825951.mp3"}
+[2025-06-13 14:46:01] [TEST] Procesando envío a radio
+[2025-06-13 14:46:01] [TEST] Interrumpiendo radio con archivo: test_1749825951.mp3
+[2025-06-13 14:46:01] [TEST] Nombre convertido para AzuraCast: tts1749825951.mp3
+[2025-06-13 14:46:01] [TEST] Interrumpiendo radio con archivo: tts1749825951.mp3
+[2025-06-13 14:46:02] [TEST] Interrupción ejecutada. Respuesta: 1921
+END
+[2025-06-13 14:46:02] [TEST] ¡Interrupción exitosa! RID: 1921
+[2025-06-13 14:46:02] [TEST] Archivo enviado a radio exitosamente: tts1749825951.mp3
+[2025-06-13 14:48:57] Datos recibidos: {"action":"preview","text":"hola que tal probando esto","voice_id":"rosa","model_id":"eleven_multilingual_v2"}
+[2025-06-13 14:48:57] Iniciando TTS - Texto: 'hola que tal probando esto', Voz: 'rosa'
+[2025-06-13 14:48:57] Usando sistema de anuncios avanzado
+[2025-06-13 14:48:57] Texto original: hola que tal probando esto
+[2025-06-13 14:48:57] Texto procesado con SSML: <speak><prosody rate="medium">hola que tal probando esto</prosody></speak>
+[2025-06-13 14:48:57] TTS Enhanced - Voz: rosa -> ID: Yeu6FDmacNCxWs1YwWdK
+[2025-06-13 14:48:57] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\">hola que tal probando esto<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 14:48:58] Respuesta HTTP: 200
+[2025-06-13 14:48:58] Audio generado exitosamente, tamaño: 30556 bytes
+[2025-06-13 14:48:58] Texto procesado: <speak><prosody rate="medium">hola que tal probando esto</prosody></speak>
+[2025-06-13 14:48:58] Archivo temporal creado: tts20250613144858.mp3
+[2025-06-13 14:48:58] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/tts20250613144858.mp3.copy
+[2025-06-13 14:48:58] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_684c3a5ad7d22.mp3' 2>&1
+[2025-06-13 14:48:59] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_684c3a5ad7d22.mp3
+[2025-06-13 14:48:59] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_684c3a5b18855.txt
+[2025-06-13 14:48:59] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_684c3a5ad7d22.mp3' | file '/var/www/tts-radio/api/temp/tts20250613144858.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_684c3a5ad7d22.mp3'
+[2025-06-13 14:48:59] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_684c3a5b18855.txt' -c copy -y '/var/www/tts-radio/api/temp/tts20250613144858_with_silence.mp3' 2>&1
+[2025-06-13 14:48:59] Silencio agregado exitosamente. Tamaño: 54892 bytes
+[2025-06-13 14:48:59] Archivo final: /var/www/tts-radio/api/temp/tts20250613144858_with_silence.mp3
+[2025-06-13 14:48:59] Silencio agregado exitosamente
+[2025-06-13 14:48:59] Subiendo archivo a AzuraCast: Grabaciones/tts20250613144859.mp3
+[2025-06-13 14:48:59] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-13 14:48:59] Proceso completado exitosamente - File ID: 1474
+[2025-06-13 14:49:04] Datos recibidos: {"action":"send_to_radio","filename":"tts20250613144858.mp3","message":"hola que tal probando esto "}
+[2025-06-13 14:49:04] Interrumpiendo radio con archivo: tts20250613144858.mp3
+[2025-06-13 14:49:04] Interrupción ejecutada. Respuesta: 1924
+END
+[2025-06-13 14:49:04] ¡Interrupción exitosa! RID: 1924
+[2025-06-13 14:49:25] Datos recibidos: {"action":"preview","text":"que onda te lo \u00ecteaste","voice_id":"rosa","model_id":"eleven_multilingual_v2"}
+[2025-06-13 14:49:25] Iniciando TTS - Texto: 'que onda te lo ìteaste', Voz: 'rosa'
+[2025-06-13 14:49:25] Usando sistema de anuncios avanzado
+[2025-06-13 14:49:25] Texto original: que onda te lo ìteaste
+[2025-06-13 14:49:25] Texto procesado con SSML: <speak><prosody rate="medium">que onda te lo ìteaste</prosody></speak>
+[2025-06-13 14:49:25] TTS Enhanced - Voz: rosa -> ID: Yeu6FDmacNCxWs1YwWdK
+[2025-06-13 14:49:25] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\">que onda te lo \u00ecteaste<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 14:49:27] Respuesta HTTP: 200
+[2025-06-13 14:49:27] Audio generado exitosamente, tamaño: 26794 bytes
+[2025-06-13 14:49:27] Texto procesado: <speak><prosody rate="medium">que onda te lo ìteaste</prosody></speak>
+[2025-06-13 14:49:27] Archivo temporal creado: tts20250613144927.mp3
+[2025-06-13 14:49:27] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/tts20250613144927.mp3.copy
+[2025-06-13 14:49:27] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_684c3a770c417.mp3' 2>&1
+[2025-06-13 14:49:27] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_684c3a770c417.mp3
+[2025-06-13 14:49:27] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_684c3a7728b45.txt
+[2025-06-13 14:49:27] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_684c3a770c417.mp3' | file '/var/www/tts-radio/api/temp/tts20250613144927.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_684c3a770c417.mp3'
+[2025-06-13 14:49:27] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_684c3a7728b45.txt' -c copy -y '/var/www/tts-radio/api/temp/tts20250613144927_with_silence.mp3' 2>&1
+[2025-06-13 14:49:27] Silencio agregado exitosamente. Tamaño: 51130 bytes
+[2025-06-13 14:49:27] Archivo final: /var/www/tts-radio/api/temp/tts20250613144927_with_silence.mp3
+[2025-06-13 14:49:27] Silencio agregado exitosamente
+[2025-06-13 14:49:27] Subiendo archivo a AzuraCast: Grabaciones/tts20250613144927.mp3
+[2025-06-13 14:49:27] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-13 14:49:27] Proceso completado exitosamente - File ID: 1475
+[2025-06-13 14:49:34] Datos recibidos: {"action":"send_to_radio","filename":"tts20250613144927.mp3","message":"que onda te lo \u00ecteaste"}
+[2025-06-13 14:49:34] Interrumpiendo radio con archivo: tts20250613144927.mp3
+[2025-06-13 14:49:34] Interrupción ejecutada. Respuesta: 1925
+END
+[2025-06-13 14:49:34] ¡Interrupción exitosa! RID: 1925
+[2025-06-13 14:51:28] [TEST] Datos recibidos: {"test":"generate_audio","text":"Buenos d\u00edas clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!","voice":"fernanda","speed":"normal","emphasis":true}
+[2025-06-13 14:51:28] [TEST] Iniciando generación de audio
+[2025-06-13 14:51:28] [TEST] Generando desde texto directo
+[2025-06-13 14:51:28] [TEST] Texto original: Buenos días clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!
+[2025-06-13 14:51:28] [TEST] Texto procesado con SSML: <speak><prosody rate="medium">Buenos días clientes, <break time="200ms"/> les informamos que tenemos una <emphasis level="strong">oferta</emphasis> especial en carnes rojas con <emphasis level="strong"><say-as interpret-as="percentage">30%</say-as></emphasis> de <emphasis level="strong">descuento</emphasis>. <break time="0.5s"/> Solo por <emphasis level="strong">hoy</emphasis>!</prosody></speak>
+[2025-06-13 14:51:28] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-13 14:51:28] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\">Buenos d\u00edas clientes, <break time=\"200ms\"\/> les informamos que tenemos una <emphasis level=\"strong\">oferta<\/emphasis> especial en carnes rojas con <emphasis level=\"strong\"><say-as interpret-as=\"percentage\">30%<\/say-as><\/emphasis> de <emphasis level=\"strong\">descuento<\/emphasis>. <break time=\"0.5s\"\/> Solo por <emphasis level=\"strong\">hoy<\/emphasis>!<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 14:51:30] [TEST] Respuesta HTTP: 200
+[2025-06-13 14:51:30] [TEST] Audio generado exitosamente, tamaño: 121671 bytes
+[2025-06-13 14:51:30] [TEST] Archivo temporal creado para preview: test_1749826290.mp3
+[2025-06-13 14:51:30] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1749826290.mp3.copy
+[2025-06-13 14:51:30] [TEST] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_684c3af265b7d.mp3' 2>&1
+[2025-06-13 14:51:30] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_684c3af265b7d.mp3
+[2025-06-13 14:51:30] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_684c3af2c37bc.txt
+[2025-06-13 14:51:30] [TEST] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_684c3af265b7d.mp3' | file '/var/www/tts-radio/api/temp/test_1749826290.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_684c3af265b7d.mp3'
+[2025-06-13 14:51:30] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_684c3af2c37bc.txt' -c copy -y '/var/www/tts-radio/api/temp/test_1749826290_with_silence.mp3' 2>&1
+[2025-06-13 14:51:30] [TEST] Silencio agregado exitosamente. Tamaño: 146007 bytes
+[2025-06-13 14:51:30] [TEST] Archivo final: /var/www/tts-radio/api/temp/test_1749826290_with_silence.mp3
+[2025-06-13 14:51:30] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250613145130.mp3
+[2025-06-13 14:51:31] [TEST] Audio generado y subido exitosamente: tts20250613145130.mp3
+[2025-06-13 14:51:40] [TEST] Datos recibidos: {"test":"send_to_radio","filename":"test_1749826290.mp3"}
+[2025-06-13 14:51:40] [TEST] Procesando envío a radio
+[2025-06-13 14:51:40] [TEST] Interrumpiendo radio con archivo: test_1749826290.mp3
+[2025-06-13 14:51:40] [TEST] Nombre convertido para AzuraCast: tts1749826290.mp3
+[2025-06-13 14:51:40] [TEST] Interrumpiendo radio con archivo: tts1749826290.mp3
+[2025-06-13 14:51:41] [TEST] Interrupción ejecutada. Respuesta: 13
+END
+[2025-06-13 14:51:41] [TEST] ¡Interrupción exitosa! RID: 13
+[2025-06-13 14:51:41] [TEST] Archivo enviado a radio exitosamente: tts1749826290.mp3
+[2025-06-13 14:55:44] [TEST] Datos recibidos: {"test":"generate_audio","text":"Buenos d\u00edas clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!","voice":"fernanda","speed":"normal","emphasis":true}
+[2025-06-13 14:55:44] [TEST] Iniciando generación de audio
+[2025-06-13 14:55:44] [TEST] Generando desde texto directo
+[2025-06-13 14:55:44] [TEST] Texto original: Buenos días clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!
+[2025-06-13 14:55:44] [TEST] Texto procesado con SSML: <speak><prosody rate="medium">Buenos días clientes, <break time="200ms"/> les informamos que tenemos una <emphasis level="strong">oferta</emphasis> especial en carnes rojas con <emphasis level="strong"><say-as interpret-as="percentage">30%</say-as></emphasis> de <emphasis level="strong">descuento</emphasis>. <break time="0.5s"/> Solo por <emphasis level="strong">hoy</emphasis>!</prosody></speak>
+[2025-06-13 14:55:44] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-13 14:55:44] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\">Buenos d\u00edas clientes, <break time=\"200ms\"\/> les informamos que tenemos una <emphasis level=\"strong\">oferta<\/emphasis> especial en carnes rojas con <emphasis level=\"strong\"><say-as interpret-as=\"percentage\">30%<\/say-as><\/emphasis> de <emphasis level=\"strong\">descuento<\/emphasis>. <break time=\"0.5s\"\/> Solo por <emphasis level=\"strong\">hoy<\/emphasis>!<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 14:55:45] [TEST] Respuesta HTTP: 200
+[2025-06-13 14:55:45] [TEST] Audio generado exitosamente, tamaño: 127104 bytes
+[2025-06-13 14:55:45] [TEST] Archivo temporal creado para preview: test_1749826545.mp3
+[2025-06-13 14:55:45] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1749826545.mp3.copy
+[2025-06-13 14:55:45] [TEST] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_684c3bf1dfba4.mp3' 2>&1
+[2025-06-13 14:55:46] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_684c3bf1dfba4.mp3
+[2025-06-13 14:55:46] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_684c3bf207ccf.txt
+[2025-06-13 14:55:46] [TEST] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_684c3bf1dfba4.mp3' | file '/var/www/tts-radio/api/temp/test_1749826545.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_684c3bf1dfba4.mp3'
+[2025-06-13 14:55:46] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_684c3bf207ccf.txt' -c copy -y '/var/www/tts-radio/api/temp/test_1749826545_with_silence.mp3' 2>&1
+[2025-06-13 14:55:46] [TEST] Silencio agregado exitosamente. Tamaño: 151440 bytes
+[2025-06-13 14:55:46] [TEST] Archivo final: /var/www/tts-radio/api/temp/test_1749826545_with_silence.mp3
+[2025-06-13 14:55:46] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250613145546.mp3
+[2025-06-13 14:55:46] [TEST] Audio generado y subido exitosamente: tts20250613145546.mp3
+[2025-06-13 14:56:12] [TEST] Datos recibidos: {"test":"send_to_radio","filename":"test_1749826545.mp3"}
+[2025-06-13 14:56:12] [TEST] Procesando envío a radio
+[2025-06-13 14:56:12] [TEST] Interrumpiendo radio con archivo: test_1749826545.mp3
+[2025-06-13 14:56:12] [TEST] Nombre convertido para AzuraCast: tts1749826545.mp3
+[2025-06-13 14:56:12] [TEST] Interrumpiendo radio con archivo: tts1749826545.mp3
+[2025-06-13 14:56:12] [TEST] Interrupción ejecutada. Respuesta: 18
+END
+[2025-06-13 14:56:12] [TEST] ¡Interrupción exitosa! RID: 18
+[2025-06-13 14:56:12] [TEST] Archivo enviado a radio exitosamente: tts1749826545.mp3
+[2025-06-13 14:58:37] Datos recibidos: {"action":"preview","text":"Hola este es un test desde index.html","voice_id":"rosa","model_id":"eleven_multilingual_v2"}
+[2025-06-13 14:58:37] Iniciando TTS - Texto: 'Hola este es un test desde index.html', Voz: 'rosa'
+[2025-06-13 14:58:37] Usando sistema de anuncios avanzado
+[2025-06-13 14:58:37] Texto original: Hola este es un test desde index.html
+[2025-06-13 14:58:37] Texto procesado con SSML: <speak><prosody rate="medium">Hola este es un test desde index.html</prosody></speak>
+[2025-06-13 14:58:37] TTS Enhanced - Voz: rosa -> ID: Yeu6FDmacNCxWs1YwWdK
+[2025-06-13 14:58:37] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\">Hola este es un test desde index.html<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 14:58:39] Respuesta HTTP: 200
+[2025-06-13 14:58:39] Audio generado exitosamente, tamaño: 71934 bytes
+[2025-06-13 14:58:39] Texto procesado: <speak><prosody rate="medium">Hola este es un test desde index.html</prosody></speak>
+[2025-06-13 14:58:39] Archivo temporal creado: tts20250613145839.mp3
+[2025-06-13 14:58:39] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/tts20250613145839.mp3.copy
+[2025-06-13 14:58:39] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_684c3c9f593de.mp3' 2>&1
+[2025-06-13 14:58:39] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_684c3c9f593de.mp3
+[2025-06-13 14:58:39] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_684c3c9f7543c.txt
+[2025-06-13 14:58:39] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_684c3c9f593de.mp3' | file '/var/www/tts-radio/api/temp/tts20250613145839.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_684c3c9f593de.mp3'
+[2025-06-13 14:58:39] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_684c3c9f7543c.txt' -c copy -y '/var/www/tts-radio/api/temp/tts20250613145839_with_silence.mp3' 2>&1
+[2025-06-13 14:58:39] Silencio agregado exitosamente. Tamaño: 96270 bytes
+[2025-06-13 14:58:39] Archivo final: /var/www/tts-radio/api/temp/tts20250613145839_with_silence.mp3
+[2025-06-13 14:58:39] Silencio agregado exitosamente
+[2025-06-13 14:58:39] Subiendo archivo a AzuraCast: Grabaciones/tts20250613145839.mp3
+[2025-06-13 14:58:40] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-13 14:58:40] Proceso completado exitosamente - File ID: 1478
+[2025-06-13 14:58:50] Datos recibidos: {"action":"send_to_radio","filename":"tts20250613145839.mp3","message":"Hola este es un test desde index.html"}
+[2025-06-13 14:58:50] Interrumpiendo radio con archivo: tts20250613145839.mp3
+[2025-06-13 14:58:50] Interrupción ejecutada. Respuesta: 19
+END
+[2025-06-13 14:58:50] ¡Interrupción exitosa! RID: 19
+[2025-06-13 15:00:31] [TEST] Datos recibidos: {"test":"generate_audio","text":"hola este es un test desde test-interface.html ","voice":"fernanda","speed":"normal","emphasis":true}
+[2025-06-13 15:00:31] [TEST] Iniciando generación de audio
+[2025-06-13 15:00:31] [TEST] Generando desde texto directo
+[2025-06-13 15:00:31] [TEST] Texto original: hola este es un test desde test-interface.html 
+[2025-06-13 15:00:31] [TEST] Texto procesado con SSML: <speak><prosody rate="medium">hola este es un test desde test-interface.html </prosody></speak>
+[2025-06-13 15:00:31] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-13 15:00:31] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\">hola este es un test desde test-interface.html <\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 15:00:32] [TEST] Respuesta HTTP: 200
+[2025-06-13 15:00:32] [TEST] Audio generado exitosamente, tamaño: 62320 bytes
+[2025-06-13 15:00:32] [TEST] Archivo temporal creado para preview: test_1749826832.mp3
+[2025-06-13 15:00:32] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1749826832.mp3.copy
+[2025-06-13 15:00:32] [TEST] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_684c3d106b43d.mp3' 2>&1
+[2025-06-13 15:00:32] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_684c3d106b43d.mp3
+[2025-06-13 15:00:32] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_684c3d108b8e8.txt
+[2025-06-13 15:00:32] [TEST] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_684c3d106b43d.mp3' | file '/var/www/tts-radio/api/temp/test_1749826832.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_684c3d106b43d.mp3'
+[2025-06-13 15:00:32] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_684c3d108b8e8.txt' -c copy -y '/var/www/tts-radio/api/temp/test_1749826832_with_silence.mp3' 2>&1
+[2025-06-13 15:00:32] [TEST] Silencio agregado exitosamente. Tamaño: 86656 bytes
+[2025-06-13 15:00:32] [TEST] Archivo final: /var/www/tts-radio/api/temp/test_1749826832_with_silence.mp3
+[2025-06-13 15:00:32] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250613150032.mp3
+[2025-06-13 15:00:33] [TEST] Audio generado y subido exitosamente: tts20250613150032.mp3
+[2025-06-13 15:00:38] [TEST] Datos recibidos: {"test":"send_to_radio","filename":"test_1749826832.mp3"}
+[2025-06-13 15:00:38] [TEST] Procesando envío a radio
+[2025-06-13 15:00:38] [TEST] Interrumpiendo radio con archivo: test_1749826832.mp3
+[2025-06-13 15:00:38] [TEST] Nombre convertido para AzuraCast: tts1749826832.mp3
+[2025-06-13 15:00:38] [TEST] Interrumpiendo radio con archivo: tts1749826832.mp3
+[2025-06-13 15:00:38] [TEST] Interrupción ejecutada. Respuesta: 21
+END
+[2025-06-13 15:00:38] [TEST] ¡Interrupción exitosa! RID: 21
+[2025-06-13 15:00:38] [TEST] Archivo enviado a radio exitosamente: tts1749826832.mp3
+[2025-06-13 15:14:08] [TEST] Datos recibidos: {"test":"list_templates"}
+[2025-06-13 15:14:34] [TEST] Datos recibidos: {"test":"generate_audio","text":"hola quizas ahora si funvciona desde interface.html","voice":"fernanda","speed":"normal","emphasis":true}
+[2025-06-13 15:14:34] [TEST] Iniciando generación de audio
+[2025-06-13 15:14:34] [TEST] Generando desde texto directo
+[2025-06-13 15:14:34] [TEST] Texto original: hola quizas ahora si funvciona desde interface.html
+[2025-06-13 15:14:34] [TEST] Texto procesado con SSML: <speak><prosody rate="medium">hola quizas <emphasis level="strong">ahora</emphasis> si funvciona desde interface.html</prosody></speak>
+[2025-06-13 15:14:34] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-13 15:14:34] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\">hola quizas <emphasis level=\"strong\">ahora<\/emphasis> si funvciona desde interface.html<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 15:14:36] [TEST] Respuesta HTTP: 200
+[2025-06-13 15:14:36] [TEST] Audio generado exitosamente, tamaño: 83218 bytes
+[2025-06-13 15:14:36] [TEST] Archivo temporal creado para preview: test_1749827676.mp3
+[2025-06-13 15:14:36] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1749827676.mp3.copy
+[2025-06-13 15:14:36] [TEST] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_684c405c23cc8.mp3' 2>&1
+[2025-06-13 15:14:36] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_684c405c23cc8.mp3
+[2025-06-13 15:14:36] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_684c405c431a7.txt
+[2025-06-13 15:14:36] [TEST] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_684c405c23cc8.mp3' | file '/var/www/tts-radio/api/temp/test_1749827676.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_684c405c23cc8.mp3'
+[2025-06-13 15:14:36] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_684c405c431a7.txt' -c copy -y '/var/www/tts-radio/api/temp/test_1749827676_with_silence.mp3' 2>&1
+[2025-06-13 15:14:36] [TEST] Silencio agregado exitosamente. Tamaño: 107554 bytes
+[2025-06-13 15:14:36] [TEST] Archivo final: /var/www/tts-radio/api/temp/test_1749827676_with_silence.mp3
+[2025-06-13 15:14:36] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250613151436.mp3
+[2025-06-13 15:14:36] [TEST] Audio generado y subido exitosamente: tts20250613151436.mp3
+[2025-06-13 15:14:43] [TEST] Datos recibidos: {"test":"list_templates"}
+[2025-06-13 15:14:46] [TEST] Datos recibidos: {"test":"generate_audio","text":"Buenos d\u00edas clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!","voice":"fernanda","speed":"normal","emphasis":true}
+[2025-06-13 15:14:46] [TEST] Iniciando generación de audio
+[2025-06-13 15:14:46] [TEST] Generando desde texto directo
+[2025-06-13 15:14:46] [TEST] Texto original: Buenos días clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!
+[2025-06-13 15:14:46] [TEST] Texto procesado con SSML: <speak><prosody rate="medium">Buenos días clientes, <break time="200ms"/> les informamos que tenemos una <emphasis level="strong">oferta</emphasis> especial en carnes rojas con <emphasis level="strong"><say-as interpret-as="percentage">30%</say-as></emphasis> de <emphasis level="strong">descuento</emphasis>. <break time="0.5s"/> Solo por <emphasis level="strong">hoy</emphasis>!</prosody></speak>
+[2025-06-13 15:14:46] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-13 15:14:46] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\">Buenos d\u00edas clientes, <break time=\"200ms\"\/> les informamos que tenemos una <emphasis level=\"strong\">oferta<\/emphasis> especial en carnes rojas con <emphasis level=\"strong\"><say-as interpret-as=\"percentage\">30%<\/say-as><\/emphasis> de <emphasis level=\"strong\">descuento<\/emphasis>. <break time=\"0.5s\"\/> Solo por <emphasis level=\"strong\">hoy<\/emphasis>!<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 15:14:48] [TEST] Respuesta HTTP: 200
+[2025-06-13 15:14:48] [TEST] Audio generado exitosamente, tamaño: 121671 bytes
+[2025-06-13 15:14:48] [TEST] Archivo temporal creado para preview: test_1749827688.mp3
+[2025-06-13 15:14:48] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1749827688.mp3.copy
+[2025-06-13 15:14:48] [TEST] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_684c4068577c2.mp3' 2>&1
+[2025-06-13 15:14:48] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_684c4068577c2.mp3
+[2025-06-13 15:14:48] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_684c406879404.txt
+[2025-06-13 15:14:48] [TEST] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_684c4068577c2.mp3' | file '/var/www/tts-radio/api/temp/test_1749827688.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_684c4068577c2.mp3'
+[2025-06-13 15:14:48] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_684c406879404.txt' -c copy -y '/var/www/tts-radio/api/temp/test_1749827688_with_silence.mp3' 2>&1
+[2025-06-13 15:14:48] [TEST] Silencio agregado exitosamente. Tamaño: 146007 bytes
+[2025-06-13 15:14:48] [TEST] Archivo final: /var/www/tts-radio/api/temp/test_1749827688_with_silence.mp3
+[2025-06-13 15:14:48] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250613151448.mp3
+[2025-06-13 15:14:49] [TEST] Audio generado y subido exitosamente: tts20250613151448.mp3
+[2025-06-13 15:15:04] [TEST] Datos recibidos: {"test":"generate_audio","text":"","voice":"fernanda","template":"descuento_precio","template_category":"ofertas","template_variables":{"producto":"carnes rojas","precio_antes":"9.990","precio_ahora":"6.990","duracion":"V\u00e1lido hasta el domingo"},"speed":"normal","emphasis":true}
+[2025-06-13 15:15:04] [TEST] Iniciando generación de audio
+[2025-06-13 15:15:04] [TEST] Generando desde template: ofertas/descuento_precio
+[2025-06-13 15:15:04] [TEST] Usando template: Descuento con Precios
+[2025-06-13 15:15:04] [TEST] Texto original: Oferta especial en carnes rojas. Antes $9.990, ahora solo $6.990. Válido hasta el domingo.
+[2025-06-13 15:15:04] [TEST] Texto procesado con SSML: <speak><prosody rate="medium"><emphasis level="strong">Oferta</emphasis> especial en carnes rojas. <break time="0.5s"/> Antes <emphasis level="strong"><say-as interpret-as="currency">$$9.99</say-as></emphasis>0, <break time="200ms"/> <emphasis level="strong">ahora</emphasis> solo <emphasis level="strong"><say-as interpret-as="currency">$$6.99</say-as></emphasis>0. <break time="0.5s"/> Válido hasta el domingo.</prosody></speak>
+[2025-06-13 15:15:04] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-13 15:15:04] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\"><emphasis level=\"strong\">Oferta<\/emphasis> especial en carnes rojas. <break time=\"0.5s\"\/> Antes <emphasis level=\"strong\"><say-as interpret-as=\"currency\">$$9.99<\/say-as><\/emphasis>0, <break time=\"200ms\"\/> <emphasis level=\"strong\">ahora<\/emphasis> solo <emphasis level=\"strong\"><say-as interpret-as=\"currency\">$$6.99<\/say-as><\/emphasis>0. <break time=\"0.5s\"\/> V\u00e1lido hasta el domingo.<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 15:15:06] [TEST] Respuesta HTTP: 200
+[2025-06-13 15:15:06] [TEST] Audio generado exitosamente, tamaño: 142569 bytes
+[2025-06-13 15:15:06] [TEST] Archivo temporal creado para preview: test_1749827706.mp3
+[2025-06-13 15:15:06] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1749827706.mp3.copy
+[2025-06-13 15:15:06] [TEST] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_684c407a441ee.mp3' 2>&1
+[2025-06-13 15:15:06] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_684c407a441ee.mp3
+[2025-06-13 15:15:06] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_684c407a5e7d2.txt
+[2025-06-13 15:15:06] [TEST] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_684c407a441ee.mp3' | file '/var/www/tts-radio/api/temp/test_1749827706.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_684c407a441ee.mp3'
+[2025-06-13 15:15:06] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_684c407a5e7d2.txt' -c copy -y '/var/www/tts-radio/api/temp/test_1749827706_with_silence.mp3' 2>&1
+[2025-06-13 15:15:06] [TEST] Silencio agregado exitosamente. Tamaño: 166905 bytes
+[2025-06-13 15:15:06] [TEST] Archivo final: /var/www/tts-radio/api/temp/test_1749827706_with_silence.mp3
+[2025-06-13 15:15:06] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250613151506.mp3
+[2025-06-13 15:15:06] [TEST] Audio generado y subido exitosamente: tts20250613151506.mp3
+[2025-06-13 15:15:12] [TEST] Datos recibidos: {"test":"send_to_radio","filename":"tts20250613151506.mp3"}
+[2025-06-13 15:15:12] [TEST] Procesando envío a radio
+[2025-06-13 15:15:12] [TEST] Interrumpiendo radio con archivo: tts20250613151506.mp3
+[2025-06-13 15:15:12] [TEST] Interrumpiendo radio con archivo: tts20250613151506.mp3
+[2025-06-13 15:15:12] [TEST] Interrupción ejecutada. Respuesta: 30
+END
+[2025-06-13 15:15:12] [TEST] ¡Interrupción exitosa! RID: 30
+[2025-06-13 15:15:12] [TEST] Archivo enviado a radio exitosamente: tts20250613151506.mp3
+[2025-06-13 15:15:37] [TEST] Datos recibidos: {"test":"generate_audio","text":"Buenos d\u00edas clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!","voice":"fernanda","speed":"normal","emphasis":true}
+[2025-06-13 15:15:37] [TEST] Iniciando generación de audio
+[2025-06-13 15:15:37] [TEST] Generando desde texto directo
+[2025-06-13 15:15:37] [TEST] Texto original: Buenos días clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!
+[2025-06-13 15:15:37] [TEST] Texto procesado con SSML: <speak><prosody rate="medium">Buenos días clientes, <break time="200ms"/> les informamos que tenemos una <emphasis level="strong">oferta</emphasis> especial en carnes rojas con <emphasis level="strong"><say-as interpret-as="percentage">30%</say-as></emphasis> de <emphasis level="strong">descuento</emphasis>. <break time="0.5s"/> Solo por <emphasis level="strong">hoy</emphasis>!</prosody></speak>
+[2025-06-13 15:15:37] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-13 15:15:37] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\">Buenos d\u00edas clientes, <break time=\"200ms\"\/> les informamos que tenemos una <emphasis level=\"strong\">oferta<\/emphasis> especial en carnes rojas con <emphasis level=\"strong\"><say-as interpret-as=\"percentage\">30%<\/say-as><\/emphasis> de <emphasis level=\"strong\">descuento<\/emphasis>. <break time=\"0.5s\"\/> Solo por <emphasis level=\"strong\">hoy<\/emphasis>!<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 15:15:40] [TEST] Respuesta HTTP: 200
+[2025-06-13 15:15:40] [TEST] Audio generado exitosamente, tamaño: 127104 bytes
+[2025-06-13 15:15:40] [TEST] Archivo temporal creado para preview: test_1749827740.mp3
+[2025-06-13 15:15:40] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1749827740.mp3.copy
+[2025-06-13 15:15:40] [TEST] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_684c409c05d8f.mp3' 2>&1
+[2025-06-13 15:15:40] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_684c409c05d8f.mp3
+[2025-06-13 15:15:40] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_684c409c23689.txt
+[2025-06-13 15:15:40] [TEST] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_684c409c05d8f.mp3' | file '/var/www/tts-radio/api/temp/test_1749827740.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_684c409c05d8f.mp3'
+[2025-06-13 15:15:40] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_684c409c23689.txt' -c copy -y '/var/www/tts-radio/api/temp/test_1749827740_with_silence.mp3' 2>&1
+[2025-06-13 15:15:40] [TEST] Silencio agregado exitosamente. Tamaño: 151440 bytes
+[2025-06-13 15:15:40] [TEST] Archivo final: /var/www/tts-radio/api/temp/test_1749827740_with_silence.mp3
+[2025-06-13 15:15:40] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250613151540.mp3
+[2025-06-13 15:15:40] [TEST] Audio generado y subido exitosamente: tts20250613151540.mp3
+[2025-06-13 15:18:52] Datos recibidos: {"action":"preview","text":"que onda","voice_id":"rosa","model_id":"eleven_multilingual_v2"}
+[2025-06-13 15:18:52] Iniciando TTS - Texto: 'que onda', Voz: 'rosa'
+[2025-06-13 15:18:52] Usando sistema de anuncios avanzado
+[2025-06-13 15:18:52] Texto original: que onda
+[2025-06-13 15:18:52] Texto procesado con SSML: <speak><prosody rate="medium">que onda</prosody></speak>
+[2025-06-13 15:18:52] TTS Enhanced - Voz: rosa -> ID: Yeu6FDmacNCxWs1YwWdK
+[2025-06-13 15:18:52] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\">que onda<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 15:18:53] Respuesta HTTP: 200
+[2025-06-13 15:18:53] Audio generado exitosamente, tamaño: 18435 bytes
+[2025-06-13 15:18:53] Texto procesado: <speak><prosody rate="medium">que onda</prosody></speak>
+[2025-06-13 15:18:53] Archivo temporal creado: tts20250613151853.mp3
+[2025-06-13 15:18:53] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/tts20250613151853.mp3.copy
+[2025-06-13 15:18:53] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_684c415d24b2b.mp3' 2>&1
+[2025-06-13 15:18:53] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_684c415d24b2b.mp3
+[2025-06-13 15:18:53] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_684c415d43064.txt
+[2025-06-13 15:18:53] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_684c415d24b2b.mp3' | file '/var/www/tts-radio/api/temp/tts20250613151853.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_684c415d24b2b.mp3'
+[2025-06-13 15:18:53] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_684c415d43064.txt' -c copy -y '/var/www/tts-radio/api/temp/tts20250613151853_with_silence.mp3' 2>&1
+[2025-06-13 15:18:53] Silencio agregado exitosamente. Tamaño: 42771 bytes
+[2025-06-13 15:18:53] Archivo final: /var/www/tts-radio/api/temp/tts20250613151853_with_silence.mp3
+[2025-06-13 15:18:53] Silencio agregado exitosamente
+[2025-06-13 15:18:53] Subiendo archivo a AzuraCast: Grabaciones/tts20250613151853.mp3
+[2025-06-13 15:18:53] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-13 15:18:53] Proceso completado exitosamente - File ID: 1484
+[2025-06-13 15:32:29] [TEST] Datos recibidos: {"test":"list_templates"}
+[2025-06-13 15:32:38] [TEST] Datos recibidos: {"test":"generate_audio","text":"Buenos d\u00edas clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!","voice":"fernanda","speed":"normal","emphasis":true}
+[2025-06-13 15:32:38] [TEST] Iniciando generación de audio
+[2025-06-13 15:32:38] [TEST] Generando desde texto directo
+[2025-06-13 15:32:38] [TEST] Texto original: Buenos días clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!
+[2025-06-13 15:32:38] [TEST] Texto procesado con SSML: <speak><prosody rate="medium">Buenos días clientes, <break time="200ms"/> les informamos que tenemos una <emphasis level="strong">oferta</emphasis> especial en carnes rojas con <emphasis level="strong"><say-as interpret-as="percentage">30%</say-as></emphasis> de <emphasis level="strong">descuento</emphasis>. <break time="0.5s"/> Solo por <emphasis level="strong">hoy</emphasis>!</prosody></speak>
+[2025-06-13 15:32:38] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-13 15:32:38] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\">Buenos d\u00edas clientes, <break time=\"200ms\"\/> les informamos que tenemos una <emphasis level=\"strong\">oferta<\/emphasis> especial en carnes rojas con <emphasis level=\"strong\"><say-as interpret-as=\"percentage\">30%<\/say-as><\/emphasis> de <emphasis level=\"strong\">descuento<\/emphasis>. <break time=\"0.5s\"\/> Solo por <emphasis level=\"strong\">hoy<\/emphasis>!<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 15:32:40] [TEST] Respuesta HTTP: 200
+[2025-06-13 15:32:40] [TEST] Audio generado exitosamente, tamaño: 129194 bytes
+[2025-06-13 15:32:40] [TEST] Archivo temporal creado para preview: test_1749828760.mp3
+[2025-06-13 15:32:40] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1749828760.mp3.copy
+[2025-06-13 15:32:40] [TEST] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_684c4498e8d2a.mp3' 2>&1
+[2025-06-13 15:32:41] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_684c4498e8d2a.mp3
+[2025-06-13 15:32:41] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_684c44991014e.txt
+[2025-06-13 15:32:41] [TEST] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_684c4498e8d2a.mp3' | file '/var/www/tts-radio/api/temp/test_1749828760.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_684c4498e8d2a.mp3'
+[2025-06-13 15:32:41] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_684c44991014e.txt' -c copy -y '/var/www/tts-radio/api/temp/test_1749828760_with_silence.mp3' 2>&1
+[2025-06-13 15:32:41] [TEST] Silencio agregado exitosamente. Tamaño: 153530 bytes
+[2025-06-13 15:32:41] [TEST] Archivo final: /var/www/tts-radio/api/temp/test_1749828760_with_silence.mp3
+[2025-06-13 15:32:41] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250613153241.mp3
+[2025-06-13 15:32:41] [TEST] Audio generado y subido exitosamente: tts20250613153241.mp3
+[2025-06-13 15:32:53] [TEST] Datos recibidos: {"test":"send_to_radio","filename":"tts20250613153241.mp3"}
+[2025-06-13 15:32:53] [TEST] Procesando envío a radio
+[2025-06-13 15:32:53] [TEST] Interrumpiendo radio con archivo: tts20250613153241.mp3
+[2025-06-13 15:32:53] [TEST] Interrumpiendo radio con archivo: tts20250613153241.mp3
+[2025-06-13 15:32:54] [TEST] Interrupción ejecutada. Respuesta: 40
+END
+[2025-06-13 15:32:54] [TEST] ¡Interrupción exitosa! RID: 40
+[2025-06-13 15:32:54] [TEST] Archivo enviado a radio exitosamente: tts20250613153241.mp3
+[2025-06-13 15:33:14] [TEST] Datos recibidos: {"test":"generate_audio","text":"","voice":"fernanda","template":"liquidacion","template_category":"ofertas","template_variables":{"temporada":"verano","producto":"Toda la ropa","descuento":"70","mensaje_urgencia":"\u00daltimas unidades disponibles"},"speed":"normal","emphasis":true}
+[2025-06-13 15:33:14] [TEST] Iniciando generación de audio
+[2025-06-13 15:33:14] [TEST] Generando desde template: ofertas/liquidacion
+[2025-06-13 15:33:14] [TEST] Usando template: Liquidación
+[2025-06-13 15:33:14] [TEST] Texto original: Última liquidación de verano. Toda la ropa con hasta 70% de descuento. Últimas unidades disponibles.
+[2025-06-13 15:33:14] [TEST] Texto procesado con SSML: <speak><prosody rate="medium"><emphasis level="strong">Última</emphasis> <emphasis level="strong">liquidación</emphasis> de verano. <break time="0.5s"/> Toda la ropa con hasta <emphasis level="strong"><say-as interpret-as="percentage">70%</say-as></emphasis> de <emphasis level="strong">descuento</emphasis>. <break time="0.5s"/> <emphasis level="strong">Últimas</emphasis> unidades disponibles.</prosody></speak>
+[2025-06-13 15:33:14] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-13 15:33:14] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\"><emphasis level=\"strong\">\u00daltima<\/emphasis> <emphasis level=\"strong\">liquidaci\u00f3n<\/emphasis> de verano. <break time=\"0.5s\"\/> Toda la ropa con hasta <emphasis level=\"strong\"><say-as interpret-as=\"percentage\">70%<\/say-as><\/emphasis> de <emphasis level=\"strong\">descuento<\/emphasis>. <break time=\"0.5s\"\/> <emphasis level=\"strong\">\u00daltimas<\/emphasis> unidades disponibles.<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 15:33:16] [TEST] Respuesta HTTP: 200
+[2025-06-13 15:33:16] [TEST] Audio generado exitosamente, tamaño: 116655 bytes
+[2025-06-13 15:33:16] [TEST] Archivo temporal creado para preview: test_1749828796.mp3
+[2025-06-13 15:33:16] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1749828796.mp3.copy
+[2025-06-13 15:33:16] [TEST] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_684c44bc4f0a6.mp3' 2>&1
+[2025-06-13 15:33:16] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_684c44bc4f0a6.mp3
+[2025-06-13 15:33:16] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_684c44bc6cf80.txt
+[2025-06-13 15:33:16] [TEST] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_684c44bc4f0a6.mp3' | file '/var/www/tts-radio/api/temp/test_1749828796.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_684c44bc4f0a6.mp3'
+[2025-06-13 15:33:16] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_684c44bc6cf80.txt' -c copy -y '/var/www/tts-radio/api/temp/test_1749828796_with_silence.mp3' 2>&1
+[2025-06-13 15:33:16] [TEST] Silencio agregado exitosamente. Tamaño: 140991 bytes
+[2025-06-13 15:33:16] [TEST] Archivo final: /var/www/tts-radio/api/temp/test_1749828796_with_silence.mp3
+[2025-06-13 15:33:16] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250613153316.mp3
+[2025-06-13 15:33:16] [TEST] Audio generado y subido exitosamente: tts20250613153316.mp3
+[2025-06-13 15:33:44] [TEST] Datos recibidos: {"test":"send_to_radio","filename":"tts20250613153316.mp3"}
+[2025-06-13 15:33:44] [TEST] Procesando envío a radio
+[2025-06-13 15:33:44] [TEST] Interrumpiendo radio con archivo: tts20250613153316.mp3
+[2025-06-13 15:33:44] [TEST] Interrumpiendo radio con archivo: tts20250613153316.mp3
+[2025-06-13 15:33:44] [TEST] Interrupción ejecutada. Respuesta: 42
+END
+[2025-06-13 15:33:44] [TEST] ¡Interrupción exitosa! RID: 42
+[2025-06-13 15:33:44] [TEST] Archivo enviado a radio exitosamente: tts20250613153316.mp3
+[2025-06-13 15:36:29] Datos recibidos: {"action":"preview","text":"this is radio isla negra, stay tuned","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-13 15:36:29] Iniciando TTS - Texto: 'this is radio isla negra, stay tuned', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-13 15:36:29] Usando sistema de anuncios avanzado
+[2025-06-13 15:36:29] Texto original: this is radio isla negra, stay tuned
+[2025-06-13 15:36:29] Texto procesado con SSML: <speak><prosody rate="medium">this is radio isla negra, <break time="200ms"/> stay tuned</prosody></speak>
+[2025-06-13 15:36:29] TTS Enhanced - Voz: 21m00Tcm4TlvDq8ikWAM -> ID: 21m00Tcm4TlvDq8ikWAM
+[2025-06-13 15:36:29] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\">this is radio isla negra, <break time=\"200ms\"\/> stay tuned<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 15:36:30] Respuesta HTTP: 200
+[2025-06-13 15:36:30] Audio generado exitosamente, tamaño: 36407 bytes
+[2025-06-13 15:36:30] Texto procesado: <speak><prosody rate="medium">this is radio isla negra, <break time="200ms"/> stay tuned</prosody></speak>
+[2025-06-13 15:36:30] Archivo temporal creado: tts20250613153630.mp3
+[2025-06-13 15:36:30] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/tts20250613153630.mp3.copy
+[2025-06-13 15:36:30] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_684c457ed803b.mp3' 2>&1
+[2025-06-13 15:36:31] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_684c457ed803b.mp3
+[2025-06-13 15:36:31] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_684c457f02ae2.txt
+[2025-06-13 15:36:31] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_684c457ed803b.mp3' | file '/var/www/tts-radio/api/temp/tts20250613153630.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_684c457ed803b.mp3'
+[2025-06-13 15:36:31] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_684c457f02ae2.txt' -c copy -y '/var/www/tts-radio/api/temp/tts20250613153630_with_silence.mp3' 2>&1
+[2025-06-13 15:36:31] Silencio agregado exitosamente. Tamaño: 60743 bytes
+[2025-06-13 15:36:31] Archivo final: /var/www/tts-radio/api/temp/tts20250613153630_with_silence.mp3
+[2025-06-13 15:36:31] Silencio agregado exitosamente
+[2025-06-13 15:36:31] Subiendo archivo a AzuraCast: Grabaciones/tts20250613153631.mp3
+[2025-06-13 15:36:31] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-13 15:36:31] Proceso completado exitosamente - File ID: 1487
+[2025-06-13 15:36:37] Datos recibidos: {"action":"send_to_radio","filename":"tts20250613153630.mp3","message":"this is radio isla negra, stay tuned"}
+[2025-06-13 15:36:37] Interrumpiendo radio con archivo: tts20250613153630.mp3
+[2025-06-13 15:36:37] Interrupción ejecutada. Respuesta: 46
+END
+[2025-06-13 15:36:37] ¡Interrupción exitosa! RID: 46
+[2025-06-13 18:29:22] [TEST] Datos recibidos: {"action":"list_templates"}
+[2025-06-13 18:29:24] [TEST] Datos recibidos: {"test":"generate_audio","text":"Buenos d\u00edas clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!","voice":"fernanda","speed":"normal","emphasis":true}
+[2025-06-13 18:29:24] [TEST] Error: Acción no reconocida: ninguna
+[2025-06-13 18:29:30] [TEST] Datos recibidos: {"test":"generate_audio","text":"Buenos d\u00edas clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!","voice":"fernanda","speed":"normal","emphasis":true}
+[2025-06-13 18:29:30] [TEST] Error: Acción no reconocida: ninguna
+[2025-06-13 18:29:53] [TEST] Datos recibidos: {"action":"list_templates"}
+[2025-06-13 18:29:54] [TEST] Datos recibidos: {"action":"list_templates"}
+[2025-06-13 18:29:56] [TEST] Datos recibidos: {"test":"generate_audio","text":"Buenos d\u00edas clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!","voice":"fernanda","speed":"normal","emphasis":true}
+[2025-06-13 18:29:56] [TEST] Error: Acción no reconocida: ninguna
+[2025-06-13 18:38:45] [TEST] Datos recibidos: {"action":"list_templates"}
+[2025-06-13 18:38:47] [TEST] Datos recibidos: {"test":"generate_audio","text":"Buenos d\u00edas clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!","voice":"fernanda","speed":"normal","emphasis":true}
+[2025-06-13 18:38:47] [TEST] Error: Acción no reconocida: ninguna
+[2025-06-13 18:39:58] [TEST] Datos recibidos: {"action":"list_templates"}
+[2025-06-13 18:39:59] [TEST] Datos recibidos: {"action":"generate_audio","text":"Buenos d\u00edas clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!","voice":"fernanda","speed":"normal","emphasis":true}
+[2025-06-13 18:39:59] [TEST] Iniciando generación de audio
+[2025-06-13 18:39:59] [TEST] Generando desde texto directo
+[2025-06-13 18:39:59] [TEST] Texto original: Buenos días clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!
+[2025-06-13 18:39:59] [TEST] Texto procesado con SSML: <speak><prosody rate="medium">Buenos días clientes, <break time="200ms"/> les informamos que tenemos una <emphasis level="strong">oferta</emphasis> especial en carnes rojas con <emphasis level="strong"><say-as interpret-as="percentage">30%</say-as></emphasis> de <emphasis level="strong">descuento</emphasis>. <break time="0.5s"/> Solo por <emphasis level="strong">hoy</emphasis>!</prosody></speak>
+[2025-06-13 18:39:59] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-13 18:39:59] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\">Buenos d\u00edas clientes, <break time=\"200ms\"\/> les informamos que tenemos una <emphasis level=\"strong\">oferta<\/emphasis> especial en carnes rojas con <emphasis level=\"strong\"><say-as interpret-as=\"percentage\">30%<\/say-as><\/emphasis> de <emphasis level=\"strong\">descuento<\/emphasis>. <break time=\"0.5s\"\/> Solo por <emphasis level=\"strong\">hoy<\/emphasis>!<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 18:40:01] [TEST] Respuesta HTTP: 200
+[2025-06-13 18:40:01] [TEST] Audio generado exitosamente, tamaño: 124178 bytes
+[2025-06-13 18:40:01] [TEST] Archivo temporal creado para preview: test_1749840001.mp3
+[2025-06-13 18:40:01] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1749840001.mp3.copy
+[2025-06-13 18:40:01] [TEST] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_684c7081e35d3.mp3' 2>&1
+[2025-06-13 18:40:02] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_684c7081e35d3.mp3
+[2025-06-13 18:40:02] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_684c70826abec.txt
+[2025-06-13 18:40:02] [TEST] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_684c7081e35d3.mp3' | file '/var/www/tts-radio/api/temp/test_1749840001.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_684c7081e35d3.mp3'
+[2025-06-13 18:40:02] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_684c70826abec.txt' -c copy -y '/var/www/tts-radio/api/temp/test_1749840001_with_silence.mp3' 2>&1
+[2025-06-13 18:40:02] [TEST] Silencio agregado exitosamente. Tamaño: 148514 bytes
+[2025-06-13 18:40:02] [TEST] Archivo final: /var/www/tts-radio/api/temp/test_1749840001_with_silence.mp3
+[2025-06-13 18:40:02] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250613184002.mp3
+[2025-06-13 18:40:03] [TEST] Audio generado y subido exitosamente: tts20250613184002.mp3
+[2025-06-13 18:40:22] [TEST] Datos recibidos: {"action":"generate_audio","text":"","voice":"fernanda","template":"descuento_precio","template_category":"ofertas","template_variables":{"producto":"carnes rojas","precio_antes":"9.990","precio_ahora":"6.990","duracion":"V\u00e1lido hasta el domingo"},"speed":"normal","emphasis":true}
+[2025-06-13 18:40:22] [TEST] Iniciando generación de audio
+[2025-06-13 18:40:22] [TEST] Generando desde template: ofertas/descuento_precio
+[2025-06-13 18:40:22] [TEST] Usando template: Descuento con Precios
+[2025-06-13 18:40:22] [TEST] Texto original: Oferta especial en carnes rojas. Antes $9.990, ahora solo $6.990. Válido hasta el domingo.
+[2025-06-13 18:40:22] [TEST] Texto procesado con SSML: <speak><prosody rate="medium"><emphasis level="strong">Oferta</emphasis> especial en carnes rojas. <break time="0.5s"/> Antes <emphasis level="strong"><say-as interpret-as="currency">$$9.99</say-as></emphasis>0, <break time="200ms"/> <emphasis level="strong">ahora</emphasis> solo <emphasis level="strong"><say-as interpret-as="currency">$$6.99</say-as></emphasis>0. <break time="0.5s"/> Válido hasta el domingo.</prosody></speak>
+[2025-06-13 18:40:22] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-13 18:40:22] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\"><emphasis level=\"strong\">Oferta<\/emphasis> especial en carnes rojas. <break time=\"0.5s\"\/> Antes <emphasis level=\"strong\"><say-as interpret-as=\"currency\">$$9.99<\/say-as><\/emphasis>0, <break time=\"200ms\"\/> <emphasis level=\"strong\">ahora<\/emphasis> solo <emphasis level=\"strong\"><say-as interpret-as=\"currency\">$$6.99<\/say-as><\/emphasis>0. <break time=\"0.5s\"\/> V\u00e1lido hasta el domingo.<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 18:40:25] [TEST] Respuesta HTTP: 200
+[2025-06-13 18:40:25] [TEST] Audio generado exitosamente, tamaño: 144240 bytes
+[2025-06-13 18:40:25] [TEST] Archivo temporal creado para preview: test_1749840025.mp3
+[2025-06-13 18:40:25] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1749840025.mp3.copy
+[2025-06-13 18:40:25] [TEST] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_684c709927c88.mp3' 2>&1
+[2025-06-13 18:40:25] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_684c709927c88.mp3
+[2025-06-13 18:40:25] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_684c709946f7f.txt
+[2025-06-13 18:40:25] [TEST] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_684c709927c88.mp3' | file '/var/www/tts-radio/api/temp/test_1749840025.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_684c709927c88.mp3'
+[2025-06-13 18:40:25] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_684c709946f7f.txt' -c copy -y '/var/www/tts-radio/api/temp/test_1749840025_with_silence.mp3' 2>&1
+[2025-06-13 18:40:25] [TEST] Silencio agregado exitosamente. Tamaño: 168576 bytes
+[2025-06-13 18:40:25] [TEST] Archivo final: /var/www/tts-radio/api/temp/test_1749840025_with_silence.mp3
+[2025-06-13 18:40:25] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250613184025.mp3
+[2025-06-13 18:40:25] [TEST] Audio generado y subido exitosamente: tts20250613184025.mp3
+[2025-06-13 18:40:37] [TEST] Datos recibidos: {"action":"send_to_radio","filename":"tts20250613184025.mp3"}
+[2025-06-13 18:40:37] [TEST] Procesando envío a radio
+[2025-06-13 18:40:37] [TEST] Interrumpiendo radio con archivo: tts20250613184025.mp3
+[2025-06-13 18:40:37] [TEST] Interrumpiendo radio con archivo: tts20250613184025.mp3
+[2025-06-13 18:40:37] [TEST] Interrupción ejecutada. Respuesta: 123
+END
+[2025-06-13 18:40:37] [TEST] ¡Interrupción exitosa! RID: 123
+[2025-06-13 18:40:37] [TEST] Archivo enviado a radio exitosamente: tts20250613184025.mp3
+[2025-06-13 18:41:41] [TEST] Datos recibidos: {"action":"list_templates"}
+[2025-06-13 18:41:46] [TEST] Datos recibidos: {"action":"generate_audio","text":"","voice":"fernanda","template":"liquidacion","template_category":"ofertas","template_variables":{"temporada":"verano","producto":"Toda la ropa","descuento":"70","mensaje_urgencia":"\u00daltimas unidades disponibles"},"speed":"normal","emphasis":true}
+[2025-06-13 18:41:46] [TEST] Iniciando generación de audio
+[2025-06-13 18:41:46] [TEST] Generando desde template: ofertas/liquidacion
+[2025-06-13 18:41:46] [TEST] Usando template: Liquidación
+[2025-06-13 18:41:46] [TEST] Texto original: Última liquidación de verano. Toda la ropa con hasta 70% de descuento. Últimas unidades disponibles.
+[2025-06-13 18:41:46] [TEST] Texto procesado con SSML: <speak><prosody rate="medium"><emphasis level="strong">Última</emphasis> <emphasis level="strong">liquidación</emphasis> de verano. <break time="0.5s"/> Toda la ropa con hasta <emphasis level="strong"><say-as interpret-as="percentage">70%</say-as></emphasis> de <emphasis level="strong">descuento</emphasis>. <break time="0.5s"/> <emphasis level="strong">Últimas</emphasis> unidades disponibles.</prosody></speak>
+[2025-06-13 18:41:46] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-13 18:41:46] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\"><emphasis level=\"strong\">\u00daltima<\/emphasis> <emphasis level=\"strong\">liquidaci\u00f3n<\/emphasis> de verano. <break time=\"0.5s\"\/> Toda la ropa con hasta <emphasis level=\"strong\"><say-as interpret-as=\"percentage\">70%<\/say-as><\/emphasis> de <emphasis level=\"strong\">descuento<\/emphasis>. <break time=\"0.5s\"\/> <emphasis level=\"strong\">\u00daltimas<\/emphasis> unidades disponibles.<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 18:41:47] [TEST] Respuesta HTTP: 200
+[2025-06-13 18:41:47] [TEST] Audio generado exitosamente, tamaño: 119581 bytes
+[2025-06-13 18:41:47] [TEST] Archivo temporal creado para preview: test_1749840107.mp3
+[2025-06-13 18:41:47] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1749840107.mp3.copy
+[2025-06-13 18:41:47] [TEST] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_684c70ebc66f0.mp3' 2>&1
+[2025-06-13 18:41:47] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_684c70ebc66f0.mp3
+[2025-06-13 18:41:47] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_684c70ebe823e.txt
+[2025-06-13 18:41:47] [TEST] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_684c70ebc66f0.mp3' | file '/var/www/tts-radio/api/temp/test_1749840107.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_684c70ebc66f0.mp3'
+[2025-06-13 18:41:47] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_684c70ebe823e.txt' -c copy -y '/var/www/tts-radio/api/temp/test_1749840107_with_silence.mp3' 2>&1
+[2025-06-13 18:41:48] [TEST] Silencio agregado exitosamente. Tamaño: 143917 bytes
+[2025-06-13 18:41:48] [TEST] Archivo final: /var/www/tts-radio/api/temp/test_1749840107_with_silence.mp3
+[2025-06-13 18:41:48] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250613184148.mp3
+[2025-06-13 18:41:48] [TEST] Audio generado y subido exitosamente: tts20250613184148.mp3
+[2025-06-13 18:42:02] [TEST] Datos recibidos: {"action":"send_to_radio","filename":"tts20250613184148.mp3"}
+[2025-06-13 18:42:02] [TEST] Procesando envío a radio
+[2025-06-13 18:42:02] [TEST] Interrumpiendo radio con archivo: tts20250613184148.mp3
+[2025-06-13 18:42:02] [TEST] Interrumpiendo radio con archivo: tts20250613184148.mp3
+[2025-06-13 18:42:03] [TEST] Interrupción ejecutada. Respuesta: 127
+END
+[2025-06-13 18:42:03] [TEST] ¡Interrupción exitosa! RID: 127
+[2025-06-13 18:42:03] [TEST] Archivo enviado a radio exitosamente: tts20250613184148.mp3
+[2025-06-13 18:51:52] [TEST] Datos recibidos: {"action":"list_templates"}
+[2025-06-13 18:52:21] [TEST] Datos recibidos: {"action":"generate_audio","text":"Buenos d\u00edas clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!","voice":"fernanda","speed":"normal","emphasis":true}
+[2025-06-13 18:52:21] [TEST] Iniciando generación de audio
+[2025-06-13 18:52:21] [TEST] Generando desde texto directo
+[2025-06-13 18:52:21] [TEST] Texto original: Buenos días clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!
+[2025-06-13 18:52:21] [TEST] Texto procesado con SSML: <speak><prosody rate="medium">Buenos días clientes, <break time="200ms"/> les informamos que tenemos una <emphasis level="strong">oferta</emphasis> especial en carnes rojas con <emphasis level="strong"><say-as interpret-as="percentage">30%</say-as></emphasis> de <emphasis level="strong">descuento</emphasis>. <break time="0.5s"/> Solo por <emphasis level="strong">hoy</emphasis>!</prosody></speak>
+[2025-06-13 18:52:21] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-13 18:52:21] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\">Buenos d\u00edas clientes, <break time=\"200ms\"\/> les informamos que tenemos una <emphasis level=\"strong\">oferta<\/emphasis> especial en carnes rojas con <emphasis level=\"strong\"><say-as interpret-as=\"percentage\">30%<\/say-as><\/emphasis> de <emphasis level=\"strong\">descuento<\/emphasis>. <break time=\"0.5s\"\/> Solo por <emphasis level=\"strong\">hoy<\/emphasis>!<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 18:52:24] [TEST] Respuesta HTTP: 200
+[2025-06-13 18:52:24] [TEST] Audio generado exitosamente, tamaño: 130030 bytes
+[2025-06-13 18:52:24] [TEST] Archivo temporal creado para preview: test_1749840744.mp3
+[2025-06-13 18:52:24] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1749840744.mp3.copy
+[2025-06-13 18:52:24] [TEST] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_684c73682b5ac.mp3' 2>&1
+[2025-06-13 18:52:24] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_684c73682b5ac.mp3
+[2025-06-13 18:52:24] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_684c73684a8a0.txt
+[2025-06-13 18:52:24] [TEST] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_684c73682b5ac.mp3' | file '/var/www/tts-radio/api/temp/test_1749840744.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_684c73682b5ac.mp3'
+[2025-06-13 18:52:24] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_684c73684a8a0.txt' -c copy -y '/var/www/tts-radio/api/temp/test_1749840744_with_silence.mp3' 2>&1
+[2025-06-13 18:52:24] [TEST] Silencio agregado exitosamente. Tamaño: 154366 bytes
+[2025-06-13 18:52:24] [TEST] Archivo final: /var/www/tts-radio/api/temp/test_1749840744_with_silence.mp3
+[2025-06-13 18:52:24] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250613185224.mp3
+[2025-06-13 18:52:25] [TEST] Audio generado y subido exitosamente: tts20250613185224.mp3
+[2025-06-13 18:52:37] [TEST] Datos recibidos: {"action":"send_to_radio","filename":"tts20250613185224.mp3"}
+[2025-06-13 18:52:37] [TEST] Procesando envío a radio
+[2025-06-13 18:52:37] [TEST] Interrumpiendo radio con archivo: tts20250613185224.mp3
+[2025-06-13 18:52:37] [TEST] Interrumpiendo radio con archivo: tts20250613185224.mp3
+[2025-06-13 18:52:38] [TEST] Interrupción ejecutada. Respuesta: 133
+END
+[2025-06-13 18:52:38] [TEST] ¡Interrupción exitosa! RID: 133
+[2025-06-13 18:52:38] [TEST] Archivo enviado a radio exitosamente: tts20250613185224.mp3
+[2025-06-13 23:11:08] [TEST] Datos recibidos: {"action":"list_templates"}
+[2025-06-13 23:11:10] [TEST] Datos recibidos: {"action":"generate_audio","text":"Buenos d\u00edas clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!","voice":"fernanda","speed":"normal","emphasis":true}
+[2025-06-13 23:11:10] [TEST] Iniciando generación de audio
+[2025-06-13 23:11:10] [TEST] Generando desde texto directo
+[2025-06-13 23:11:10] [TEST] Texto original: Buenos días clientes, les informamos que tenemos una oferta especial en carnes rojas con 30% de descuento. Solo por hoy!
+[2025-06-13 23:11:10] [TEST] Texto procesado con SSML: <speak><prosody rate="medium">Buenos días clientes, <break time="200ms"/> les informamos que tenemos una <emphasis level="strong">oferta</emphasis> especial en carnes rojas con <emphasis level="strong"><say-as interpret-as="percentage">30%</say-as></emphasis> de <emphasis level="strong">descuento</emphasis>. <break time="0.5s"/> Solo por <emphasis level="strong">hoy</emphasis>!</prosody></speak>
+[2025-06-13 23:11:10] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-13 23:11:10] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\">Buenos d\u00edas clientes, <break time=\"200ms\"\/> les informamos que tenemos una <emphasis level=\"strong\">oferta<\/emphasis> especial en carnes rojas con <emphasis level=\"strong\"><say-as interpret-as=\"percentage\">30%<\/say-as><\/emphasis> de <emphasis level=\"strong\">descuento<\/emphasis>. <break time=\"0.5s\"\/> Solo por <emphasis level=\"strong\">hoy<\/emphasis>!<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}}
+[2025-06-13 23:11:12] [TEST] Respuesta HTTP: 200
+[2025-06-13 23:11:12] [TEST] Audio generado exitosamente, tamaño: 125432 bytes
+[2025-06-13 23:11:12] [TEST] Archivo temporal creado para preview: test_1749856272.mp3
+[2025-06-13 23:11:12] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1749856272.mp3.copy
+[2025-06-13 23:11:12] [TEST] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_684cb0108d545.mp3' 2>&1
+[2025-06-13 23:11:12] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_684cb0108d545.mp3
+[2025-06-13 23:11:12] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_684cb010ca15e.txt
+[2025-06-13 23:11:12] [TEST] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_684cb0108d545.mp3' | file '/var/www/tts-radio/api/temp/test_1749856272.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_684cb0108d545.mp3'
+[2025-06-13 23:11:12] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_684cb010ca15e.txt' -c copy -y '/var/www/tts-radio/api/temp/test_1749856272_with_silence.mp3' 2>&1
+[2025-06-13 23:11:12] [TEST] Silencio agregado exitosamente. Tamaño: 149768 bytes
+[2025-06-13 23:11:12] [TEST] Archivo final: /var/www/tts-radio/api/temp/test_1749856272_with_silence.mp3
+[2025-06-13 23:11:12] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250613231112.mp3
+[2025-06-13 23:11:13] [TEST] Audio generado y subido exitosamente: tts20250613231112.mp3

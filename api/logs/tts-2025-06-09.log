@@ -1,0 +1,246 @@
+[2025-06-09 01:45:34] Datos recibidos: {"action":"preview","text":"\"Hola, esta es una prueba de TTS\"","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-09 01:45:34] Iniciando TTS - Texto: '"Hola, esta es una prueba de TTS"', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-09 01:45:35] Archivo temporal creado: voice-message-2025-06-09-01-45-35.mp3
+[2025-06-09 01:45:35] Archivo subido a AzuraCast - File ID: 1342
+[2025-06-09 01:45:35] Proceso completado exitosamente - File ID: 1342
+[2025-06-09 01:45:40] Datos recibidos: {"action":"send_to_radio","filename":"voice-message-2025-06-09-01-45-35.mp3","message":"\"Hola, esta es una prueba de TTS\""}
+[2025-06-09 01:52:12] Datos recibidos: {"action":"preview","text":"hola","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-09 01:52:12] Iniciando TTS - Texto: 'hola', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-09 01:52:13] Archivo temporal creado: voice-message-2025-06-09-01-52-13.mp3
+[2025-06-09 01:52:14] Archivo subido a AzuraCast - File ID: 1343
+[2025-06-09 01:52:14] Proceso completado exitosamente - File ID: 1343
+[2025-06-09 01:52:17] Datos recibidos: {"action":"send_to_radio","filename":"voice-message-2025-06-09-01-52-13.mp3","message":"hola"}
+[2025-06-09 01:55:28] Datos recibidos: {"action":"preview","text":"medio asustadito","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-09 01:55:28] Iniciando TTS - Texto: 'medio asustadito', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-09 01:55:29] Archivo temporal creado: voice-message-2025-06-09-01-55-29.mp3
+[2025-06-09 01:55:30] Archivo subido a AzuraCast - File ID: 1344
+[2025-06-09 01:55:30] Proceso completado exitosamente - File ID: 1344
+[2025-06-09 03:01:01] Datos recibidos: {"action":"preview","text":"Liquidsoap is a self-documented application, which means","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-09 03:01:01] Iniciando TTS - Texto: 'Liquidsoap is a self-documented application, which means', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-09 03:01:02] Archivo temporal creado: voice-message-2025-06-09-03-01-02.mp3
+[2025-06-09 03:01:03] Iniciando reproducción inmediata para file ID: 1345
+[2025-06-09 03:01:03] Unique ID del archivo: 52746968e8c35ce007f8833c
+[2025-06-09 03:01:03] Request enviado exitosamente
+[2025-06-09 03:01:05] Skip ejecutado: HTTP 200
+[2025-06-09 03:01:05] Reproducción inmediata completada
+[2025-06-09 03:01:05] Proceso completado exitosamente - File ID: 1345
+[2025-06-09 03:01:22] Datos recibidos: {"action":"send_to_radio","filename":"voice-message-2025-06-09-03-01-02.mp3","message":"Liquidsoap is a self-documented application, which means"}
+[2025-06-09 03:17:14] Datos recibidos: {"action":"preview","text":"ya po dale un poco no seas asi es mucho","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-09 03:17:14] Iniciando TTS - Texto: 'ya po dale un poco no seas asi es mucho', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-09 03:17:15] Archivo temporal creado: voice-message-2025-06-09-03-17-15.mp3
+[2025-06-09 03:17:15] Iniciando reproducción inmediata para file ID: 1346
+[2025-06-09 03:17:16] Filename para interrupción: voice-message-2025-06-09-03-17-15.mp3
+[2025-06-09 03:17:16] Ejecutando comando Docker: docker exec azuracast bash -c 'echo "tts.interrupt \"voice-message-2025-06-09-03-17-15.mp3\"" | socat - UNIX-CONNECT:/var/azuracast/stations/test/config/liquidsoap.sock'
+[2025-06-09 03:17:16] Respuesta de Liquidsoap: 
+[2025-06-09 03:17:16] Comando TTS falló, intentando con API request...
+[2025-06-09 03:17:16] Request API exitoso, haciendo skip...
+[2025-06-09 03:17:18] Skip ejecutado: HTTP 200
+[2025-06-09 03:17:18] Proceso completado exitosamente - File ID: 1346
+[2025-06-09 03:17:23] Datos recibidos: {"action":"send_to_radio","filename":"voice-message-2025-06-09-03-17-15.mp3","message":"ya po dale un poco no seas asi es mucho "}
+[2025-06-09 03:17:47] Datos recibidos: {"action":"preview","text":"ahhh ya cache super loco","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-09 03:17:47] Iniciando TTS - Texto: 'ahhh ya cache super loco', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-09 03:17:48] Archivo temporal creado: voice-message-2025-06-09-03-17-48.mp3
+[2025-06-09 03:17:49] Iniciando reproducción inmediata para file ID: 1347
+[2025-06-09 03:17:49] Filename para interrupción: voice-message-2025-06-09-03-17-48.mp3
+[2025-06-09 03:17:49] Ejecutando comando Docker: docker exec azuracast bash -c 'echo "tts.interrupt \"voice-message-2025-06-09-03-17-48.mp3\"" | socat - UNIX-CONNECT:/var/azuracast/stations/test/config/liquidsoap.sock'
+[2025-06-09 03:17:49] Respuesta de Liquidsoap: 
+[2025-06-09 03:17:49] Comando TTS falló, intentando con API request...
+[2025-06-09 03:17:49] Request API exitoso, haciendo skip...
+[2025-06-09 03:17:51] Skip ejecutado: HTTP 200
+[2025-06-09 03:17:51] Proceso completado exitosamente - File ID: 1347
+[2025-06-09 03:17:54] Datos recibidos: {"action":"send_to_radio","filename":"voice-message-2025-06-09-03-17-48.mp3","message":"ahhh ya cache super loco"}
+[2025-06-09 22:58:12] Datos recibidos: {"action":"preview","text":"Aqui estan las cosas que me preocupan. Cuando termines de leerlas haz una introspecci\u00f3n y dime que dice tu instinto","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_flash_v2_5"}
+[2025-06-09 22:58:12] Iniciando TTS - Texto: 'Aqui estan las cosas que me preocupan. Cuando termines de leerlas haz una introspección y dime que dice tu instinto', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-09 22:58:14] Archivo temporal creado: voice-message-2025-06-09-22-58-14.mp3
+[2025-06-09 22:58:15] === INICIANDO INTERRUPCIÓN INMEDIATA ===
+[2025-06-09 22:58:15] Archivo a interrumpir: voice-message-2025-06-09-22-58-14.mp3
+[2025-06-09 22:58:15] Esperando 5 segundos para que AzuraCast procese el archivo...
+[2025-06-09 22:58:20] Ejecutando comando: interrupting_requests.push
+[2025-06-09 22:58:20] Respuesta de Liquidsoap: 
+[2025-06-09 22:58:20] Error al ejecutar comando de interrupción. Return code: 1
+[2025-06-09 22:58:20] El archivo fue agregado a la playlist pero no se pudo interrumpir inmediatamente.
+[2025-06-09 22:58:20] Proceso completado exitosamente - File ID: 1348
+[2025-06-09 22:58:32] Datos recibidos: {"action":"send_to_radio","filename":"voice-message-2025-06-09-22-58-14.mp3","message":"Aqui estan las cosas que me preocupan. Cuando termines de leerlas haz una introspecci\u00f3n y dime que dice tu instinto\n"}
+[2025-06-09 23:01:43] Datos recibidos: {"action":"preview","text":"Benefit eligibility depends on your current billing location. If you change your billing location, there are changes about the benefits you're eligible for.","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_flash_v2_5"}
+[2025-06-09 23:01:43] Iniciando TTS - Texto: 'Benefit eligibility depends on your current billing location. If you change your billing location, there are changes about the benefits you're eligible for.', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-09 23:01:44] Archivo temporal creado: voice-message-2025-06-09-23-01-44.mp3
+[2025-06-09 23:01:45] === INICIANDO INTERRUPCIÓN INMEDIATA ===
+[2025-06-09 23:01:45] Archivo a interrumpir: voice-message-2025-06-09-23-01-44.mp3
+[2025-06-09 23:01:45] Esperando 5 segundos para que AzuraCast procese el archivo...
+[2025-06-09 23:01:50] Ejecutando comando: interrupting_requests.push
+[2025-06-09 23:01:50] Respuesta de Liquidsoap: 
+[2025-06-09 23:01:50] Error al ejecutar comando de interrupción. Return code: 1
+[2025-06-09 23:01:50] El archivo fue agregado a la playlist pero no se pudo interrumpir inmediatamente.
+[2025-06-09 23:01:50] Proceso completado exitosamente - File ID: 1349
+[2025-06-09 23:02:02] Datos recibidos: {"action":"send_to_radio","filename":"voice-message-2025-06-09-23-01-44.mp3","message":"Benefit eligibility depends on your current billing location. If you change your billing location, there are changes about the benefits you're eligible for."}
+[2025-06-09 23:19:20] Datos recibidos: {"action":"preview","text":"Lo mas probable es que este a full trabajando en tema bolocco","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_flash_v2_5"}
+[2025-06-09 23:19:20] Iniciando TTS - Texto: 'Lo mas probable es que este a full trabajando en tema bolocco', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-09 23:19:21] Archivo temporal creado: voice-message-2025-06-09-23-19-21.mp3
+[2025-06-09 23:19:21] === INICIANDO INTERRUPCIÓN INMEDIATA ===
+[2025-06-09 23:19:22] Archivo a interrumpir: voice-message-2025-06-09-23-19-21.mp3
+[2025-06-09 23:19:22] Esperando 8 segundos para que AzuraCast procese el archivo...
+[2025-06-09 23:19:30] URI del archivo: file:///var/azuracast/stations/test/media/Grabaciones/voice-message-2025-06-09-23-19-21.mp3
+[2025-06-09 23:19:30] Ejecutando comando: interrupting_requests.push
+[2025-06-09 23:19:30] Respuesta de Liquidsoap: 
+[2025-06-09 23:19:30] Error al ejecutar comando de interrupción. Return code: 1
+[2025-06-09 23:19:30] El archivo fue agregado a la playlist pero no se pudo interrumpir inmediatamente.
+[2025-06-09 23:19:30] Proceso completado exitosamente - File ID: 1350
+[2025-06-09 23:19:37] Datos recibidos: {"action":"send_to_radio","filename":"voice-message-2025-06-09-23-19-21.mp3","message":"Lo mas probable es que este a full trabajando en tema bolocco"}
+[2025-06-09 23:25:36] Datos recibidos: {"action":"preview","text":"Your account, hrm070@gmail.com, is part of a family on Google. You can only change this setting if you're the Google One plan manager.","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_flash_v2_5"}
+[2025-06-09 23:25:36] Iniciando TTS - Texto: 'Your account, hrm070@gmail.com, is part of a family on Google. You can only change this setting if you're the Google One plan manager.', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-09 23:25:38] Archivo temporal creado: voice-message-2025-06-09-23-25-38.mp3
+[2025-06-09 23:25:39] === INICIANDO INTERRUPCIÓN INMEDIATA ===
+[2025-06-09 23:25:39] Archivo a interrumpir: voice-message-2025-06-09-23-25-38.mp3
+[2025-06-09 23:25:39] Verificando existencia del archivo... Intento 1 de 6
+[2025-06-09 23:25:39] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:25:42] Verificando existencia del archivo... Intento 2 de 6
+[2025-06-09 23:25:42] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:25:45] Verificando existencia del archivo... Intento 3 de 6
+[2025-06-09 23:25:45] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:25:48] Verificando existencia del archivo... Intento 4 de 6
+[2025-06-09 23:25:48] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:25:51] Verificando existencia del archivo... Intento 5 de 6
+[2025-06-09 23:25:51] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:25:54] Verificando existencia del archivo... Intento 6 de 6
+[2025-06-09 23:25:54] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:25:57] ERROR: El archivo no se encontró después de 6 intentos
+[2025-06-09 23:25:57] Proceso completado exitosamente - File ID: 1351
+[2025-06-09 23:26:16] Datos recibidos: {"action":"send_to_radio","filename":"voice-message-2025-06-09-23-25-38.mp3","message":"Your account, hrm070@gmail.com, is part of a family on Google. You can only change this setting if you're the Google One plan manager."}
+[2025-06-09 23:32:33] Datos recibidos: {"action":"preview","text":"Haha y toda esa interminable lista de cualidades que siempre te digo y que ya no tomas en serio","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_flash_v2_5"}
+[2025-06-09 23:32:33] Iniciando TTS - Texto: 'Haha y toda esa interminable lista de cualidades que siempre te digo y que ya no tomas en serio', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-09 23:32:34] Archivo temporal creado: voice-message-2025-06-09-23-32-34.mp3
+[2025-06-09 23:32:34] === INICIANDO INTERRUPCIÓN INMEDIATA ===
+[2025-06-09 23:32:35] Archivo a interrumpir: voice-message-2025-06-09-23-32-34.mp3
+[2025-06-09 23:32:35] Verificando existencia del archivo... Intento 1 de 6
+[2025-06-09 23:32:35] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:32:38] Verificando existencia del archivo... Intento 2 de 6
+[2025-06-09 23:32:38] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:32:41] Verificando existencia del archivo... Intento 3 de 6
+[2025-06-09 23:32:41] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:32:44] Verificando existencia del archivo... Intento 4 de 6
+[2025-06-09 23:32:44] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:32:47] Verificando existencia del archivo... Intento 5 de 6
+[2025-06-09 23:32:47] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:32:50] Verificando existencia del archivo... Intento 6 de 6
+[2025-06-09 23:32:50] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:32:53] ERROR: El archivo no se encontró después de 6 intentos
+[2025-06-09 23:32:53] Proceso completado exitosamente - File ID: 1352
+[2025-06-09 23:33:13] Datos recibidos: {"action":"preview","text":"Haha y toda esa interminable lista de cualidades que siempre te digo y que ya no tomas en serio","voice_id":"AZnzlk1XvdvUeBnXmlld","model_id":"eleven_flash_v2_5"}
+[2025-06-09 23:33:13] Iniciando TTS - Texto: 'Haha y toda esa interminable lista de cualidades que siempre te digo y que ya no tomas en serio', Voz: 'AZnzlk1XvdvUeBnXmlld'
+[2025-06-09 23:33:16] Archivo temporal creado: voice-message-2025-06-09-23-33-16.mp3
+[2025-06-09 23:33:16] === INICIANDO INTERRUPCIÓN INMEDIATA ===
+[2025-06-09 23:33:17] Archivo a interrumpir: voice-message-2025-06-09-23-33-16.mp3
+[2025-06-09 23:33:17] Verificando existencia del archivo... Intento 1 de 6
+[2025-06-09 23:33:17] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:33:20] Verificando existencia del archivo... Intento 2 de 6
+[2025-06-09 23:33:20] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:33:23] Verificando existencia del archivo... Intento 3 de 6
+[2025-06-09 23:33:23] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:33:26] Verificando existencia del archivo... Intento 4 de 6
+[2025-06-09 23:33:26] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:33:29] Verificando existencia del archivo... Intento 5 de 6
+[2025-06-09 23:33:29] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:33:32] Verificando existencia del archivo... Intento 6 de 6
+[2025-06-09 23:33:32] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:33:35] ERROR: El archivo no se encontró después de 6 intentos
+[2025-06-09 23:33:35] Proceso completado exitosamente - File ID: 1353
+[2025-06-09 23:33:45] Datos recibidos: {"action":"send_to_radio","filename":"voice-message-2025-06-09-23-33-16.mp3","message":"Haha y toda esa interminable lista de cualidades que siempre te digo y que ya no tomas en serio "}
+[2025-06-09 23:34:55] Datos recibidos: {"action":"preview","text":"voy a hacer un archivo corto","voice_id":"AZnzlk1XvdvUeBnXmlld","model_id":"eleven_flash_v2_5"}
+[2025-06-09 23:34:55] Iniciando TTS - Texto: 'voy a hacer un archivo corto', Voz: 'AZnzlk1XvdvUeBnXmlld'
+[2025-06-09 23:34:56] Archivo temporal creado: voice-message-2025-06-09-23-34-56.mp3
+[2025-06-09 23:34:57] === INICIANDO INTERRUPCIÓN INMEDIATA ===
+[2025-06-09 23:34:57] Archivo a interrumpir: voice-message-2025-06-09-23-34-56.mp3
+[2025-06-09 23:34:57] Verificando existencia del archivo... Intento 1 de 6
+[2025-06-09 23:34:57] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:35:00] Verificando existencia del archivo... Intento 2 de 6
+[2025-06-09 23:35:01] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:35:04] Verificando existencia del archivo... Intento 3 de 6
+[2025-06-09 23:35:04] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:35:07] Verificando existencia del archivo... Intento 4 de 6
+[2025-06-09 23:35:07] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:35:10] Verificando existencia del archivo... Intento 5 de 6
+[2025-06-09 23:35:10] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:35:13] Verificando existencia del archivo... Intento 6 de 6
+[2025-06-09 23:35:13] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:35:16] ERROR: El archivo no se encontró después de 6 intentos
+[2025-06-09 23:35:16] Proceso completado exitosamente - File ID: 1354
+[2025-06-09 23:35:22] Datos recibidos: {"action":"send_to_radio","filename":"voice-message-2025-06-09-23-34-56.mp3","message":"voy a hacer un archivo corto"}
+[2025-06-09 23:36:52] Datos recibidos: {"action":"preview","text":"aqui va un escrito breve","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_flash_v2_5"}
+[2025-06-09 23:36:52] Iniciando TTS - Texto: 'aqui va un escrito breve', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-09 23:36:53] Archivo temporal creado: voice-message-2025-06-09-23-36-53.mp3
+[2025-06-09 23:36:53] === INICIANDO INTERRUPCIÓN INMEDIATA ===
+[2025-06-09 23:36:53] Archivo a interrumpir: voice-message-2025-06-09-23-36-53.mp3
+[2025-06-09 23:36:53] Verificando existencia del archivo... Intento 1 de 6
+[2025-06-09 23:36:53] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:36:56] Verificando existencia del archivo... Intento 2 de 6
+[2025-06-09 23:36:56] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:36:59] Verificando existencia del archivo... Intento 3 de 6
+[2025-06-09 23:36:59] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:37:02] Verificando existencia del archivo... Intento 4 de 6
+[2025-06-09 23:37:03] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:37:06] Verificando existencia del archivo... Intento 5 de 6
+[2025-06-09 23:37:06] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:37:09] Verificando existencia del archivo... Intento 6 de 6
+[2025-06-09 23:37:09] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:37:12] ERROR: El archivo no se encontró después de 6 intentos
+[2025-06-09 23:37:12] Proceso completado exitosamente - File ID: 1355
+[2025-06-09 23:37:23] Datos recibidos: {"action":"send_to_radio","filename":"voice-message-2025-06-09-23-36-53.mp3","message":"aqui va un escrito breve"}
+[2025-06-09 23:38:43] Datos recibidos: {"action":"preview","text":"Stations using Icecast are really good","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_flash_v2_5"}
+[2025-06-09 23:38:43] Iniciando TTS - Texto: 'Stations using Icecast are really good', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-09 23:38:44] Archivo temporal creado: voice-message-2025-06-09-23-38-44.mp3
+[2025-06-09 23:38:44] === INICIANDO INTERRUPCIÓN INMEDIATA ===
+[2025-06-09 23:38:44] Archivo a interrumpir: voice-message-2025-06-09-23-38-44.mp3
+[2025-06-09 23:38:44] Verificando existencia del archivo... Intento 1 de 6
+[2025-06-09 23:38:45] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:38:48] Verificando existencia del archivo... Intento 2 de 6
+[2025-06-09 23:38:48] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:38:51] Verificando existencia del archivo... Intento 3 de 6
+[2025-06-09 23:38:51] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:38:54] Verificando existencia del archivo... Intento 4 de 6
+[2025-06-09 23:38:54] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:38:57] Verificando existencia del archivo... Intento 5 de 6
+[2025-06-09 23:38:57] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:39:00] Verificando existencia del archivo... Intento 6 de 6
+[2025-06-09 23:39:00] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:39:03] ERROR: El archivo no se encontró después de 6 intentos
+[2025-06-09 23:39:03] Proceso completado exitosamente - File ID: 1356
+[2025-06-09 23:43:05] Datos recibidos: {"action":"send_to_radio","filename":"voice-message-2025-06-09-23-38-44.mp3","message":"Stations using Icecast are really good"}
+[2025-06-09 23:54:36] Datos recibidos: {"action":"preview","text":"Google Photos storage is 90% of the reason I'm still on Android","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_flash_v2_5"}
+[2025-06-09 23:54:36] Iniciando TTS - Texto: 'Google Photos storage is 90% of the reason I'm still on Android', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-09 23:54:37] Archivo temporal creado: voice-message-2025-06-09-23-54-37.mp3
+[2025-06-09 23:54:38] === INICIANDO INTERRUPCIÓN INMEDIATA ===
+[2025-06-09 23:54:38] Archivo a interrumpir: voice-message-2025-06-09-23-54-37.mp3
+[2025-06-09 23:54:38] Verificando existencia del archivo... Intento 1 de 6
+[2025-06-09 23:54:38] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:54:41] Verificando existencia del archivo... Intento 2 de 6
+[2025-06-09 23:54:41] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:54:44] Verificando existencia del archivo... Intento 3 de 6
+[2025-06-09 23:54:44] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:54:47] Verificando existencia del archivo... Intento 4 de 6
+[2025-06-09 23:54:47] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:54:50] Verificando existencia del archivo... Intento 5 de 6
+[2025-06-09 23:54:50] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:54:53] Verificando existencia del archivo... Intento 6 de 6
+[2025-06-09 23:54:53] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:54:56] ERROR: El archivo no se encontró después de 6 intentos
+[2025-06-09 23:54:56] Proceso completado exitosamente - File ID: 1357
+[2025-06-09 23:55:18] Datos recibidos: {"action":"preview","text":"Google Photos storage is 90% of the reason I'm still on Android, and I wouldn't have any options but to move to iOS if Gemini plans are the only storage options by Google.","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_flash_v2_5"}
+[2025-06-09 23:55:18] Iniciando TTS - Texto: 'Google Photos storage is 90% of the reason I'm still on Android, and I wouldn't have any options but to move to iOS if Gemini plans are the only storage options by Google.', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-09 23:55:20] Archivo temporal creado: voice-message-2025-06-09-23-55-20.mp3
+[2025-06-09 23:55:21] === INICIANDO INTERRUPCIÓN INMEDIATA ===
+[2025-06-09 23:55:21] Archivo a interrumpir: voice-message-2025-06-09-23-55-20.mp3
+[2025-06-09 23:55:21] Verificando existencia del archivo... Intento 1 de 6
+[2025-06-09 23:55:21] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:55:24] Verificando existencia del archivo... Intento 2 de 6
+[2025-06-09 23:55:24] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:55:27] Verificando existencia del archivo... Intento 3 de 6
+[2025-06-09 23:55:27] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:55:30] Verificando existencia del archivo... Intento 4 de 6
+[2025-06-09 23:55:30] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:55:33] Verificando existencia del archivo... Intento 5 de 6
+[2025-06-09 23:55:33] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:55:36] Verificando existencia del archivo... Intento 6 de 6
+[2025-06-09 23:55:36] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-09 23:55:39] ERROR: El archivo no se encontró después de 6 intentos
+[2025-06-09 23:55:39] Proceso completado exitosamente - File ID: 1358
+[2025-06-09 23:55:54] Datos recibidos: {"action":"send_to_radio","filename":"voice-message-2025-06-09-23-55-20.mp3","message":"Google Photos storage is 90% of the reason I'm still on Android, and I wouldn't have any options but to move to iOS if Gemini plans are the only storage options by Google."}

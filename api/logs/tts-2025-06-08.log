@@ -1,0 +1,37 @@
+[2025-06-08 19:42:05] Error: Datos requeridos: text y voice
+[2025-06-08 19:42:09] Error: Datos requeridos: text y voice
+[2025-06-08 19:42:17] Error: Datos requeridos: text y voice
+[2025-06-08 19:49:32] Datos recibidos: {"action":"preview","text":"ext-to-Speech Radio\nSistema de Locutor Virtual para Radio Isla Negra","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-08 19:49:32] Iniciando TTS - Texto: 'ext-to-Speech Radio
+Sistema de Locutor Virtual para Radio Isla Negra', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-08 19:49:33] Archivo temporal creado: voice-message-2025-06-08-19-49-33.mp3
+[2025-06-08 19:49:33] Proceso completado exitosamente - File ID: 1334
+[2025-06-08 19:49:39] Datos recibidos: {"action":"send_to_radio","filename":"voice-message-2025-06-08-19-49-33.mp3","message":"ext-to-Speech Radio\nSistema de Locutor Virtual para Radio Isla Negra"}
+[2025-06-08 19:49:39] Error: Sistema simplificado: usa solo "preview" que ahora sube directamente a la playlist
+[2025-06-08 21:23:08] Datos recibidos: {"action":"preview","text":"Respiran a trav\u00e9s de sus pulmones y salen a la superficie a respirar.","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_flash_v2_5"}
+[2025-06-08 21:23:08] Iniciando TTS - Texto: 'Respiran a través de sus pulmones y salen a la superficie a respirar.', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-08 21:23:09] Archivo temporal creado: voice-message-2025-06-08-21-23-09.mp3
+[2025-06-08 21:23:10] Proceso completado exitosamente - File ID: 1335
+[2025-06-08 21:23:35] Datos recibidos: {"action":"preview","text":"test","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-08 21:23:35] Iniciando TTS - Texto: 'test', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-08 21:23:36] Archivo temporal creado: voice-message-2025-06-08-21-23-36.mp3
+[2025-06-08 21:23:36] Proceso completado exitosamente - File ID: 1336
+[2025-06-08 21:29:47] Datos recibidos: {"action":"preview","text":"t-to-Speech Radio\nSistema de Locutor","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-08 21:29:47] Iniciando TTS - Texto: 't-to-Speech Radio
+Sistema de Locutor', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-08 21:29:48] Archivo temporal creado: voice-message-2025-06-08-21-29-48.mp3
+[2025-06-08 21:29:49] Archivo subido a AzuraCast - File ID: 1337
+[2025-06-08 21:29:49] Proceso completado exitosamente - File ID: 1337
+[2025-06-08 21:29:59] Datos recibidos: {"action":"send_to_radio","filename":"voice-message-2025-06-08-21-29-48.mp3","message":"t-to-Speech Radio\nSistema de Locutor "}
+[2025-06-08 21:30:37] Datos recibidos: {"action":"preview","text":"Pueden encontrarse tortugas marinas en todos los oc\u00e9anos, mares y costas con aguas templadas, c\u00e1lidas y tropicales","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-08 21:30:37] Iniciando TTS - Texto: 'Pueden encontrarse tortugas marinas en todos los océanos, mares y costas con aguas templadas, cálidas y tropicales', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-08 21:30:38] Archivo temporal creado: voice-message-2025-06-08-21-30-38.mp3
+[2025-06-08 21:30:39] Archivo subido a AzuraCast - File ID: 1338
+[2025-06-08 21:30:39] Proceso completado exitosamente - File ID: 1338
+[2025-06-08 21:30:50] Datos recibidos: {"action":"send_to_radio","filename":"voice-message-2025-06-08-21-30-38.mp3","message":"Pueden encontrarse tortugas marinas en todos los oc\u00e9anos, mares y costas con aguas templadas, c\u00e1lidas y tropicales\n"}
+[2025-06-08 21:34:20] Datos recibidos: {"action":"preview","text":"Algunas son herb\u00edvoras y se alimentan de algas y pastos marinos, mientras que otras son omn\u00edvoras y consumen una amplia gama de alimentos, incluyendo medusas, peces, crust\u00e1ceos y esponjas de mar","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-08 21:34:20] Iniciando TTS - Texto: 'Algunas son herbívoras y se alimentan de algas y pastos marinos, mientras que otras son omnívoras y consumen una amplia gama de alimentos, incluyendo medusas, peces, crustáceos y esponjas de mar', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-08 21:34:23] Archivo temporal creado: voice-message-2025-06-08-21-34-23.mp3
+[2025-06-08 21:34:24] Archivo subido a AzuraCast - File ID: 1339
+[2025-06-08 21:34:24] Proceso completado exitosamente - File ID: 1339
+[2025-06-08 21:34:40] Datos recibidos: {"action":"send_to_radio","filename":"voice-message-2025-06-08-21-34-23.mp3","message":"Algunas son herb\u00edvoras y se alimentan de algas y pastos marinos, mientras que otras son omn\u00edvoras y consumen una amplia gama de alimentos, incluyendo medusas, peces, crust\u00e1ceos y esponjas de mar"}

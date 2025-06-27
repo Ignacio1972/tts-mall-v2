@@ -1,0 +1,318 @@
+[2025-06-10 18:12:13] Datos recibidos: {"action":"preview","text":"Copia el c\u00f3digo completo del artifact actualizado.","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_flash_v2_5"}
+[2025-06-10 18:12:13] Iniciando TTS - Texto: 'Copia el código completo del artifact actualizado.', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-10 18:12:14] Archivo temporal creado: tts20250610181214.mp3
+[2025-06-10 18:12:15] === INICIANDO INTERRUPCIÓN INMEDIATA ===
+[2025-06-10 18:12:15] Archivo a interrumpir: tts20250610181214.mp3
+[2025-06-10 18:12:15] Verificando existencia del archivo... Intento 1 de 6
+[2025-06-10 18:12:15] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-10 18:12:18] Verificando existencia del archivo... Intento 2 de 6
+[2025-06-10 18:12:18] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-10 18:12:21] Verificando existencia del archivo... Intento 3 de 6
+[2025-06-10 18:12:21] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-10 18:12:24] Verificando existencia del archivo... Intento 4 de 6
+[2025-06-10 18:12:24] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-10 18:12:27] Verificando existencia del archivo... Intento 5 de 6
+[2025-06-10 18:12:27] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-10 18:12:30] Verificando existencia del archivo... Intento 6 de 6
+[2025-06-10 18:12:30] Archivo aún no disponible, esperando 3 segundos...
+[2025-06-10 18:12:33] ERROR: El archivo no se encontró después de 6 intentos
+[2025-06-10 18:12:33] Proceso completado exitosamente - File ID: 1360
+[2025-06-10 18:12:40] Datos recibidos: {"action":"send_to_radio","filename":"tts20250610181214.mp3","message":"Copia el c\u00f3digo completo del artifact actualizado.\n"}
+[2025-06-10 18:21:52] Datos recibidos: {"action":"preview","text":"Hola Cata , buenos dias con alegria. El chuma te dijo algo de unos examenes que me quiero hacer?","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_flash_v2_5"}
+[2025-06-10 18:21:52] Iniciando TTS - Texto: 'Hola Cata , buenos dias con alegria. El chuma te dijo algo de unos examenes que me quiero hacer?', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-10 18:21:53] Archivo temporal creado: tts20250610182153.mp3
+[2025-06-10 18:21:53] Subiendo archivo a AzuraCast: Grabaciones/tts20250610182153.mp3
+[2025-06-10 18:21:53] === INICIANDO INTERRUPCIÓN INMEDIATA ===
+[2025-06-10 18:21:53] File ID: 1361, Filename: tts20250610182153.mp3
+[2025-06-10 18:21:53] Esperando 5 segundos para procesamiento de AzuraCast...
+[2025-06-10 18:21:58] URI del archivo: file:///var/azuracast/stations/test/media/Grabaciones/tts20250610182153.mp3
+[2025-06-10 18:21:58] Ejecutando comando: interrupting_requests.push file:///var/azuracast/stations/test/media/Grabaciones/tts20250610182153.mp3
+[2025-06-10 18:21:58] Respuesta: permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.49/containers/azuracast/json": dial unix /var/run/docker.sock: connect: permission denied
+[2025-06-10 18:21:58] No se pudo interrumpir. Respuesta: permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.49/containers/azuracast/json": dial unix /var/run/docker.sock: connect: permission denied
+[2025-06-10 18:21:58] Proceso completado exitosamente - File ID: 1361
+[2025-06-10 18:22:20] Datos recibidos: {"action":"send_to_radio","filename":"tts20250610182153.mp3","message":"Hola Cata , buenos dias con alegria. El chuma te dijo algo de unos examenes que me quiero hacer?"}
+[2025-06-10 18:24:51] Datos recibidos: {"action":"preview","text":"hoal, otra vez yo","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_flash_v2_5"}
+[2025-06-10 18:24:51] Iniciando TTS - Texto: 'hoal, otra vez yo', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-10 18:24:51] Archivo temporal creado: tts20250610182451.mp3
+[2025-06-10 18:24:51] Subiendo archivo a AzuraCast: Grabaciones/tts20250610182451.mp3
+[2025-06-10 18:24:52] === INICIANDO INTERRUPCIÓN INMEDIATA ===
+[2025-06-10 18:24:52] File ID: 1362, Filename: tts20250610182451.mp3
+[2025-06-10 18:24:52] Esperando 5 segundos para procesamiento de AzuraCast...
+[2025-06-10 18:24:57] URI del archivo: file:///var/azuracast/stations/test/media/Grabaciones/tts20250610182451.mp3
+[2025-06-10 18:24:57] Ejecutando comando: interrupting_requests.push file:///var/azuracast/stations/test/media/Grabaciones/tts20250610182451.mp3
+[2025-06-10 18:24:57] Respuesta: permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.49/containers/azuracast/json": dial unix /var/run/docker.sock: connect: permission denied
+[2025-06-10 18:24:57] No se pudo interrumpir. Respuesta: permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Get "http://%2Fvar%2Frun%2Fdocker.sock/v1.49/containers/azuracast/json": dial unix /var/run/docker.sock: connect: permission denied
+[2025-06-10 18:24:57] Proceso completado exitosamente - File ID: 1362
+[2025-06-10 18:25:01] Datos recibidos: {"action":"send_to_radio","filename":"tts20250610182451.mp3","message":"hoal, otra vez yo "}
+[2025-06-10 18:32:36] Datos recibidos: {"action":"preview","text":"lo mejor que me ha pasado en la semana. Estar sentado frente a ti en el quinoa","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_flash_v2_5"}
+[2025-06-10 18:32:36] Iniciando TTS - Texto: 'lo mejor que me ha pasado en la semana. Estar sentado frente a ti en el quinoa', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-10 18:32:37] Archivo temporal creado: tts20250610183237.mp3
+[2025-06-10 18:32:37] Subiendo archivo a AzuraCast: Grabaciones/tts20250610183237.mp3
+[2025-06-10 18:32:38] === INICIANDO INTERRUPCIÓN INMEDIATA ===
+[2025-06-10 18:32:38] File ID: 1363, Filename: tts20250610183237.mp3
+[2025-06-10 18:32:38] Esperando 5 segundos para procesamiento de AzuraCast...
+[2025-06-10 18:32:43] URI del archivo: file:///var/azuracast/stations/test/media/Grabaciones/tts20250610183237.mp3
+[2025-06-10 18:32:43] Ejecutando comando: interrupting_requests.push file:///var/azuracast/stations/test/media/Grabaciones/tts20250610183237.mp3
+[2025-06-10 18:32:43] Respuesta: 581
+END
+[2025-06-10 18:32:43] No se pudo interrumpir. Respuesta: 581
+END
+[2025-06-10 18:32:43] Proceso completado exitosamente - File ID: 1363
+[2025-06-10 18:33:14] Datos recibidos: {"action":"preview","text":"Que sensacion inolvidable. te amo ! Que tengas un super dia.","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-10 18:33:14] Iniciando TTS - Texto: 'Que sensacion inolvidable. te amo ! Que tengas un super dia.', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-10 18:33:15] Archivo temporal creado: tts20250610183315.mp3
+[2025-06-10 18:33:15] Subiendo archivo a AzuraCast: Grabaciones/tts20250610183315.mp3
+[2025-06-10 18:33:16] === INICIANDO INTERRUPCIÓN INMEDIATA ===
+[2025-06-10 18:33:16] File ID: 1364, Filename: tts20250610183315.mp3
+[2025-06-10 18:33:16] Esperando 5 segundos para procesamiento de AzuraCast...
+[2025-06-10 18:33:21] URI del archivo: file:///var/azuracast/stations/test/media/Grabaciones/tts20250610183315.mp3
+[2025-06-10 18:33:21] Ejecutando comando: interrupting_requests.push file:///var/azuracast/stations/test/media/Grabaciones/tts20250610183315.mp3
+[2025-06-10 18:33:21] Respuesta: 586
+END
+[2025-06-10 18:33:21] No se pudo interrumpir. Respuesta: 586
+END
+[2025-06-10 18:33:21] Proceso completado exitosamente - File ID: 1364
+[2025-06-10 18:38:41] Datos recibidos: {"action":"preview","text":"Programaci\u00f3n musical dividida por franjas horarias (ma\u00f1ana, tarde, noche, fines de semana),","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-10 18:38:41] Iniciando TTS - Texto: 'Programación musical dividida por franjas horarias (mañana, tarde, noche, fines de semana),', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-10 18:38:42] Archivo temporal creado: tts20250610183842.mp3
+[2025-06-10 18:38:42] Subiendo archivo a AzuraCast: Grabaciones/tts20250610183842.mp3
+[2025-06-10 18:38:43] === INICIANDO INTERRUPCIÓN INMEDIATA ===
+[2025-06-10 18:38:43] File ID: 1365, Filename: tts20250610183842.mp3
+[2025-06-10 18:38:43] Esperando 5 segundos para procesamiento de AzuraCast...
+[2025-06-10 18:38:48] URI del archivo: file:///var/azuracast/stations/test/media/Grabaciones/tts20250610183842.mp3
+[2025-06-10 18:38:48] Ejecutando comando: interrupting_requests.push file:///var/azuracast/stations/test/media/Grabaciones/tts20250610183842.mp3
+[2025-06-10 18:38:48] Respuesta: 595
+END
+[2025-06-10 18:38:48] No se pudo interrumpir. Respuesta: 595
+END
+[2025-06-10 18:38:48] Proceso completado exitosamente - File ID: 1365
+[2025-06-10 18:45:14] Datos recibidos: {"action":"preview","text":"Uso de una aplicaci\u00f3n remota y otra aplicacion local para: Reproducir, pausar o adelantar canciones.","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-10 18:45:14] Iniciando TTS - Texto: 'Uso de una aplicación remota y otra aplicacion local para: Reproducir, pausar o adelantar canciones.', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-10 18:45:15] Archivo temporal creado: tts20250610184515.mp3
+[2025-06-10 18:45:15] Subiendo archivo a AzuraCast: Grabaciones/tts20250610184515.mp3
+[2025-06-10 18:45:16] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-10 18:45:16] Proceso completado exitosamente - File ID: 1366
+[2025-06-10 18:46:18] Datos recibidos: {"action":"send_to_radio","filename":"tts20250610184515.mp3","message":"Uso de una aplicaci\u00f3n remota y otra aplicacion local para: Reproducir, pausar o adelantar canciones."}
+[2025-06-10 18:46:18] Acción send_to_radio - Interrumpiendo con archivo: tts20250610184515.mp3
+[2025-06-10 18:46:19] Interrupción ejecutada. Respuesta: 604
+END
+[2025-06-10 18:46:19] Posible problema con la interrupción: 604
+END
+[2025-06-10 18:54:33] Datos recibidos: {"action":"preview","text":"Al finalizar el per\u00edodo anual el contrato se dar\u00e1 por terminado con la opcion de reevaluar las condiciones en caso de continuidad.","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-10 18:54:33] Iniciando TTS - Texto: 'Al finalizar el período anual el contrato se dará por terminado con la opcion de reevaluar las condiciones en caso de continuidad.', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-10 18:54:35] Archivo temporal creado: tts20250610185435.mp3
+[2025-06-10 18:54:35] Subiendo archivo a AzuraCast: Grabaciones/tts20250610185435.mp3
+[2025-06-10 18:54:35] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-10 18:54:35] Proceso completado exitosamente - File ID: 1367
+[2025-06-10 18:54:50] Datos recibidos: {"action":"send_to_radio","filename":"tts20250610185435.mp3","message":"Al finalizar el per\u00edodo anual el contrato se dar\u00e1 por terminado con la opcion de reevaluar las condiciones en caso de continuidad."}
+[2025-06-10 18:54:50] Acción send_to_radio - Interrumpiendo con archivo: tts20250610185435.mp3
+[2025-06-10 18:54:50] Interrupción ejecutada. Respuesta: 611
+END
+[2025-06-10 18:54:50] Posible problema con la interrupción: 611
+END
+[2025-06-10 18:56:48] Datos recibidos: {"action":"preview","text":"Ambiente tranquilo, m\u00fasica que permita conversar. Canciones con pocas letras","voice_id":"EXAVITQu4vr4xnSDxMaL","model_id":"eleven_flash_v2_5"}
+[2025-06-10 18:56:48] Iniciando TTS - Texto: 'Ambiente tranquilo, música que permita conversar. Canciones con pocas letras', Voz: 'EXAVITQu4vr4xnSDxMaL'
+[2025-06-10 18:56:49] Archivo temporal creado: tts20250610185649.mp3
+[2025-06-10 18:56:49] Subiendo archivo a AzuraCast: Grabaciones/tts20250610185649.mp3
+[2025-06-10 18:56:49] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-10 18:56:49] Proceso completado exitosamente - File ID: 1368
+[2025-06-10 18:56:58] Datos recibidos: {"action":"send_to_radio","filename":"tts20250610185649.mp3","message":"Ambiente tranquilo, m\u00fasica que permita conversar. Canciones con pocas letras"}
+[2025-06-10 18:56:58] Acción send_to_radio - Interrumpiendo con archivo: tts20250610185649.mp3
+[2025-06-10 18:56:58] Interrupción ejecutada. Respuesta: 621
+END
+[2025-06-10 18:56:58] Posible problema con la interrupción: 621
+END
+[2025-06-10 19:54:46] Datos recibidos: {"action":"preview","text":"Sistema web que permite generar mensajes de voz usando ElevenLabs","voice_id":"EXAVITQu4vr4xnSDxMaL","model_id":"eleven_flash_v2_5"}
+[2025-06-10 19:54:46] Iniciando TTS - Texto: 'Sistema web que permite generar mensajes de voz usando ElevenLabs', Voz: 'EXAVITQu4vr4xnSDxMaL'
+[2025-06-10 19:54:47] Archivo temporal creado: tts20250610195447.mp3
+[2025-06-10 19:54:47] Subiendo archivo a AzuraCast: Grabaciones/tts20250610195447.mp3
+[2025-06-10 19:54:48] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-10 19:54:48] Proceso completado exitosamente - File ID: 1369
+[2025-06-10 19:54:55] Datos recibidos: {"action":"send_to_radio","filename":"tts20250610195447.mp3","message":"Sistema web que permite generar mensajes de voz usando ElevenLabs"}
+[2025-06-10 19:54:55] Acción send_to_radio - Interrumpiendo con archivo: tts20250610195447.mp3
+[2025-06-10 19:54:55] Interrupción ejecutada. Respuesta: 18
+END
+[2025-06-10 19:54:55] Posible problema con la interrupción: 18
+END
+[2025-06-10 19:57:33] Datos recibidos: {"action":"preview","text":"Por otra parte, el conocido cantante Tricky hizo las voces de la cancion Karmacoma.","voice_id":"EXAVITQu4vr4xnSDxMaL","model_id":"eleven_flash_v2_5"}
+[2025-06-10 19:57:33] Iniciando TTS - Texto: 'Por otra parte, el conocido cantante Tricky hizo las voces de la cancion Karmacoma.', Voz: 'EXAVITQu4vr4xnSDxMaL'
+[2025-06-10 19:57:34] Archivo temporal creado: tts20250610195734.mp3
+[2025-06-10 19:57:34] Subiendo archivo a AzuraCast: Grabaciones/tts20250610195734.mp3
+[2025-06-10 19:57:35] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-10 19:57:35] Proceso completado exitosamente - File ID: 1370
+[2025-06-10 19:57:36] Datos recibidos: {"action":"send_to_radio","filename":"tts20250610195734.mp3","message":"Por otra parte, el conocido cantante Tricky hizo las voces de la cancion Karmacoma. "}
+[2025-06-10 19:57:36] Acción send_to_radio - Interrumpiendo con archivo: tts20250610195734.mp3
+[2025-06-10 19:57:36] Interrupción ejecutada. Respuesta: 20
+END
+[2025-06-10 19:57:36] Posible problema con la interrupción: 20
+END
+[2025-06-10 23:24:07] Datos recibidos: {"action":"preview","text":"Sistema de Locutor Virtual para Radio Isla Negra. Muy bien, vayan al pasillo 9","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-10 23:24:07] Iniciando TTS - Texto: 'Sistema de Locutor Virtual para Radio Isla Negra. Muy bien, vayan al pasillo 9', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-10 23:24:09] Archivo temporal creado: tts20250610232409.mp3
+[2025-06-10 23:24:09] Silencio agregado exitosamente al audio
+[2025-06-10 23:24:09] Subiendo archivo a AzuraCast: Grabaciones/tts20250610232409.mp3
+[2025-06-10 23:24:10] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-10 23:24:10] Proceso completado exitosamente - File ID: 1371
+[2025-06-10 23:24:37] Datos recibidos: {"action":"preview","text":"Sistema de Locutor Virtual para Radio Isla Negra","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-10 23:24:37] Iniciando TTS - Texto: 'Sistema de Locutor Virtual para Radio Isla Negra', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-10 23:24:38] Archivo temporal creado: tts20250610232438.mp3
+[2025-06-10 23:24:38] Silencio agregado exitosamente al audio
+[2025-06-10 23:24:38] Subiendo archivo a AzuraCast: Grabaciones/tts20250610232438.mp3
+[2025-06-10 23:24:39] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-10 23:24:39] Proceso completado exitosamente - File ID: 1372
+[2025-06-10 23:24:57] Datos recibidos: {"action":"send_to_radio","filename":"tts20250610232438.mp3","message":"Sistema de Locutor Virtual para Radio Isla Negra\n\n"}
+[2025-06-10 23:24:57] Acción send_to_radio - Interrumpiendo con archivo: tts20250610232438.mp3
+[2025-06-10 23:24:57] Interrupción ejecutada. Respuesta: 105
+END
+[2025-06-10 23:24:57] Posible problema con la interrupción: 105
+END
+[2025-06-10 23:25:38] Datos recibidos: {"action":"preview","text":"Hola Cata , buenos dias con alegria. El chuma te dijo algo de unos examenes que me quiero hacer?","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-10 23:25:38] Iniciando TTS - Texto: 'Hola Cata , buenos dias con alegria. El chuma te dijo algo de unos examenes que me quiero hacer?', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-10 23:25:39] Archivo temporal creado: tts20250610232539.mp3
+[2025-06-10 23:25:40] Silencio agregado exitosamente al audio
+[2025-06-10 23:25:40] Subiendo archivo a AzuraCast: Grabaciones/tts20250610232540.mp3
+[2025-06-10 23:25:40] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-10 23:25:40] Proceso completado exitosamente - File ID: 1373
+[2025-06-10 23:25:54] Datos recibidos: {"action":"send_to_radio","filename":"tts20250610232539.mp3","message":"Hola Cata , buenos dias con alegria. El chuma te dijo algo de unos examenes que me quiero hacer?"}
+[2025-06-10 23:25:54] Acción send_to_radio - Interrumpiendo con archivo: tts20250610232539.mp3
+[2025-06-10 23:25:55] Interrupción ejecutada. Respuesta: 107
+END
+[2025-06-10 23:25:55] Posible problema con la interrupción: 107
+END
+[2025-06-10 23:26:16] Datos recibidos: {"action":"preview","text":"Hola Cata , buenos dias con alegria. El chuma te dijo algo de unos examenes que me quiero hacer? Muy bien pensado","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-10 23:26:16] Iniciando TTS - Texto: 'Hola Cata , buenos dias con alegria. El chuma te dijo algo de unos examenes que me quiero hacer? Muy bien pensado', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-10 23:26:17] Archivo temporal creado: tts20250610232617.mp3
+[2025-06-10 23:26:17] Silencio agregado exitosamente al audio
+[2025-06-10 23:26:17] Subiendo archivo a AzuraCast: Grabaciones/tts20250610232617.mp3
+[2025-06-10 23:26:18] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-10 23:26:18] Proceso completado exitosamente - File ID: 1374
+[2025-06-10 23:26:27] Datos recibidos: {"action":"send_to_radio","filename":"tts20250610232617.mp3","message":"Hola Cata , buenos dias con alegria. El chuma te dijo algo de unos examenes que me quiero hacer? Muy bien pensado"}
+[2025-06-10 23:26:27] Acción send_to_radio - Interrumpiendo con archivo: tts20250610232617.mp3
+[2025-06-10 23:26:27] Interrupción ejecutada. Respuesta: 108
+END
+[2025-06-10 23:26:27] Posible problema con la interrupción: 108
+END
+[2025-06-10 23:27:09] Datos recibidos: {"action":"preview","text":"Hola Cata , buenos dias con alegria. El chuma te dijo algo de unos examenes que me quiero hacer?","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-10 23:27:09] Iniciando TTS - Texto: 'Hola Cata , buenos dias con alegria. El chuma te dijo algo de unos examenes que me quiero hacer?', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-10 23:27:10] Archivo temporal creado: tts20250610232710.mp3
+[2025-06-10 23:27:10] Silencio agregado exitosamente al audio
+[2025-06-10 23:27:10] Subiendo archivo a AzuraCast: Grabaciones/tts20250610232710.mp3
+[2025-06-10 23:27:10] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-10 23:27:10] Proceso completado exitosamente - File ID: 1375
+[2025-06-10 23:30:47] Datos recibidos: {"action":"preview","text":"Hola Cata , buenos dias con alegria. El chuma te dijo algo de unos examenes que me quiero hacer?","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-10 23:30:47] Iniciando TTS - Texto: 'Hola Cata , buenos dias con alegria. El chuma te dijo algo de unos examenes que me quiero hacer?', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-10 23:30:48] Archivo temporal creado: tts20250610233048.mp3
+[2025-06-10 23:30:49] Silencio agregado exitosamente al audio
+[2025-06-10 23:30:49] Subiendo archivo a AzuraCast: Grabaciones/tts20250610233049.mp3
+[2025-06-10 23:30:49] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-10 23:30:49] Proceso completado exitosamente - File ID: 1376
+[2025-06-10 23:39:02] Datos recibidos: {"action":"preview","text":"Programaci\u00f3n musical dividida por franjas horarias (ma\u00f1ana, tarde, noche, fines de semana), adaptada al perfil del p\u00fablico y al tipo de local.","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_flash_v2_5"}
+[2025-06-10 23:39:02] Iniciando TTS - Texto: 'Programación musical dividida por franjas horarias (mañana, tarde, noche, fines de semana), adaptada al perfil del público y al tipo de local.', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-10 23:39:04] Archivo temporal creado: tts20250610233904.mp3
+[2025-06-10 23:39:04] Silencio agregado exitosamente al audio
+[2025-06-10 23:39:04] Subiendo archivo a AzuraCast: Grabaciones/tts20250610233904.mp3
+[2025-06-10 23:39:05] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-10 23:39:05] Proceso completado exitosamente - File ID: 1377
+[2025-06-10 23:39:40] Datos recibidos: {"action":"preview","text":"alo, como estas?","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-10 23:39:40] Iniciando TTS - Texto: 'alo, como estas?', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-10 23:39:41] Archivo temporal creado: tts20250610233941.mp3
+[2025-06-10 23:39:41] Silencio agregado exitosamente al audio
+[2025-06-10 23:39:41] Subiendo archivo a AzuraCast: Grabaciones/tts20250610233941.mp3
+[2025-06-10 23:39:41] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-10 23:39:41] Proceso completado exitosamente - File ID: 1378
+[2025-06-10 23:52:03] Datos recibidos: {"action":"preview","text":"hola probemos esta chet","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-10 23:52:03] Iniciando TTS - Texto: 'hola probemos esta chet', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-10 23:52:04] Archivo temporal creado: tts20250610235204.mp3
+[2025-06-10 23:52:04] Error concatenando archivos: ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+Input #0, concat, from '/var/www/tts-radio/api/temp/concat_6848c5249fd0d.txt':
+  Duration: N/A, start: -0.025057, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+    Metadata:
+      encoder         : Lavc58.13
+[NULL @ 0x5638bd42cb00] Unable to find a suitable output format for '/var/www/tts-radio/api/temp/final_tts20250610235204.mp3.copy'
+/var/www/tts-radio/api/temp/final_tts20250610235204.mp3.copy: Invalid argument
+
+[2025-06-10 23:52:04] No se pudo agregar silencio, usando copia sin silencio
+[2025-06-10 23:52:04] Subiendo archivo a AzuraCast: Grabaciones/tts20250610235204.mp3
+[2025-06-10 23:52:05] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-10 23:52:05] Proceso completado exitosamente - File ID: 1379
+[2025-06-10 23:52:15] Datos recibidos: {"action":"send_to_radio","filename":"tts20250610235204.mp3","message":"hola probemos esta chet"}
+[2025-06-10 23:52:15] Acción send_to_radio - Interrumpiendo con archivo: tts20250610235204.mp3
+[2025-06-10 23:52:16] Interrupción ejecutada. Respuesta: 124
+END
+[2025-06-10 23:52:16] Posible problema con la interrupción: 124
+END
+[2025-06-10 23:52:41] Datos recibidos: {"action":"preview","text":"Uso de una aplicaci\u00f3n remota y otra aplicacion local para: Reproduci","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-10 23:52:41] Iniciando TTS - Texto: 'Uso de una aplicación remota y otra aplicacion local para: Reproduci', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-10 23:52:42] Archivo temporal creado: tts20250610235242.mp3
+[2025-06-10 23:52:43] Error concatenando archivos: ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+Input #0, concat, from '/var/www/tts-radio/api/temp/concat_6848c54b16d5c.txt':
+  Duration: N/A, start: -0.025057, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+    Metadata:
+      encoder         : Lavc58.13
+[NULL @ 0x55d3ba77db00] Unable to find a suitable output format for '/var/www/tts-radio/api/temp/final_tts20250610235242.mp3.copy'
+/var/www/tts-radio/api/temp/final_tts20250610235242.mp3.copy: Invalid argument
+
+[2025-06-10 23:52:43] No se pudo agregar silencio, usando copia sin silencio
+[2025-06-10 23:52:43] Subiendo archivo a AzuraCast: Grabaciones/tts20250610235243.mp3
+[2025-06-10 23:52:43] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-10 23:52:43] Proceso completado exitosamente - File ID: 1380
+[2025-06-10 23:53:02] Datos recibidos: {"action":"send_to_radio","filename":"tts20250610235242.mp3","message":"Uso de una aplicaci\u00f3n remota y otra aplicacion local para: Reproduci"}
+[2025-06-10 23:53:02] Acción send_to_radio - Interrumpiendo con archivo: tts20250610235242.mp3
+[2025-06-10 23:53:02] Interrupción ejecutada. Respuesta: 128
+END
+[2025-06-10 23:53:02] Posible problema con la interrupción: 128
+END
+[2025-06-10 23:53:35] Datos recibidos: {"action":"preview","text":"Si el Cliente opta por prepagar el total anual, se aplica un 15% de descuento sobre el monto total. -","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-10 23:53:35] Iniciando TTS - Texto: 'Si el Cliente opta por prepagar el total anual, se aplica un 15% de descuento sobre el monto total. -', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-10 23:53:36] Archivo temporal creado: tts20250610235336.mp3
+[2025-06-10 23:53:36] Error concatenando archivos: ffmpeg version 4.4.2-0ubuntu0.22.04.1 Copyright (c) 2000-2021 the FFmpeg developers
+  built with gcc 11 (Ubuntu 11.2.0-19ubuntu1)
+  configuration: --prefix=/usr --extra-version=0ubuntu0.22.04.1 --toolchain=hardened --libdir=/usr/lib/x86_64-linux-gnu --incdir=/usr/include/x86_64-linux-gnu --arch=amd64 --enable-gpl --disable-stripping --enable-gnutls --enable-ladspa --enable-libaom --enable-libass --enable-libbluray --enable-libbs2b --enable-libcaca --enable-libcdio --enable-libcodec2 --enable-libdav1d --enable-libflite --enable-libfontconfig --enable-libfreetype --enable-libfribidi --enable-libgme --enable-libgsm --enable-libjack --enable-libmp3lame --enable-libmysofa --enable-libopenjpeg --enable-libopenmpt --enable-libopus --enable-libpulse --enable-librabbitmq --enable-librubberband --enable-libshine --enable-libsnappy --enable-libsoxr --enable-libspeex --enable-libsrt --enable-libssh --enable-libtheora --enable-libtwolame --enable-libvidstab --enable-libvorbis --enable-libvpx --enable-libwebp --enable-libx265 --enable-libxml2 --enable-libxvid --enable-libzimg --enable-libzmq --enable-libzvbi --enable-lv2 --enable-omx --enable-openal --enable-opencl --enable-opengl --enable-sdl2 --enable-pocketsphinx --enable-librsvg --enable-libmfx --enable-libdc1394 --enable-libdrm --enable-libiec61883 --enable-chromaprint --enable-frei0r --enable-libx264 --enable-shared
+  libavutil      56. 70.100 / 56. 70.100
+  libavcodec     58.134.100 / 58.134.100
+  libavformat    58. 76.100 / 58. 76.100
+  libavdevice    58. 13.100 / 58. 13.100
+  libavfilter     7.110.100 /  7.110.100
+  libswscale      5.  9.100 /  5.  9.100
+  libswresample   3.  9.100 /  3.  9.100
+  libpostproc    55.  9.100 / 55.  9.100
+Input #0, concat, from '/var/www/tts-radio/api/temp/concat_6848c580a8f35.txt':
+  Duration: N/A, start: -0.025057, bitrate: 192 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 192 kb/s
+    Metadata:
+      encoder         : Lavc58.13
+[NULL @ 0x562f8b02eb00] Unable to find a suitable output format for '/var/www/tts-radio/api/temp/final_tts20250610235336.mp3.copy'
+/var/www/tts-radio/api/temp/final_tts20250610235336.mp3.copy: Invalid argument
+
+[2025-06-10 23:53:36] No se pudo agregar silencio, usando copia sin silencio
+[2025-06-10 23:53:36] Subiendo archivo a AzuraCast: Grabaciones/tts20250610235336.mp3
+[2025-06-10 23:53:37] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-10 23:53:37] Proceso completado exitosamente - File ID: 1381
+[2025-06-10 23:53:47] Datos recibidos: {"action":"send_to_radio","filename":"tts20250610235336.mp3","message":"Si el Cliente opta por prepagar el total anual, se aplica un 15% de descuento sobre el monto total. -\n"}
+[2025-06-10 23:53:47] Acción send_to_radio - Interrumpiendo con archivo: tts20250610235336.mp3
+[2025-06-10 23:53:47] Interrupción ejecutada. Respuesta: 129
+END
+[2025-06-10 23:53:47] Posible problema con la interrupción: 129
+END

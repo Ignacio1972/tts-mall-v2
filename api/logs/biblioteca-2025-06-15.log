@@ -1,0 +1,82 @@
+[2025-06-15 19:43:09] Listando archivos de biblioteca
+[2025-06-15 19:43:09] Error: Directorio de grabaciones no encontrado
+[2025-06-15 19:43:18] Listando archivos de biblioteca
+[2025-06-15 19:43:18] Error: Directorio de grabaciones no encontrado
+[2025-06-15 19:43:24] Listando archivos de biblioteca
+[2025-06-15 19:43:24] Error: Directorio de grabaciones no encontrado
+[2025-06-15 19:51:37] Listando archivos de biblioteca desde Docker
+[2025-06-15 19:51:51] Listando archivos de biblioteca desde Docker
+[2025-06-15 19:52:43] Listando archivos de biblioteca desde Docker
+[2025-06-15 19:52:53] Listando archivos de biblioteca desde Docker
+[2025-06-15 19:54:11] Listando archivos de biblioteca desde Docker
+[2025-06-15 19:56:35] Encontrados 150 archivos en biblioteca
+[2025-06-15 19:56:35] Listando archivos de biblioteca desde Docker
+[2025-06-15 19:57:44] Encontrados 150 archivos en biblioteca
+[2025-06-15 19:59:27] Encontrados 151 archivos en biblioteca
+[2025-06-15 19:59:41] Encontrados 151 archivos en biblioteca
+[2025-06-15 20:00:18] Encontrados 152 archivos en biblioteca
+[2025-06-15 20:00:43] Encontrados 152 archivos en biblioteca
+[2025-06-15 20:03:20] Listando archivos de biblioteca - Versión optimizada
+[2025-06-15 20:03:20] Procesando 152 archivos
+[2025-06-15 20:03:20] Retornando 50 archivos
+[2025-06-15 20:04:18] Enviando archivo de biblioteca a radio: tts20250615195210.mp3
+[2025-06-15 20:04:18] Interrumpiendo radio con archivo: tts20250615195210.mp3
+[2025-06-15 20:04:18] Interrupción ejecutada. Respuesta: 1471
+END
+[2025-06-15 20:04:18] ¡Interrupción exitosa! RID: 1471
+[2025-06-15 20:04:18] Archivo de biblioteca enviado exitosamente: tts20250615195210.mp3
+[2025-06-15 20:04:45] Eliminando archivo: tts20250613133632.mp3
+[2025-06-15 20:04:46] Archivo eliminado exitosamente: tts20250613133632.mp3
+[2025-06-15 20:04:48] Eliminando archivo: tts20250613143858.mp3
+[2025-06-15 20:04:49] Archivo eliminado exitosamente: tts20250613143858.mp3
+[2025-06-15 20:04:52] Eliminando archivo: tts20250613133644.mp3
+[2025-06-15 20:04:52] Archivo eliminado exitosamente: tts20250613133644.mp3
+[2025-06-15 20:11:28] Enviando archivo de biblioteca a radio: tts20250613184148.mp3
+[2025-06-15 20:11:28] Interrumpiendo radio con archivo: tts20250613184148.mp3
+[2025-06-15 20:11:28] Interrupción ejecutada. Respuesta: 1477
+END
+[2025-06-15 20:11:28] ¡Interrupción exitosa! RID: 1477
+[2025-06-15 20:11:28] Archivo de biblioteca enviado exitosamente: tts20250613184148.mp3
+[2025-06-15 20:33:35] Listando archivos de biblioteca - Versión optimizada
+[2025-06-15 20:33:36] Procesando 149 archivos
+[2025-06-15 20:33:36] Retornando 50 archivos
+[2025-06-15 20:34:17] Eliminando archivo: tts20250613184148.mp3
+[2025-06-15 20:34:17] Archivo eliminado exitosamente: tts20250613184148.mp3
+[2025-06-15 20:35:07] Eliminando archivo: tts20250613153241.mp3
+[2025-06-15 20:35:07] Archivo eliminado exitosamente: tts20250613153241.mp3
+[2025-06-15 20:35:10] Eliminando archivo: tts20250613153316.mp3
+[2025-06-15 20:35:10] Archivo eliminado exitosamente: tts20250613153316.mp3
+[2025-06-15 20:35:12] Eliminando archivo: tts20250613153631.mp3
+[2025-06-15 20:35:12] Archivo eliminado exitosamente: tts20250613153631.mp3
+[2025-06-15 20:35:15] Eliminando archivo: tts20250613184002.mp3
+[2025-06-15 20:35:15] Archivo eliminado exitosamente: tts20250613184002.mp3
+[2025-06-15 20:35:20] Eliminando archivo: tts20250615195210.mp3
+[2025-06-15 20:35:20] Archivo eliminado exitosamente: tts20250615195210.mp3
+[2025-06-15 20:35:23] Eliminando archivo: tts20250615175550.mp3
+[2025-06-15 20:35:23] Archivo eliminado exitosamente: tts20250615175550.mp3
+[2025-06-15 20:35:26] Eliminando archivo: tts20250615180054.mp3
+[2025-06-15 20:35:26] Archivo eliminado exitosamente: tts20250615180054.mp3
+[2025-06-15 20:35:32] Eliminando archivo: tts20250615164950.mp3
+[2025-06-15 20:35:33] Archivo eliminado exitosamente: tts20250615164950.mp3
+[2025-06-15 20:35:36] Eliminando archivo: tts20250615195312.mp3
+[2025-06-15 20:35:36] Archivo eliminado exitosamente: tts20250615195312.mp3
+[2025-06-15 20:40:29] Listando archivos de biblioteca - Versión optimizada
+[2025-06-15 20:40:29] Procesando 140 archivos
+[2025-06-15 20:40:29] Retornando 50 archivos
+[2025-06-15 20:46:33] Listando archivos de biblioteca - Versión optimizada
+[2025-06-15 20:46:34] Procesando 8 archivos
+[2025-06-15 20:46:34] Retornando 8 archivos
+[2025-06-15 20:51:25] Listando archivos de biblioteca - Versión optimizada
+[2025-06-15 20:51:25] Procesando 8 archivos
+[2025-06-15 20:51:25] Retornando 8 archivos
+[2025-06-15 21:23:03] Listando archivos de biblioteca - Versión optimizada
+[2025-06-15 21:23:03] Procesando 8 archivos
+[2025-06-15 21:23:03] Retornando 8 archivos
+[2025-06-15 21:23:46] Eliminando archivo: tts20250615194244.mp3
+[2025-06-15 21:23:47] Archivo eliminado exitosamente: tts20250615194244.mp3
+[2025-06-15 21:28:19] Listando archivos de biblioteca - Versión optimizada
+[2025-06-15 21:28:19] Procesando 7 archivos
+[2025-06-15 21:28:19] Retornando 7 archivos
+[2025-06-15 23:57:27] Listando archivos de biblioteca - Versión optimizada
+[2025-06-15 23:57:28] Procesando 7 archivos
+[2025-06-15 23:57:28] Retornando 7 archivos

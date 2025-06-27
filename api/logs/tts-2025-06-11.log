@@ -1,0 +1,597 @@
+[2025-06-11 00:02:08] Datos recibidos: {"action":"preview","text":"Al finalizar el per\u00edodo anual el contrato se dar\u00e1 por terminado con la opcion de reevaluar las","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-11 00:02:08] Iniciando TTS - Texto: 'Al finalizar el período anual el contrato se dará por terminado con la opcion de reevaluar las', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-11 00:02:09] Archivo temporal creado: tts20250611000209.mp3
+[2025-06-11 00:02:09] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/tts20250611000209.mp3.copy
+[2025-06-11 00:02:09] Ejecutando comando ffmpeg...
+[2025-06-11 00:02:09] ERROR: No se creó el archivo con silencio
+[2025-06-11 00:02:09] Output ffmpeg: bitrate, this may be inaccurate
+Input #0, mp3, from '/var/www/tts-radio/api/temp/tts20250611000209.mp3.copy':
+  Metadata:
+    encoder         : Lavf59.27.100
+  Duration: 00:00:05.25, start: 0.000000, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, mono, fltp, 128 kb/s
+[NULL @ 0x55ce3c7523c0] Unable to find a suitable output format for '/var/www/tts-radio/api/temp/tts20250611000209_with_silence.mp3.copy'
+/var/www/tts-radio/api/temp/tts20250611000209_with_silence.mp3.copy: Invalid argument
+
+[2025-06-11 00:02:09] No se pudo agregar silencio, usando copia sin silencio
+[2025-06-11 00:02:09] Subiendo archivo a AzuraCast: Grabaciones/tts20250611000209.mp3
+[2025-06-11 00:02:10] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-11 00:02:10] Proceso completado exitosamente - File ID: 1382
+[2025-06-11 00:02:30] Datos recibidos: {"action":"send_to_radio","filename":"tts20250611000209.mp3","message":"Al finalizar el per\u00edodo anual el contrato se dar\u00e1 por terminado con la opcion de reevaluar las"}
+[2025-06-11 00:02:30] Acción send_to_radio - Interrumpiendo con archivo: tts20250611000209.mp3
+[2025-06-11 00:02:30] Interrupción ejecutada. Respuesta: 137
+END
+[2025-06-11 00:02:30] Posible problema con la interrupción: 137
+END
+[2025-06-11 00:04:29] Datos recibidos: {"action":"preview","text":"Al finalizar el per\u00edodo anual el contrato se dar\u00e1 por terminado con la opcion de reevaluar las","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-11 00:04:29] Iniciando TTS - Texto: 'Al finalizar el período anual el contrato se dará por terminado con la opcion de reevaluar las', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-11 00:04:30] Archivo temporal creado: tts20250611000430.mp3
+[2025-06-11 00:04:30] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/tts20250611000430.mp3.copy
+[2025-06-11 00:04:30] Ejecutando comando ffmpeg...
+[2025-06-11 00:04:30] ERROR: No se creó el archivo con silencio
+[2025-06-11 00:04:30] Output ffmpeg: bitrate, this may be inaccurate
+Input #0, mp3, from '/var/www/tts-radio/api/temp/tts20250611000430.mp3.copy':
+  Metadata:
+    encoder         : Lavf59.27.100
+  Duration: 00:00:05.28, start: 0.000000, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, mono, fltp, 128 kb/s
+[NULL @ 0x5604772d53c0] Unable to find a suitable output format for '/var/www/tts-radio/api/temp/tts20250611000430_with_silence.mp3.copy'
+/var/www/tts-radio/api/temp/tts20250611000430_with_silence.mp3.copy: Invalid argument
+
+[2025-06-11 00:04:30] No se pudo agregar silencio, usando copia sin silencio
+[2025-06-11 00:04:30] Subiendo archivo a AzuraCast: Grabaciones/tts20250611000430.mp3
+[2025-06-11 00:04:31] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-11 00:04:31] Proceso completado exitosamente - File ID: 1383
+[2025-06-11 00:04:40] Datos recibidos: {"action":"send_to_radio","filename":"tts20250611000430.mp3","message":"Al finalizar el per\u00edodo anual el contrato se dar\u00e1 por terminado con la opcion de reevaluar las"}
+[2025-06-11 00:04:40] Acción send_to_radio - Interrumpiendo con archivo: tts20250611000430.mp3
+[2025-06-11 00:04:40] Interrupción ejecutada. Respuesta: 139
+END
+[2025-06-11 00:04:40] Posible problema con la interrupción: 139
+END
+[2025-06-11 00:05:46] Datos recibidos: {"action":"preview","text":"Los pagos se deben realizar al inicio de cada mes, con un plazo m\u00e1ximo de 5 d\u00edas h\u00e1biles.","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-11 00:05:46] Iniciando TTS - Texto: 'Los pagos se deben realizar al inicio de cada mes, con un plazo máximo de 5 días hábiles.', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-11 00:05:47] Archivo temporal creado: tts20250611000547.mp3
+[2025-06-11 00:05:47] Silencio agregado exitosamente al audio
+[2025-06-11 00:05:47] Subiendo archivo a AzuraCast: Grabaciones/tts20250611000547.mp3
+[2025-06-11 00:05:48] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-11 00:05:48] Proceso completado exitosamente - File ID: 1384
+[2025-06-11 00:05:56] Datos recibidos: {"action":"send_to_radio","filename":"tts20250611000547.mp3","message":"Los pagos se deben realizar al inicio de cada mes, con un plazo m\u00e1ximo de 5 d\u00edas h\u00e1biles.\n"}
+[2025-06-11 00:05:56] Acción send_to_radio - Interrumpiendo con archivo: tts20250611000547.mp3
+[2025-06-11 00:05:57] Interrupción ejecutada. Respuesta: 141
+END
+[2025-06-11 00:05:57] Posible problema con la interrupción: 141
+END
+[2025-06-11 00:06:44] Datos recibidos: {"action":"preview","text":"Les recordamos que tenemos todos los narticulos de psicina en descuento. mas de 15% de descuento en los productos del mes.","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-11 00:06:44] Iniciando TTS - Texto: 'Les recordamos que tenemos todos los narticulos de psicina en descuento. mas de 15% de descuento en los productos del mes.', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-11 00:06:45] Archivo temporal creado: tts20250611000645.mp3
+[2025-06-11 00:06:46] Silencio agregado exitosamente al audio
+[2025-06-11 00:06:46] Subiendo archivo a AzuraCast: Grabaciones/tts20250611000646.mp3
+[2025-06-11 00:06:46] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-11 00:06:46] Proceso completado exitosamente - File ID: 1385
+[2025-06-11 00:06:50] Datos recibidos: {"action":"send_to_radio","filename":"tts20250611000645.mp3","message":"Les recordamos que tenemos todos los narticulos de psicina en descuento. mas de 15% de descuento en los productos del mes."}
+[2025-06-11 00:06:50] Acción send_to_radio - Interrumpiendo con archivo: tts20250611000645.mp3
+[2025-06-11 00:06:50] Interrupción ejecutada. Respuesta: 143
+END
+[2025-06-11 00:06:50] Posible problema con la interrupción: 143
+END
+[2025-06-11 00:07:21] Datos recibidos: {"action":"preview","text":"No se olviden que hay muchos descuentos en la seccion botes inflables.","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-11 00:07:21] Iniciando TTS - Texto: 'No se olviden que hay muchos descuentos en la seccion botes inflables.', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-11 00:07:22] Archivo temporal creado: tts20250611000722.mp3
+[2025-06-11 00:07:22] Silencio agregado exitosamente al audio
+[2025-06-11 00:07:22] Subiendo archivo a AzuraCast: Grabaciones/tts20250611000722.mp3
+[2025-06-11 00:07:23] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-11 00:07:23] Proceso completado exitosamente - File ID: 1386
+[2025-06-11 00:07:34] Datos recibidos: {"action":"send_to_radio","filename":"tts20250611000722.mp3","message":"No se olviden que hay muchos descuentos en la seccion botes inflables."}
+[2025-06-11 00:07:34] Acción send_to_radio - Interrumpiendo con archivo: tts20250611000722.mp3
+[2025-06-11 00:07:34] Interrupción ejecutada. Respuesta: 144
+END
+[2025-06-11 00:07:34] Posible problema con la interrupción: 144
+END
+[2025-06-11 00:08:21] Datos recibidos: {"action":"preview","text":"Hola gracias por preferir jumbos. estamos pensando en usted. recuerde que hoy tenemos un 15% de descuentos en los botes inflablrs","voice_id":"MF3mGyEYCl7XYWbV9V6O","model_id":"eleven_multilingual_v2"}
+[2025-06-11 00:08:21] Iniciando TTS - Texto: 'Hola gracias por preferir jumbos. estamos pensando en usted. recuerde que hoy tenemos un 15% de descuentos en los botes inflablrs', Voz: 'MF3mGyEYCl7XYWbV9V6O'
+[2025-06-11 00:08:23] Archivo temporal creado: tts20250611000823.mp3
+[2025-06-11 00:08:23] Silencio agregado exitosamente al audio
+[2025-06-11 00:08:23] Subiendo archivo a AzuraCast: Grabaciones/tts20250611000823.mp3
+[2025-06-11 00:08:24] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-11 00:08:24] Proceso completado exitosamente - File ID: 1387
+[2025-06-11 00:08:30] Datos recibidos: {"action":"send_to_radio","filename":"tts20250611000823.mp3","message":"Hola gracias por preferir jumbos. estamos pensando en usted. recuerde que hoy tenemos un 15% de descuentos en los botes inflablrs"}
+[2025-06-11 00:08:30] Acción send_to_radio - Interrumpiendo con archivo: tts20250611000823.mp3
+[2025-06-11 00:08:30] Interrupción ejecutada. Respuesta: 146
+END
+[2025-06-11 00:08:30] Posible problema con la interrupción: 146
+END
+[2025-06-11 00:13:56] Datos recibidos: {"action":"preview","text":"Al finalizar el per\u00edodo anual el contrato se dar\u00e1 por terminado con la opcion","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-11 00:13:56] Iniciando TTS - Texto: 'Al finalizar el período anual el contrato se dará por terminado con la opcion', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-11 00:13:57] Archivo temporal creado: tts20250611001357.mp3
+[2025-06-11 00:13:57] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/tts20250611001357.mp3.copy
+[2025-06-11 00:13:57] Ejecutando comando ffmpeg...
+[2025-06-11 00:13:57] ERROR: No se creó el archivo con silencio
+[2025-06-11 00:13:57] Output ffmpeg: bitrate, this may be inaccurate
+Input #0, mp3, from '/var/www/tts-radio/api/temp/tts20250611001357.mp3.copy':
+  Metadata:
+    encoder         : Lavf59.27.100
+  Duration: 00:00:04.26, start: 0.000000, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, mono, fltp, 128 kb/s
+[NULL @ 0x55e40b96b3c0] Unable to find a suitable output format for '/var/www/tts-radio/api/temp/tts20250611001357_with_silence.mp3.copy'
+/var/www/tts-radio/api/temp/tts20250611001357_with_silence.mp3.copy: Invalid argument
+
+[2025-06-11 00:13:57] No se pudo agregar silencio, usando copia sin silencio
+[2025-06-11 00:13:57] Subiendo archivo a AzuraCast: Grabaciones/tts20250611001357.mp3
+[2025-06-11 00:13:58] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-11 00:13:58] Proceso completado exitosamente - File ID: 1388
+[2025-06-11 00:14:05] Datos recibidos: {"action":"send_to_radio","filename":"tts20250611001357.mp3","message":"Al finalizar el per\u00edodo anual el contrato se dar\u00e1 por terminado con la opcion "}
+[2025-06-11 00:14:05] Acción send_to_radio - Interrumpiendo con archivo: tts20250611001357.mp3
+[2025-06-11 00:14:06] Interrupción ejecutada. Respuesta: 150
+END
+[2025-06-11 00:14:06] Posible problema con la interrupción: 150
+END
+[2025-06-11 03:52:38] Datos recibidos: {"action":"preview","text":"Se\u00f1ora Victoria, buenas noches, la estamos esperando en el pasillo 8 con pasajes de crucero con 90% de descuento a Antofagasta, Calama y Serena","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-11 03:52:38] Iniciando TTS - Texto: 'Señora Victoria, buenas noches, la estamos esperando en el pasillo 8 con pasajes de crucero con 90% de descuento a Antofagasta, Calama y Serena', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-11 03:52:39] Archivo temporal creado: tts20250611035239.mp3
+[2025-06-11 03:52:39] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/tts20250611035239.mp3.copy
+[2025-06-11 03:52:39] Ejecutando comando ffmpeg...
+[2025-06-11 03:52:40] ERROR: No se creó el archivo con silencio
+[2025-06-11 03:52:40] Output ffmpeg: bitrate, this may be inaccurate
+Input #0, mp3, from '/var/www/tts-radio/api/temp/tts20250611035239.mp3.copy':
+  Metadata:
+    encoder         : Lavf59.27.100
+  Duration: 00:00:09.20, start: 0.000000, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, mono, fltp, 128 kb/s
+[NULL @ 0x558f8480b3c0] Unable to find a suitable output format for '/var/www/tts-radio/api/temp/tts20250611035239_with_silence.mp3.copy'
+/var/www/tts-radio/api/temp/tts20250611035239_with_silence.mp3.copy: Invalid argument
+
+[2025-06-11 03:52:40] No se pudo agregar silencio, usando copia sin silencio
+[2025-06-11 03:52:40] Subiendo archivo a AzuraCast: Grabaciones/tts20250611035240.mp3
+[2025-06-11 03:52:40] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-11 03:52:40] Proceso completado exitosamente - File ID: 1389
+[2025-06-11 03:52:42] Datos recibidos: {"action":"send_to_radio","filename":"tts20250611035239.mp3","message":"Se\u00f1ora Victoria, buenas noches, la estamos esperando en el pasillo 8 con pasajes de crucero con 90% de descuento a Antofagasta, Calama y Serena"}
+[2025-06-11 03:52:42] Acción send_to_radio - Interrumpiendo con archivo: tts20250611035239.mp3
+[2025-06-11 03:52:42] Interrupción ejecutada. Respuesta: 252
+END
+[2025-06-11 03:52:42] Posible problema con la interrupción: 252
+END
+[2025-06-11 03:53:05] Datos recibidos: {"action":"preview","text":"test","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-11 03:53:05] Iniciando TTS - Texto: 'test', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-11 03:53:05] Archivo temporal creado: tts20250611035305.mp3
+[2025-06-11 03:53:05] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/tts20250611035305.mp3.copy
+[2025-06-11 03:53:05] Ejecutando comando ffmpeg...
+[2025-06-11 03:53:06] ERROR: No se creó el archivo con silencio
+[2025-06-11 03:53:06] Output ffmpeg: bitrate, this may be inaccurate
+Input #0, mp3, from '/var/www/tts-radio/api/temp/tts20250611035305.mp3.copy':
+  Metadata:
+    encoder         : Lavf59.27.100
+  Duration: 00:00:00.97, start: 0.000000, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, mono, fltp, 128 kb/s
+[NULL @ 0x55795eb693c0] Unable to find a suitable output format for '/var/www/tts-radio/api/temp/tts20250611035305_with_silence.mp3.copy'
+/var/www/tts-radio/api/temp/tts20250611035305_with_silence.mp3.copy: Invalid argument
+
+[2025-06-11 03:53:06] No se pudo agregar silencio, usando copia sin silencio
+[2025-06-11 03:53:06] Subiendo archivo a AzuraCast: Grabaciones/tts20250611035306.mp3
+[2025-06-11 03:53:06] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-11 03:53:06] Proceso completado exitosamente - File ID: 1390
+[2025-06-11 03:54:42] Datos recibidos: {"action":"preview","text":"Buenas noches se\u00f1ora Victoria, le recordamos que tenemos un 90% de descuento en cruceros a Calama, Iquique y Antofagasta. Aproveche esta oportunidad. Solo por esta noche","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-11 03:54:42] Iniciando TTS - Texto: 'Buenas noches señora Victoria, le recordamos que tenemos un 90% de descuento en cruceros a Calama, Iquique y Antofagasta. Aproveche esta oportunidad. Solo por esta noche', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-11 03:54:44] Archivo temporal creado: tts20250611035444.mp3
+[2025-06-11 03:54:44] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/tts20250611035444.mp3.copy
+[2025-06-11 03:54:44] Ejecutando comando ffmpeg...
+[2025-06-11 03:54:44] ERROR: No se creó el archivo con silencio
+[2025-06-11 03:54:44] Output ffmpeg: bitrate, this may be inaccurate
+Input #0, mp3, from '/var/www/tts-radio/api/temp/tts20250611035444.mp3.copy':
+  Metadata:
+    encoder         : Lavf59.27.100
+  Duration: 00:00:12.25, start: 0.000000, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, mono, fltp, 128 kb/s
+[NULL @ 0x564e4e5853c0] Unable to find a suitable output format for '/var/www/tts-radio/api/temp/tts20250611035444_with_silence.mp3.copy'
+/var/www/tts-radio/api/temp/tts20250611035444_with_silence.mp3.copy: Invalid argument
+
+[2025-06-11 03:54:44] No se pudo agregar silencio, usando copia sin silencio
+[2025-06-11 03:54:44] Subiendo archivo a AzuraCast: Grabaciones/tts20250611035444.mp3
+[2025-06-11 03:54:45] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-11 03:54:45] Proceso completado exitosamente - File ID: 1391
+[2025-06-11 03:55:07] Datos recibidos: {"action":"send_to_radio","filename":"tts20250611035444.mp3","message":"Buenas noches se\u00f1ora Victoria, le recordamos que tenemos un 90% de descuento en cruceros a Calama, Iquique y Antofagasta. Aproveche esta oportunidad. Solo por esta noche"}
+[2025-06-11 03:55:07] Acción send_to_radio - Interrumpiendo con archivo: tts20250611035444.mp3
+[2025-06-11 03:55:07] Interrupción ejecutada. Respuesta: 255
+END
+[2025-06-11 03:55:07] Posible problema con la interrupción: 255
+END
+[2025-06-11 15:35:05] Datos recibidos: {"action":"preview","text":"hola hay una promocion en el pasillo 4","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-11 15:35:05] Iniciando TTS - Texto: 'hola hay una promocion en el pasillo 4', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-11 15:35:06] Archivo temporal creado: tts20250611153506.mp3
+[2025-06-11 15:35:06] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/tts20250611153506.mp3.copy
+[2025-06-11 15:35:06] Ejecutando comando ffmpeg...
+[2025-06-11 15:35:07] ERROR: No se creó el archivo con silencio
+[2025-06-11 15:35:07] Output ffmpeg: bitrate, this may be inaccurate
+Input #0, mp3, from '/var/www/tts-radio/api/temp/tts20250611153506.mp3.copy':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Duration: 00:00:02.35, start: 0.000000, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, mono, fltp, 128 kb/s
+[NULL @ 0x560bba7423c0] Unable to find a suitable output format for '/var/www/tts-radio/api/temp/tts20250611153506_with_silence.mp3.copy'
+/var/www/tts-radio/api/temp/tts20250611153506_with_silence.mp3.copy: Invalid argument
+
+[2025-06-11 15:35:07] No se pudo agregar silencio, usando copia sin silencio
+[2025-06-11 15:35:07] Subiendo archivo a AzuraCast: Grabaciones/tts20250611153507.mp3
+[2025-06-11 15:35:07] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-11 15:35:07] Proceso completado exitosamente - File ID: 1392
+[2025-06-11 15:35:12] Datos recibidos: {"action":"send_to_radio","filename":"tts20250611153506.mp3","message":"hola hay una promocion en el pasillo 4"}
+[2025-06-11 15:35:12] Acción send_to_radio - Interrumpiendo con archivo: tts20250611153506.mp3
+[2025-06-11 15:35:13] Interrupción ejecutada. Respuesta: 563
+END
+[2025-06-11 15:35:13] Posible problema con la interrupción: 563
+END
+[2025-06-11 15:35:48] Datos recibidos: {"action":"preview","text":"hola como estas, bienvenido al mall","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-11 15:35:48] Iniciando TTS - Texto: 'hola como estas, bienvenido al mall', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-11 15:35:49] Archivo temporal creado: tts20250611153549.mp3
+[2025-06-11 15:35:49] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/tts20250611153549.mp3.copy
+[2025-06-11 15:35:49] Ejecutando comando ffmpeg...
+[2025-06-11 15:35:49] ERROR: No se creó el archivo con silencio
+[2025-06-11 15:35:49] Output ffmpeg: bitrate, this may be inaccurate
+Input #0, mp3, from '/var/www/tts-radio/api/temp/tts20250611153549.mp3.copy':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Duration: 00:00:02.17, start: 0.000000, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, mono, fltp, 128 kb/s
+[NULL @ 0x563ba1a743c0] Unable to find a suitable output format for '/var/www/tts-radio/api/temp/tts20250611153549_with_silence.mp3.copy'
+/var/www/tts-radio/api/temp/tts20250611153549_with_silence.mp3.copy: Invalid argument
+
+[2025-06-11 15:35:49] No se pudo agregar silencio, usando copia sin silencio
+[2025-06-11 15:35:49] Subiendo archivo a AzuraCast: Grabaciones/tts20250611153549.mp3
+[2025-06-11 15:35:50] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-11 15:35:50] Proceso completado exitosamente - File ID: 1393
+[2025-06-11 17:03:33] Datos recibidos: {"action":"preview","text":"hola como estas, bienvenido al mall","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-11 17:03:33] Iniciando TTS - Texto: 'hola como estas, bienvenido al mall', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-11 17:03:35] Archivo temporal creado: tts20250611170335.mp3
+[2025-06-11 17:03:35] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/tts20250611170335.mp3.copy
+[2025-06-11 17:03:35] Ejecutando comando ffmpeg...
+[2025-06-11 17:03:35] ERROR: No se creó el archivo con silencio
+[2025-06-11 17:03:35] Output ffmpeg: bitrate, this may be inaccurate
+Input #0, mp3, from '/var/www/tts-radio/api/temp/tts20250611170335.mp3.copy':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Duration: 00:00:02.35, start: 0.000000, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, mono, fltp, 128 kb/s
+[NULL @ 0x55f91b2653c0] Unable to find a suitable output format for '/var/www/tts-radio/api/temp/tts20250611170335_with_silence.mp3.copy'
+/var/www/tts-radio/api/temp/tts20250611170335_with_silence.mp3.copy: Invalid argument
+
+[2025-06-11 17:03:35] No se pudo agregar silencio, usando copia sin silencio
+[2025-06-11 17:03:35] Subiendo archivo a AzuraCast: Grabaciones/tts20250611170335.mp3
+[2025-06-11 17:03:36] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-11 17:03:36] Proceso completado exitosamente - File ID: 1394
+[2025-06-11 17:03:43] Datos recibidos: {"action":"send_to_radio","filename":"tts20250611170335.mp3","message":"hola como estas, bienvenido al mall "}
+[2025-06-11 17:03:43] Acción send_to_radio - Interrumpiendo con archivo: tts20250611170335.mp3
+[2025-06-11 17:03:43] Interrupción ejecutada. Respuesta: 606
+END
+[2025-06-11 17:03:43] Posible problema con la interrupción: 606
+END
+[2025-06-11 20:56:56] Datos recibidos: {"action":"preview","text":"Entre [Nombre del Prestador], en adelante \u201cEl Prestador\u201d, y [Nombre del Cliente],","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-11 20:56:56] Iniciando TTS - Texto: 'Entre [Nombre del Prestador], en adelante “El Prestador”, y [Nombre del Cliente],', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-11 20:56:57] Archivo temporal creado: tts20250611205657.mp3
+[2025-06-11 20:56:57] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/tts20250611205657.mp3.copy
+[2025-06-11 20:56:57] Ejecutando comando ffmpeg...
+[2025-06-11 20:56:57] ERROR: No se creó el archivo con silencio
+[2025-06-11 20:56:57] Output ffmpeg: bitrate, this may be inaccurate
+Input #0, mp3, from '/var/www/tts-radio/api/temp/tts20250611205657.mp3.copy':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Duration: 00:00:04.96, start: 0.000000, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, mono, fltp, 128 kb/s
+[NULL @ 0x563b98d693c0] Unable to find a suitable output format for '/var/www/tts-radio/api/temp/tts20250611205657_with_silence.mp3.copy'
+/var/www/tts-radio/api/temp/tts20250611205657_with_silence.mp3.copy: Invalid argument
+
+[2025-06-11 20:56:57] No se pudo agregar silencio, usando copia sin silencio
+[2025-06-11 20:56:57] Subiendo archivo a AzuraCast: Grabaciones/tts20250611205657.mp3
+[2025-06-11 20:56:58] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-11 20:56:58] Proceso completado exitosamente - File ID: 1395
+[2025-06-11 20:57:09] Datos recibidos: {"action":"send_to_radio","filename":"tts20250611205657.mp3","message":"Entre [Nombre del Prestador], en adelante \u201cEl Prestador\u201d, y [Nombre del Cliente],"}
+[2025-06-11 20:57:09] Acción send_to_radio - Interrumpiendo con archivo: tts20250611205657.mp3
+[2025-06-11 20:57:09] Interrupción ejecutada. Respuesta: 708
+END
+[2025-06-11 20:57:09] Posible problema con la interrupción: 708
+END
+[2025-06-11 21:03:23] Datos recibidos: {"action":"preview","text":"El presente contrato tiene una duraci\u00f3n de 12 meses, a contar desde la fecha de inicio.","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-11 21:03:23] Iniciando TTS - Texto: 'El presente contrato tiene una duración de 12 meses, a contar desde la fecha de inicio.', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-11 21:03:25] Archivo temporal creado: tts20250611210325.mp3
+[2025-06-11 21:03:25] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/tts20250611210325.mp3.copy
+[2025-06-11 21:03:25] Ejecutando comando ffmpeg...
+[2025-06-11 21:03:25] ERROR: No se creó el archivo con silencio
+[2025-06-11 21:03:25] Output ffmpeg: bitrate, this may be inaccurate
+Input #0, mp3, from '/var/www/tts-radio/api/temp/tts20250611210325.mp3.copy':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Duration: 00:00:05.04, start: 0.000000, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, mono, fltp, 128 kb/s
+[NULL @ 0x562efbbb83c0] Unable to find a suitable output format for '/var/www/tts-radio/api/temp/tts20250611210325_with_silence.mp3.copy'
+/var/www/tts-radio/api/temp/tts20250611210325_with_silence.mp3.copy: Invalid argument
+
+[2025-06-11 21:03:25] No se pudo agregar silencio, usando copia sin silencio
+[2025-06-11 21:03:25] Subiendo archivo a AzuraCast: Grabaciones/tts20250611210325.mp3
+[2025-06-11 21:03:25] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-11 21:03:25] Proceso completado exitosamente - File ID: 1396
+[2025-06-11 21:03:33] Datos recibidos: {"action":"send_to_radio","filename":"tts20250611210325.mp3","message":"El presente contrato tiene una duraci\u00f3n de 12 meses, a contar desde la fecha de inicio."}
+[2025-06-11 21:03:33] Acción send_to_radio - Interrumpiendo con archivo: tts20250611210325.mp3
+[2025-06-11 21:03:33] Interrupción ejecutada. Respuesta: 712
+END
+[2025-06-11 21:03:33] Posible problema con la interrupción: 712
+END
+[2025-06-11 21:04:05] Datos recibidos: {"action":"preview","text":"Cualquiera de las partes podr\u00e1 poner t\u00e9rmino anticipado al contrato con al me","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-11 21:04:05] Iniciando TTS - Texto: 'Cualquiera de las partes podrá poner término anticipado al contrato con al me', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-11 21:04:07] Archivo temporal creado: tts20250611210407.mp3
+[2025-06-11 21:04:07] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/tts20250611210407.mp3.copy
+[2025-06-11 21:04:07] Ejecutando comando ffmpeg...
+[2025-06-11 21:04:07] ERROR: No se creó el archivo con silencio
+[2025-06-11 21:04:07] Output ffmpeg: bitrate, this may be inaccurate
+Input #0, mp3, from '/var/www/tts-radio/api/temp/tts20250611210407.mp3.copy':
+  Metadata:
+    encoder         : Lavf60.16.100
+  Duration: 00:00:04.41, start: 0.000000, bitrate: 128 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, mono, fltp, 128 kb/s
+[NULL @ 0x564cd21ee3c0] Unable to find a suitable output format for '/var/www/tts-radio/api/temp/tts20250611210407_with_silence.mp3.copy'
+/var/www/tts-radio/api/temp/tts20250611210407_with_silence.mp3.copy: Invalid argument
+
+[2025-06-11 21:04:07] No se pudo agregar silencio, usando copia sin silencio
+[2025-06-11 21:04:07] Subiendo archivo a AzuraCast: Grabaciones/tts20250611210407.mp3
+[2025-06-11 21:04:07] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-11 21:04:07] Proceso completado exitosamente - File ID: 1397
+[2025-06-11 21:04:15] Datos recibidos: {"action":"send_to_radio","filename":"tts20250611210407.mp3","message":"Cualquiera de las partes podr\u00e1 poner t\u00e9rmino anticipado al contrato con al me"}
+[2025-06-11 21:04:15] Acción send_to_radio - Interrumpiendo con archivo: tts20250611210407.mp3
+[2025-06-11 21:04:15] Interrupción ejecutada. Respuesta: 714
+END
+[2025-06-11 21:04:15] Posible problema con la interrupción: 714
+END
+[2025-06-11 21:11:49] Datos recibidos: {"action":"preview","text":"Programaci\u00f3n musical dividida por franjas horarias (ma\u00f1ana, tarde, noche, fines de semana),","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-11 21:11:49] Iniciando TTS - Texto: 'Programación musical dividida por franjas horarias (mañana, tarde, noche, fines de semana),', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-11 21:11:51] Archivo temporal creado: tts20250611211151.mp3
+[2025-06-11 21:11:51] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/tts20250611211151.mp3.copy
+[2025-06-11 21:11:51] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_6849f1171c408.mp3' 2>&1
+[2025-06-11 21:11:51] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_6849f1173b5ce.txt' -c copy -y '/var/www/tts-radio/api/temp/tts20250611211151_with_silence.mp3.copy' 2>&1
+[2025-06-11 21:11:51] ERROR: No se creó el archivo con silencio
+[2025-06-11 21:11:51] Output concat: ibpostproc    55.  9.100 / 55.  9.100
+Input #0, concat, from '/var/www/tts-radio/api/temp/concat_6849f1173b5ce.txt':
+  Duration: N/A, start: -0.025057, bitrate: 32 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 32 kb/s
+    Metadata:
+      encoder         : Lavc58.13
+[NULL @ 0x55596a5e5b40] Unable to find a suitable output format for '/var/www/tts-radio/api/temp/tts20250611211151_with_silence.mp3.copy'
+/var/www/tts-radio/api/temp/tts20250611211151_with_silence.mp3.copy: Invalid argument
+
+[2025-06-11 21:11:51] No se pudo agregar silencio, usando copia sin silencio
+[2025-06-11 21:11:51] Subiendo archivo a AzuraCast: Grabaciones/tts20250611211151.mp3
+[2025-06-11 21:11:51] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-11 21:11:51] Proceso completado exitosamente - File ID: 1398
+[2025-06-11 21:12:00] Datos recibidos: {"action":"send_to_radio","filename":"tts20250611211151.mp3","message":"Programaci\u00f3n musical dividida por franjas horarias (ma\u00f1ana, tarde, noche, fines de semana),"}
+[2025-06-11 21:12:00] Acción send_to_radio - Interrumpiendo con archivo: tts20250611211151.mp3
+[2025-06-11 21:12:00] Interrupción ejecutada. Respuesta: 724
+END
+[2025-06-11 21:12:00] Posible problema con la interrupción: 724
+END
+[2025-06-11 21:12:55] Datos recibidos: {"action":"preview","text":"Renovaci\u00f3n mensual del repertorio musical, garantizando frescura y calidad continua.","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-11 21:12:55] Iniciando TTS - Texto: 'Renovación mensual del repertorio musical, garantizando frescura y calidad continua.', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-11 21:12:56] Archivo temporal creado: tts20250611211256.mp3
+[2025-06-11 21:12:56] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/tts20250611211256.mp3.copy
+[2025-06-11 21:12:56] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_6849f15880642.mp3' 2>&1
+[2025-06-11 21:12:56] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_6849f158a5b82.txt' -c copy -y '/var/www/tts-radio/api/temp/tts20250611211256_with_silence.mp3.copy' 2>&1
+[2025-06-11 21:12:56] ERROR: No se creó el archivo con silencio
+[2025-06-11 21:12:56] Output concat: ibpostproc    55.  9.100 / 55.  9.100
+Input #0, concat, from '/var/www/tts-radio/api/temp/concat_6849f158a5b82.txt':
+  Duration: N/A, start: -0.025057, bitrate: 32 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 32 kb/s
+    Metadata:
+      encoder         : Lavc58.13
+[NULL @ 0x562c8acf6b40] Unable to find a suitable output format for '/var/www/tts-radio/api/temp/tts20250611211256_with_silence.mp3.copy'
+/var/www/tts-radio/api/temp/tts20250611211256_with_silence.mp3.copy: Invalid argument
+
+[2025-06-11 21:12:56] No se pudo agregar silencio, usando copia sin silencio
+[2025-06-11 21:12:56] Subiendo archivo a AzuraCast: Grabaciones/tts20250611211256.mp3
+[2025-06-11 21:12:57] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-11 21:12:57] Proceso completado exitosamente - File ID: 1399
+[2025-06-11 21:13:03] Datos recibidos: {"action":"send_to_radio","filename":"tts20250611211256.mp3","message":"Renovaci\u00f3n mensual del repertorio musical, garantizando frescura y calidad continua."}
+[2025-06-11 21:13:03] Acción send_to_radio - Interrumpiendo con archivo: tts20250611211256.mp3
+[2025-06-11 21:13:03] Interrupción ejecutada. Respuesta: 726
+END
+[2025-06-11 21:13:03] Posible problema con la interrupción: 726
+END
+[2025-06-11 21:15:21] Datos recibidos: {"action":"preview","text":"Renovaci\u00f3n mensual del repertorio musical, garantizando frescura y calidad continua. Mucy bueno","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-11 21:15:21] Iniciando TTS - Texto: 'Renovación mensual del repertorio musical, garantizando frescura y calidad continua. Mucy bueno', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-11 21:15:23] Archivo temporal creado: tts20250611211523.mp3
+[2025-06-11 21:15:23] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/tts20250611211523.mp3.copy
+[2025-06-11 21:15:23] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_6849f1eb4445f.mp3' 2>&1
+[2025-06-11 21:15:23] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_6849f1eb60dd9.txt' -c copy -y '/var/www/tts-radio/api/temp/tts20250611211523_with_silence.mp3.copy' 2>&1
+[2025-06-11 21:15:23] ERROR: No se creó el archivo con silencio
+[2025-06-11 21:15:23] Output concat: ibpostproc    55.  9.100 / 55.  9.100
+Input #0, concat, from '/var/www/tts-radio/api/temp/concat_6849f1eb60dd9.txt':
+  Duration: N/A, start: -0.025057, bitrate: 32 kb/s
+  Stream #0:0: Audio: mp3, 44100 Hz, stereo, fltp, 32 kb/s
+    Metadata:
+      encoder         : Lavc58.13
+[NULL @ 0x55c3af2cbb40] Unable to find a suitable output format for '/var/www/tts-radio/api/temp/tts20250611211523_with_silence.mp3.copy'
+/var/www/tts-radio/api/temp/tts20250611211523_with_silence.mp3.copy: Invalid argument
+
+[2025-06-11 21:15:23] No se pudo agregar silencio, usando copia sin silencio
+[2025-06-11 21:15:23] Subiendo archivo a AzuraCast: Grabaciones/tts20250611211523.mp3
+[2025-06-11 21:15:23] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-11 21:15:23] Proceso completado exitosamente - File ID: 1400
+[2025-06-11 21:15:40] Datos recibidos: {"action":"send_to_radio","filename":"tts20250611211523.mp3","message":"Renovaci\u00f3n mensual del repertorio musical, garantizando frescura y calidad continua. Mucy bueno"}
+[2025-06-11 21:15:40] Acción send_to_radio - Interrumpiendo con archivo: tts20250611211523.mp3
+[2025-06-11 21:15:41] Interrupción ejecutada. Respuesta: 730
+END
+[2025-06-11 21:15:41] Posible problema con la interrupción: 730
+END
+[2025-06-11 21:20:08] Datos recibidos: {"action":"preview","text":"Programaci\u00f3n musical dividida por franjas horarias (ma\u00f1ana, tarde, noche, fines","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-11 21:20:08] Iniciando TTS - Texto: 'Programación musical dividida por franjas horarias (mañana, tarde, noche, fines', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-11 21:20:10] Archivo temporal creado: tts20250611212010.mp3
+[2025-06-11 21:20:10] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/tts20250611212010.mp3.copy
+[2025-06-11 21:20:10] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_6849f30a59c28.mp3' 2>&1
+[2025-06-11 21:20:10] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_6849f30a59c28.mp3
+[2025-06-11 21:20:10] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_6849f30a79785.txt
+[2025-06-11 21:20:10] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_6849f30a59c28.mp3' | file '/var/www/tts-radio/api/temp/tts20250611212010.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_6849f30a59c28.mp3'
+[2025-06-11 21:20:10] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_6849f30a79785.txt' -c copy -y '/var/www/tts-radio/api/temp/tts20250611212010_with_silence.mp3' 2>&1
+[2025-06-11 21:20:10] Silencio agregado exitosamente. Tamaño: 112570 bytes
+[2025-06-11 21:20:10] Archivo final: /var/www/tts-radio/api/temp/tts20250611212010_with_silence.mp3
+[2025-06-11 21:20:10] Silencio agregado exitosamente
+[2025-06-11 21:20:10] Subiendo archivo a AzuraCast: Grabaciones/tts20250611212010.mp3
+[2025-06-11 21:20:11] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-11 21:20:11] Proceso completado exitosamente - File ID: 1401
+[2025-06-11 21:20:19] Datos recibidos: {"action":"send_to_radio","filename":"tts20250611212010.mp3","message":"Programaci\u00f3n musical dividida por franjas horarias (ma\u00f1ana, tarde, noche, fines "}
+[2025-06-11 21:20:19] Acción send_to_radio - Interrumpiendo con archivo: tts20250611212010.mp3
+[2025-06-11 21:20:19] Interrupción ejecutada. Respuesta: 732
+END
+[2025-06-11 21:20:19] Posible problema con la interrupción: 732
+END
+[2025-06-11 21:26:14] Datos recibidos: {"action":"preview","text":"Si el Cliente contrata m\u00e1s de un local, se aplicar\u00e1 un 25% de descuento por local adicional.","voice_id":"MF3mGyEYCl7XYWbV9V6O","model_id":"eleven_multilingual_v2"}
+[2025-06-11 21:26:14] Iniciando TTS - Texto: 'Si el Cliente contrata más de un local, se aplicará un 25% de descuento por local adicional.', Voz: 'MF3mGyEYCl7XYWbV9V6O'
+[2025-06-11 21:26:15] Archivo temporal creado: tts20250611212615.mp3
+[2025-06-11 21:26:15] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/tts20250611212615.mp3.copy
+[2025-06-11 21:26:15] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_6849f477e0e8f.mp3' 2>&1
+[2025-06-11 21:26:16] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_6849f477e0e8f.mp3
+[2025-06-11 21:26:16] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_6849f4781aab4.txt
+[2025-06-11 21:26:16] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_6849f477e0e8f.mp3' | file '/var/www/tts-radio/api/temp/tts20250611212615.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_6849f477e0e8f.mp3'
+[2025-06-11 21:26:16] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_6849f4781aab4.txt' -c copy -y '/var/www/tts-radio/api/temp/tts20250611212615_with_silence.mp3' 2>&1
+[2025-06-11 21:26:16] Silencio agregado exitosamente. Tamaño: 120929 bytes
+[2025-06-11 21:26:16] Archivo final: /var/www/tts-radio/api/temp/tts20250611212615_with_silence.mp3
+[2025-06-11 21:26:16] Silencio agregado exitosamente
+[2025-06-11 21:26:16] Subiendo archivo a AzuraCast: Grabaciones/tts20250611212616.mp3
+[2025-06-11 21:26:16] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-11 21:26:16] Proceso completado exitosamente - File ID: 1402
+[2025-06-11 21:26:18] Datos recibidos: {"action":"preview","text":"Si el Cliente contrata m\u00e1s de un local, se aplicar\u00e1 un 25% de descuento por local adicional.","voice_id":"MF3mGyEYCl7XYWbV9V6O","model_id":"eleven_multilingual_v2"}
+[2025-06-11 21:26:18] Iniciando TTS - Texto: 'Si el Cliente contrata más de un local, se aplicará un 25% de descuento por local adicional.', Voz: 'MF3mGyEYCl7XYWbV9V6O'
+[2025-06-11 21:26:20] Archivo temporal creado: tts20250611212620.mp3
+[2025-06-11 21:26:20] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/tts20250611212620.mp3.copy
+[2025-06-11 21:26:20] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_6849f47c1feaf.mp3' 2>&1
+[2025-06-11 21:26:20] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_6849f47c1feaf.mp3
+[2025-06-11 21:26:20] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_6849f47c3871d.txt
+[2025-06-11 21:26:20] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_6849f47c1feaf.mp3' | file '/var/www/tts-radio/api/temp/tts20250611212620.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_6849f47c1feaf.mp3'
+[2025-06-11 21:26:20] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_6849f47c3871d.txt' -c copy -y '/var/www/tts-radio/api/temp/tts20250611212620_with_silence.mp3' 2>&1
+[2025-06-11 21:26:20] Silencio agregado exitosamente. Tamaño: 111316 bytes
+[2025-06-11 21:26:20] Archivo final: /var/www/tts-radio/api/temp/tts20250611212620_with_silence.mp3
+[2025-06-11 21:26:20] Silencio agregado exitosamente
+[2025-06-11 21:26:20] Subiendo archivo a AzuraCast: Grabaciones/tts20250611212620.mp3
+[2025-06-11 21:26:20] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-11 21:26:20] Proceso completado exitosamente - File ID: 1403
+[2025-06-11 21:26:28] Datos recibidos: {"action":"send_to_radio","filename":"tts20250611212620.mp3","message":"Si el Cliente contrata m\u00e1s de un local, se aplicar\u00e1 un 25% de descuento por local adicional."}
+[2025-06-11 21:26:28] Acción send_to_radio - Interrumpiendo con archivo: tts20250611212620.mp3
+[2025-06-11 21:26:28] Interrupción ejecutada. Respuesta: 738
+END
+[2025-06-11 21:26:28] Posible problema con la interrupción: 738
+END
+[2025-06-11 22:05:44] Datos recibidos: {"action":"preview","text":"Si el Cliente opta por prepagar el total anual, se aplica un 15% de descuento sobre el monto total.","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-11 22:05:44] Iniciando TTS - Texto: 'Si el Cliente opta por prepagar el total anual, se aplica un 15% de descuento sobre el monto total.', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-11 22:05:45] Archivo temporal creado: tts20250611220545.mp3
+[2025-06-11 22:05:45] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/tts20250611220545.mp3.copy
+[2025-06-11 22:05:45] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_6849fdb9ef100.mp3' 2>&1
+[2025-06-11 22:05:46] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_6849fdb9ef100.mp3
+[2025-06-11 22:05:46] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_6849fdba256cb.txt
+[2025-06-11 22:05:46] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_6849fdb9ef100.mp3' | file '/var/www/tts-radio/api/temp/tts20250611220545.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_6849fdb9ef100.mp3'
+[2025-06-11 22:05:46] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_6849fdba256cb.txt' -c copy -y '/var/www/tts-radio/api/temp/tts20250611220545_with_silence.mp3' 2>&1
+[2025-06-11 22:05:46] Silencio agregado exitosamente. Tamaño: 121765 bytes
+[2025-06-11 22:05:46] Archivo final: /var/www/tts-radio/api/temp/tts20250611220545_with_silence.mp3
+[2025-06-11 22:05:46] Silencio agregado exitosamente
+[2025-06-11 22:05:46] Subiendo archivo a AzuraCast: Grabaciones/tts20250611220546.mp3
+[2025-06-11 22:05:46] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-11 22:05:46] Proceso completado exitosamente - File ID: 1404
+[2025-06-11 22:05:56] Datos recibidos: {"action":"send_to_radio","filename":"tts20250611220545.mp3","message":"Si el Cliente opta por prepagar el total anual, se aplica un 15% de descuento sobre el monto total."}
+[2025-06-11 22:05:56] Interrumpiendo radio con archivo: tts20250611220545.mp3
+[2025-06-11 22:05:56] Interrupción ejecutada. Respuesta: 758
+END
+[2025-06-11 22:05:56] Posible problema con la interrupción: 758
+END
+[2025-06-11 22:06:36] Datos recibidos: {"action":"preview","text":"Si el Cliente opta por prepagar el total anual, se aplica un 15% de descuento sobre el monto total.","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-11 22:06:36] Iniciando TTS - Texto: 'Si el Cliente opta por prepagar el total anual, se aplica un 15% de descuento sobre el monto total.', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-11 22:06:37] Archivo temporal creado: tts20250611220637.mp3
+[2025-06-11 22:06:37] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/tts20250611220637.mp3.copy
+[2025-06-11 22:06:37] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_6849fdedcbb56.mp3' 2>&1
+[2025-06-11 22:06:37] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_6849fdedcbb56.mp3
+[2025-06-11 22:06:37] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_6849fdedeef9c.txt
+[2025-06-11 22:06:37] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_6849fdedcbb56.mp3' | file '/var/www/tts-radio/api/temp/tts20250611220637.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_6849fdedcbb56.mp3'
+[2025-06-11 22:06:37] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_6849fdedeef9c.txt' -c copy -y '/var/www/tts-radio/api/temp/tts20250611220637_with_silence.mp3' 2>&1
+[2025-06-11 22:06:38] Silencio agregado exitosamente. Tamaño: 125109 bytes
+[2025-06-11 22:06:38] Archivo final: /var/www/tts-radio/api/temp/tts20250611220637_with_silence.mp3
+[2025-06-11 22:06:38] Silencio agregado exitosamente
+[2025-06-11 22:06:38] Subiendo archivo a AzuraCast: Grabaciones/tts20250611220638.mp3
+[2025-06-11 22:06:38] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-11 22:06:38] Proceso completado exitosamente - File ID: 1405
+[2025-06-11 22:06:47] Datos recibidos: {"action":"send_to_radio","filename":"tts20250611220637.mp3","message":"Si el Cliente opta por prepagar el total anual, se aplica un 15% de descuento sobre el monto total."}
+[2025-06-11 22:06:47] Interrumpiendo radio con archivo: tts20250611220637.mp3
+[2025-06-11 22:06:47] Interrupción ejecutada. Respuesta: 759
+END
+[2025-06-11 22:06:47] Posible problema con la interrupción: 759
+END
+[2025-06-11 22:07:45] Datos recibidos: {"action":"preview","text":"no esta funcionando","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-11 22:07:45] Iniciando TTS - Texto: 'no esta funcionando', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-11 22:07:46] Archivo temporal creado: tts20250611220746.mp3
+[2025-06-11 22:07:46] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/tts20250611220746.mp3.copy
+[2025-06-11 22:07:46] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_6849fe323ccd3.mp3' 2>&1
+[2025-06-11 22:07:46] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_6849fe323ccd3.mp3
+[2025-06-11 22:07:46] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_6849fe325e3d6.txt
+[2025-06-11 22:07:46] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_6849fe323ccd3.mp3' | file '/var/www/tts-radio/api/temp/tts20250611220746.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_6849fe323ccd3.mp3'
+[2025-06-11 22:07:46] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_6849fe325e3d6.txt' -c copy -y '/var/www/tts-radio/api/temp/tts20250611220746_with_silence.mp3' 2>&1
+[2025-06-11 22:07:46] Silencio agregado exitosamente. Tamaño: 45696 bytes
+[2025-06-11 22:07:46] Archivo final: /var/www/tts-radio/api/temp/tts20250611220746_with_silence.mp3
+[2025-06-11 22:07:46] Silencio agregado exitosamente
+[2025-06-11 22:07:46] Subiendo archivo a AzuraCast: Grabaciones/tts20250611220746.mp3
+[2025-06-11 22:07:47] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-11 22:07:47] Proceso completado exitosamente - File ID: 1406
+[2025-06-11 22:07:50] Datos recibidos: {"action":"send_to_radio","filename":"tts20250611220746.mp3","message":"no esta funcionando "}
+[2025-06-11 22:07:50] Interrumpiendo radio con archivo: tts20250611220746.mp3
+[2025-06-11 22:07:50] Interrupción ejecutada. Respuesta: 762
+END
+[2025-06-11 22:07:50] Posible problema con la interrupción: 762
+END
+[2025-06-11 22:28:38] Datos recibidos: {"action":"preview","text":"Contrato anual, con salida avisando 30 dias antes.\nEl valor mensual por local son 4 UF\nHay un descuento del 25% si es mas de un loca","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-11 22:28:38] Iniciando TTS - Texto: 'Contrato anual, con salida avisando 30 dias antes.
+El valor mensual por local son 4 UF
+Hay un descuento del 25% si es mas de un loca', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-11 22:28:40] Archivo temporal creado: tts20250611222840.mp3
+[2025-06-11 22:28:40] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/tts20250611222840.mp3.copy
+[2025-06-11 22:28:40] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_684a03183d767.mp3' 2>&1
+[2025-06-11 22:28:40] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_684a03183d767.mp3
+[2025-06-11 22:28:40] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_684a03186e03f.txt
+[2025-06-11 22:28:40] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_684a03183d767.mp3' | file '/var/www/tts-radio/api/temp/tts20250611222840.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_684a03183d767.mp3'
+[2025-06-11 22:28:40] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_684a03186e03f.txt' -c copy -y '/var/www/tts-radio/api/temp/tts20250611222840_with_silence.mp3' 2>&1
+[2025-06-11 22:28:40] Silencio agregado exitosamente. Tamaño: 168576 bytes
+[2025-06-11 22:28:40] Archivo final: /var/www/tts-radio/api/temp/tts20250611222840_with_silence.mp3
+[2025-06-11 22:28:40] Silencio agregado exitosamente
+[2025-06-11 22:28:40] Subiendo archivo a AzuraCast: Grabaciones/tts20250611222840.mp3
+[2025-06-11 22:28:40] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-11 22:28:40] Proceso completado exitosamente - File ID: 1407
+[2025-06-11 22:28:54] Datos recibidos: {"action":"send_to_radio","filename":"tts20250611222840.mp3","message":"Contrato anual, con salida avisando 30 dias antes.\nEl valor mensual por local son 4 UF\nHay un descuento del 25% si es mas de un loca\n"}
+[2025-06-11 22:28:54] Interrumpiendo radio con archivo: tts20250611222840.mp3
+[2025-06-11 22:28:54] Interrupción ejecutada. Respuesta: 782
+END
+[2025-06-11 22:28:54] Posible problema con la interrupción: 782
+END
+[2025-06-11 22:40:32] Datos recibidos: {"action":"preview","text":"Pagos al dia,  los primeros dias de cada mes","voice_id":"21m00Tcm4TlvDq8ikWAM","model_id":"eleven_multilingual_v2"}
+[2025-06-11 22:40:32] Iniciando TTS - Texto: 'Pagos al dia,  los primeros dias de cada mes', Voz: '21m00Tcm4TlvDq8ikWAM'
+[2025-06-11 22:40:33] Archivo temporal creado: tts20250611224033.mp3
+[2025-06-11 22:40:33] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/tts20250611224033.mp3.copy
+[2025-06-11 22:40:33] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_684a05e144c48.mp3' 2>&1
+[2025-06-11 22:40:33] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_684a05e144c48.mp3
+[2025-06-11 22:40:33] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_684a05e17fd2f.txt
+[2025-06-11 22:40:33] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_684a05e144c48.mp3' | file '/var/www/tts-radio/api/temp/tts20250611224033.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_684a05e144c48.mp3'
+[2025-06-11 22:40:33] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_684a05e17fd2f.txt' -c copy -y '/var/www/tts-radio/api/temp/tts20250611224033_with_silence.mp3' 2>&1
+[2025-06-11 22:40:33] Silencio agregado exitosamente. Tamaño: 66594 bytes
+[2025-06-11 22:40:33] Archivo final: /var/www/tts-radio/api/temp/tts20250611224033_with_silence.mp3
+[2025-06-11 22:40:33] Silencio agregado exitosamente
+[2025-06-11 22:40:33] Subiendo archivo a AzuraCast: Grabaciones/tts20250611224033.mp3
+[2025-06-11 22:40:34] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-11 22:40:34] Proceso completado exitosamente - File ID: 1408
+[2025-06-11 22:40:41] Datos recibidos: {"action":"preview","text":"Pagos al dia,  los primeros dias de cada mes","voice_id":"TxGEqnHWrfWFTfGW9XjX","model_id":"eleven_multilingual_v2"}
+[2025-06-11 22:40:41] Iniciando TTS - Texto: 'Pagos al dia,  los primeros dias de cada mes', Voz: 'TxGEqnHWrfWFTfGW9XjX'
+[2025-06-11 22:40:42] Archivo temporal creado: tts20250611224042.mp3
+[2025-06-11 22:40:42] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/tts20250611224042.mp3.copy
+[2025-06-11 22:40:42] Ejecutando: ffmpeg -f lavfi -i anullsrc=r=44100:cl=stereo -t 3 -c:a mp3 -q:a 2 -y '/var/www/tts-radio/api/temp/silence_684a05eadae8f.mp3' 2>&1
+[2025-06-11 22:40:43] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_684a05eadae8f.mp3
+[2025-06-11 22:40:43] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_684a05eb068d3.txt
+[2025-06-11 22:40:43] Contenido de lista: file '/var/www/tts-radio/api/temp/silence_684a05eadae8f.mp3' | file '/var/www/tts-radio/api/temp/tts20250611224042.mp3.copy' | file '/var/www/tts-radio/api/temp/silence_684a05eadae8f.mp3'
+[2025-06-11 22:40:43] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_684a05eb068d3.txt' -c copy -y '/var/www/tts-radio/api/temp/tts20250611224042_with_silence.mp3' 2>&1
+[2025-06-11 22:40:43] Silencio agregado exitosamente. Tamaño: 68266 bytes
+[2025-06-11 22:40:43] Archivo final: /var/www/tts-radio/api/temp/tts20250611224042_with_silence.mp3
+[2025-06-11 22:40:43] Silencio agregado exitosamente
+[2025-06-11 22:40:43] Subiendo archivo a AzuraCast: Grabaciones/tts20250611224043.mp3
+[2025-06-11 22:40:43] Archivo listo para preview - NO se interrumpe la radio
+[2025-06-11 22:40:43] Proceso completado exitosamente - File ID: 1409
+[2025-06-11 22:40:49] Datos recibidos: {"action":"send_to_radio","filename":"tts20250611224042.mp3","message":"Pagos al dia,  los primeros dias de cada mes\n"}
+[2025-06-11 22:40:49] Interrumpiendo radio con archivo: tts20250611224042.mp3
+[2025-06-11 22:40:49] Interrupción ejecutada. Respuesta: 790
+END
+[2025-06-11 22:40:49] Posible problema con la interrupción: 790
+END

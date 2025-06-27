@@ -1,0 +1,526 @@
+[2025-06-16 00:12:27] Enviando archivo de biblioteca a radio: tts20250615203930.mp3
+[2025-06-16 00:12:28] Interrumpiendo radio con archivo: tts20250615203930.mp3
+[2025-06-16 00:12:28] Interrupción ejecutada. Respuesta: 1579
+END
+[2025-06-16 00:12:28] ¡Interrupción exitosa! RID: 1579
+[2025-06-16 00:12:28] Archivo de biblioteca enviado exitosamente: tts20250615203930.mp3
+[2025-06-16 00:12:56] Enviando archivo de biblioteca a radio: tts20250615175438.mp3
+[2025-06-16 00:12:56] Interrumpiendo radio con archivo: tts20250615175438.mp3
+[2025-06-16 00:12:56] Interrupción ejecutada. Respuesta: 1581
+END
+[2025-06-16 00:12:56] ¡Interrupción exitosa! RID: 1581
+[2025-06-16 00:12:56] Archivo de biblioteca enviado exitosamente: tts20250615175438.mp3
+[2025-06-16 00:22:28] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 00:22:28] Procesando 7 archivos
+[2025-06-16 00:22:28] Retornando 7 archivos
+[2025-06-16 00:26:06] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 00:26:06] Procesando 8 archivos
+[2025-06-16 00:26:06] Retornando 8 archivos
+[2025-06-16 00:28:48] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 00:28:48] Procesando 8 archivos
+[2025-06-16 00:28:48] Retornando 8 archivos
+[2025-06-16 00:33:16] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 00:33:16] Procesando 8 archivos
+[2025-06-16 00:33:16] Retornando 8 archivos
+[2025-06-16 00:34:32] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 00:34:32] Procesando 9 archivos
+[2025-06-16 00:34:32] Retornando 9 archivos
+[2025-06-16 00:34:36] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 00:34:36] Procesando 9 archivos
+[2025-06-16 00:34:36] Retornando 9 archivos
+[2025-06-16 00:55:23] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 00:55:24] Procesando 8 archivos
+[2025-06-16 00:55:24] Retornando 8 archivos
+[2025-06-16 01:12:47] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 01:12:47] Procesando 8 archivos
+[2025-06-16 01:12:47] Retornando 8 archivos
+[2025-06-16 01:13:08] Renombrando archivo: tts20250615184522.mp3 -> tts20250615184522_prueba_api.mp3
+[2025-06-16 01:13:08] Error en renameLibraryFile: El archivo original no existe
+[2025-06-16 01:13:08] Error: Error al renombrar: El archivo original no existe
+[2025-06-16 01:14:56] Renombrando archivo: tts20250616003407.mp3 -> tts20250616003407_prueba_api.mp3
+[2025-06-16 01:14:56] Ejecutando comando: sudo docker exec azuracast mv '/var/azuracast/stations/test/media/Grabaciones/tts20250616003407.mp3' '/var/azuracast/stations/test/media/Grabaciones/tts20250616003407_prueba_api.mp3' 2>&1
+[2025-06-16 01:14:57] Archivo renombrado exitosamente. Sincronizando AzuraCast...
+[2025-06-16 01:14:57] Ejecutando sincronización: sudo docker exec azuracast php /var/azuracast/www/bin/console azuracast:media:reprocess 1 2>&1
+[2025-06-16 01:14:57] Resultado sincronización: Could not open input file: /var/azuracast/www/bin/console
+
+[2025-06-16 01:16:59] Error: No se recibieron datos
+[2025-06-16 01:17:19] Enviando archivo de biblioteca a radio: tts20250616003407_prueba_api.mp3
+[2025-06-16 01:17:19] Interrumpiendo radio con archivo: tts20250616003407_prueba_api.mp3
+[2025-06-16 01:17:19] Interrupción ejecutada. Respuesta: 1619
+END
+[2025-06-16 01:17:19] ¡Interrupción exitosa! RID: 1619
+[2025-06-16 01:17:19] Archivo de biblioteca enviado exitosamente: tts20250616003407_prueba_api.mp3
+[2025-06-16 01:18:21] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 01:18:21] Procesando 8 archivos
+[2025-06-16 01:18:21] Retornando 8 archivos
+[2025-06-16 01:22:45] Renombrando archivo: tts20250616999999_test_console.mp3 -> tts20250616999999_test_sync_correcto.mp3
+[2025-06-16 01:22:46] Ejecutando comando: sudo docker exec azuracast mv '/var/azuracast/stations/test/media/Grabaciones/tts20250616999999_test_console.mp3' '/var/azuracast/stations/test/media/Grabaciones/tts20250616999999_test_sync_correcto.mp3' 2>&1
+[2025-06-16 01:22:46] Archivo renombrado exitosamente. Sincronizando AzuraCast...
+[2025-06-16 01:22:46] Ejecutando sincronización: sudo docker exec azuracast php /var/azuracast/www/backend/bin/console azuracast:media:reprocess 1 2>&1
+[2025-06-16 01:22:46] Resultado sincronización: 
+Manually Reprocess Media
+========================
+
+Reprocessing media for station: OVH
+Marked 77 record(s) for reprocessing.
+
+[2025-06-16 01:48:43] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 01:48:43] Procesando 8 archivos
+[2025-06-16 01:48:43] Retornando 8 archivos
+[2025-06-16 01:48:45] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 01:48:45] Procesando 8 archivos
+[2025-06-16 01:48:45] Retornando 8 archivos
+[2025-06-16 01:49:39] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 01:49:39] Procesando 9 archivos
+[2025-06-16 01:49:39] Retornando 9 archivos
+[2025-06-16 01:49:58] Renombrando archivo: tts20250616014921.mp3 -> tts20250616014921_una_chet.mp3
+[2025-06-16 01:49:58] Ejecutando comando: sudo docker exec azuracast mv '/var/azuracast/stations/test/media/Grabaciones/tts20250616014921.mp3' '/var/azuracast/stations/test/media/Grabaciones/tts20250616014921_una_chet.mp3' 2>&1
+[2025-06-16 01:49:59] Archivo renombrado exitosamente. Sincronizando AzuraCast...
+[2025-06-16 01:49:59] Ejecutando sincronización: sudo docker exec azuracast php /var/azuracast/www/backend/bin/console azuracast:media:reprocess 1 2>&1
+[2025-06-16 01:49:59] Resultado sincronización: 
+Manually Reprocess Media
+========================
+
+Reprocessing media for station: OVH
+Marked 78 record(s) for reprocessing.
+
+[2025-06-16 01:51:02] Renombrando archivo: tts20250615173335.mp3 -> tts20250615173335_baño_hermoso_canción.mp3
+[2025-06-16 01:51:03] Ejecutando comando: sudo docker exec azuracast mv '/var/azuracast/stations/test/media/Grabaciones/tts20250615173335.mp3' '/var/azuracast/stations/test/media/Grabaciones/tts20250615173335_baño_hermoso_canción.mp3' 2>&1
+[2025-06-16 01:51:03] Archivo renombrado exitosamente. Sincronizando AzuraCast...
+[2025-06-16 01:51:03] Ejecutando sincronización: sudo docker exec azuracast php /var/azuracast/www/backend/bin/console azuracast:media:reprocess 1 2>&1
+[2025-06-16 01:51:04] Resultado sincronización: 
+Manually Reprocess Media
+========================
+
+Reprocessing media for station: OVH
+Marked 1 record(s) for reprocessing.
+
+[2025-06-16 01:52:37] Renombrando archivo: tts20250615063833.mp3 -> tts20250615063833_hola_que_tal_buena.mp3
+[2025-06-16 01:52:38] Ejecutando comando: sudo docker exec azuracast mv '/var/azuracast/stations/test/media/Grabaciones/tts20250615063833.mp3' '/var/azuracast/stations/test/media/Grabaciones/tts20250615063833_hola_que_tal_buena.mp3' 2>&1
+[2025-06-16 01:52:38] Archivo renombrado exitosamente. Sincronizando AzuraCast...
+[2025-06-16 01:52:38] Ejecutando sincronización: sudo docker exec azuracast php /var/azuracast/www/backend/bin/console azuracast:media:reprocess 1 2>&1
+[2025-06-16 01:52:38] Resultado sincronización: 
+Manually Reprocess Media
+========================
+
+Reprocessing media for station: OVH
+Marked 76 record(s) for reprocessing.
+
+[2025-06-16 01:53:36] Renombrando archivo: tts20250615063516.mp3 -> tts20250615063516_hola.mp3
+[2025-06-16 01:53:37] Ejecutando comando: sudo docker exec azuracast mv '/var/azuracast/stations/test/media/Grabaciones/tts20250615063516.mp3' '/var/azuracast/stations/test/media/Grabaciones/tts20250615063516_hola.mp3' 2>&1
+[2025-06-16 01:53:37] Archivo renombrado exitosamente. Sincronizando AzuraCast...
+[2025-06-16 01:53:37] Ejecutando sincronización: sudo docker exec azuracast php /var/azuracast/www/backend/bin/console azuracast:media:reprocess 1 2>&1
+[2025-06-16 01:53:37] Resultado sincronización: 
+Manually Reprocess Media
+========================
+
+Reprocessing media for station: OVH
+Marked 0 record(s) for reprocessing.
+
+[2025-06-16 02:51:34] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 02:51:34] Procesando 10 archivos
+[2025-06-16 02:51:34] Retornando 10 archivos
+[2025-06-16 02:51:41] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 02:51:41] Procesando 10 archivos
+[2025-06-16 02:51:41] Retornando 10 archivos
+[2025-06-16 02:51:42] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 02:51:42] Procesando 10 archivos
+[2025-06-16 02:51:42] Retornando 10 archivos
+[2025-06-16 02:52:10] Renombrando archivo: tts20250616025105.mp3 -> tts20250616025105_Clientes_de_miedo.mp3
+[2025-06-16 02:52:10] Ejecutando comando: sudo docker exec azuracast mv '/var/azuracast/stations/test/media/Grabaciones/tts20250616025105.mp3' '/var/azuracast/stations/test/media/Grabaciones/tts20250616025105_Clientes_de_miedo.mp3' 2>&1
+[2025-06-16 02:52:10] Archivo renombrado exitosamente. Sincronizando AzuraCast...
+[2025-06-16 02:52:10] Ejecutando sincronización: sudo docker exec azuracast php /var/azuracast/www/backend/bin/console azuracast:media:reprocess 1 2>&1
+[2025-06-16 02:52:10] Resultado sincronización: 
+Manually Reprocess Media
+========================
+
+Reprocessing media for station: OVH
+Marked 79 record(s) for reprocessing.
+
+[2025-06-16 03:09:54] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 03:09:55] Procesando 10 archivos
+[2025-06-16 03:09:55] Retornando 10 archivos
+[2025-06-16 03:23:58] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 03:23:58] Procesando 10 archivos
+[2025-06-16 03:23:58] Retornando 10 archivos
+[2025-06-16 03:31:21] Renombrando archivo: tts20250616014921_una_chet.mp3 -> tts20250616014921_baño_si.mp3
+[2025-06-16 03:31:21] Ejecutando comando: sudo docker exec azuracast mv '/var/azuracast/stations/test/media/Grabaciones/tts20250616014921_una_chet.mp3' '/var/azuracast/stations/test/media/Grabaciones/tts20250616014921_baño_si.mp3' 2>&1
+[2025-06-16 03:31:21] Archivo renombrado exitosamente. Sincronizando AzuraCast...
+[2025-06-16 03:31:21] Ejecutando sincronización: sudo docker exec azuracast php /var/azuracast/www/backend/bin/console azuracast:media:reprocess 1 2>&1
+[2025-06-16 03:31:22] Resultado sincronización: 
+Manually Reprocess Media
+========================
+
+Reprocessing media for station: OVH
+Marked 79 record(s) for reprocessing.
+
+[2025-06-16 03:33:34] Renombrando archivo: tts20250616014921_baño_si.mp3 -> tts20250616014921_baño_si_si.mp3
+[2025-06-16 03:33:34] Ejecutando comando: sudo docker exec azuracast mv '/var/azuracast/stations/test/media/Grabaciones/tts20250616014921_baño_si.mp3' '/var/azuracast/stations/test/media/Grabaciones/tts20250616014921_baño_si_si.mp3' 2>&1
+[2025-06-16 03:33:34] Archivo renombrado exitosamente. Sincronizando AzuraCast...
+[2025-06-16 03:33:34] Ejecutando sincronización: sudo docker exec azuracast php /var/azuracast/www/backend/bin/console azuracast:media:reprocess 1 2>&1
+[2025-06-16 03:33:35] Resultado sincronización: 
+Manually Reprocess Media
+========================
+
+Reprocessing media for station: OVH
+Marked 0 record(s) for reprocessing.
+
+[2025-06-16 03:39:30] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 03:39:30] Procesando 10 archivos
+[2025-06-16 03:39:30] Retornando 10 archivos
+[2025-06-16 04:58:49] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 04:58:49] Procesando 10 archivos
+[2025-06-16 04:58:49] Retornando 10 archivos
+[2025-06-16 05:42:19] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 05:42:20] Procesando 17 archivos
+[2025-06-16 05:42:20] Retornando 17 archivos
+[2025-06-16 07:01:07] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 07:01:07] Procesando 36 archivos
+[2025-06-16 07:01:07] Retornando 36 archivos
+[2025-06-16 07:02:22] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 07:02:22] Procesando 3 archivos
+[2025-06-16 07:02:22] Retornando 3 archivos
+[2025-06-16 07:02:39] Renombrando archivo: tts20250616065851.mp3 -> tts20250616065851_probando.mp3
+[2025-06-16 07:02:39] Ejecutando comando: sudo docker exec azuracast mv '/var/azuracast/stations/test/media/Grabaciones/tts20250616065851.mp3' '/var/azuracast/stations/test/media/Grabaciones/tts20250616065851_probando.mp3' 2>&1
+[2025-06-16 07:02:40] Archivo renombrado exitosamente. Sincronizando AzuraCast...
+[2025-06-16 07:02:40] Ejecutando sincronización: sudo docker exec azuracast php /var/azuracast/www/backend/bin/console azuracast:media:reprocess 1 2>&1
+[2025-06-16 07:02:40] Resultado sincronización: 
+Manually Reprocess Media
+========================
+
+Reprocessing media for station: OVH
+Marked 72 record(s) for reprocessing.
+
+[2025-06-16 07:03:23] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 07:03:23] Procesando 3 archivos
+[2025-06-16 07:03:23] Retornando 3 archivos
+[2025-06-16 13:34:22] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 13:34:22] Procesando 3 archivos
+[2025-06-16 13:34:22] Retornando 3 archivos
+[2025-06-16 14:36:22] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 14:36:22] Procesando 4 archivos
+[2025-06-16 14:36:22] Retornando 4 archivos
+[2025-06-16 14:37:40] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 14:37:40] Procesando 4 archivos
+[2025-06-16 14:37:40] Retornando 4 archivos
+[2025-06-16 15:05:07] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 15:05:07] Procesando 4 archivos
+[2025-06-16 15:05:07] Retornando 4 archivos
+[2025-06-16 15:07:31] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 15:07:31] Procesando 4 archivos
+[2025-06-16 15:07:31] Retornando 4 archivos
+[2025-06-16 15:08:00] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 15:08:01] Procesando 4 archivos
+[2025-06-16 15:08:01] Retornando 4 archivos
+[2025-06-16 15:18:15] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 15:18:15] Procesando 4 archivos
+[2025-06-16 15:18:15] Retornando 4 archivos
+[2025-06-16 15:25:53] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 15:25:53] Procesando 4 archivos
+[2025-06-16 15:25:53] Retornando 4 archivos
+[2025-06-16 15:27:48] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 15:27:48] Procesando 4 archivos
+[2025-06-16 15:27:48] Retornando 4 archivos
+[2025-06-16 15:38:04] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 15:38:04] Procesando 4 archivos
+[2025-06-16 15:38:04] Retornando 4 archivos
+[2025-06-16 15:50:01] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 15:50:01] Procesando 4 archivos
+[2025-06-16 15:50:01] Retornando 4 archivos
+[2025-06-16 15:52:02] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 15:52:02] Procesando 4 archivos
+[2025-06-16 15:52:02] Retornando 4 archivos
+[2025-06-16 15:52:17] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 15:52:18] Procesando 4 archivos
+[2025-06-16 15:52:18] Retornando 4 archivos
+[2025-06-16 18:43:11] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 18:43:11] Procesando 4 archivos
+[2025-06-16 18:43:11] Retornando 4 archivos
+[2025-06-16 18:46:35] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 18:46:35] Procesando 4 archivos
+[2025-06-16 18:46:35] Retornando 4 archivos
+[2025-06-16 18:49:13] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 18:49:13] Procesando 4 archivos
+[2025-06-16 18:49:13] Retornando 4 archivos
+[2025-06-16 18:52:13] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 18:52:13] Procesando 4 archivos
+[2025-06-16 18:52:13] Retornando 4 archivos
+[2025-06-16 18:52:44] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 18:52:44] Procesando 4 archivos
+[2025-06-16 18:52:44] Retornando 4 archivos
+[2025-06-16 18:52:58] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 18:52:58] Procesando 4 archivos
+[2025-06-16 18:52:58] Retornando 4 archivos
+[2025-06-16 18:53:08] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 18:53:08] Procesando 4 archivos
+[2025-06-16 18:53:08] Retornando 4 archivos
+[2025-06-16 18:53:29] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 18:53:29] Procesando 4 archivos
+[2025-06-16 18:53:29] Retornando 4 archivos
+[2025-06-16 18:53:31] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 18:53:31] Procesando 4 archivos
+[2025-06-16 18:53:31] Retornando 4 archivos
+[2025-06-16 18:53:34] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 18:53:34] Procesando 4 archivos
+[2025-06-16 18:53:34] Retornando 4 archivos
+[2025-06-16 18:59:34] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 18:59:34] Procesando 4 archivos
+[2025-06-16 18:59:34] Retornando 4 archivos
+[2025-06-16 18:59:51] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 18:59:51] Procesando 4 archivos
+[2025-06-16 18:59:51] Retornando 4 archivos
+[2025-06-16 19:00:02] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:00:03] Procesando 4 archivos
+[2025-06-16 19:00:03] Retornando 4 archivos
+[2025-06-16 19:00:08] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:00:08] Procesando 4 archivos
+[2025-06-16 19:00:08] Retornando 4 archivos
+[2025-06-16 19:00:19] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:00:19] Procesando 4 archivos
+[2025-06-16 19:00:19] Retornando 4 archivos
+[2025-06-16 19:04:55] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:04:55] Procesando 4 archivos
+[2025-06-16 19:04:55] Retornando 4 archivos
+[2025-06-16 19:05:11] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:05:11] Procesando 4 archivos
+[2025-06-16 19:05:11] Retornando 4 archivos
+[2025-06-16 19:05:42] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:05:42] Procesando 4 archivos
+[2025-06-16 19:05:42] Retornando 4 archivos
+[2025-06-16 19:06:09] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:06:10] Procesando 4 archivos
+[2025-06-16 19:06:10] Retornando 4 archivos
+[2025-06-16 19:06:18] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:06:18] Procesando 4 archivos
+[2025-06-16 19:06:18] Retornando 4 archivos
+[2025-06-16 19:06:25] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:06:25] Procesando 4 archivos
+[2025-06-16 19:06:25] Retornando 4 archivos
+[2025-06-16 19:10:34] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:10:34] Procesando 4 archivos
+[2025-06-16 19:10:34] Retornando 4 archivos
+[2025-06-16 19:11:54] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:11:54] Procesando 4 archivos
+[2025-06-16 19:11:54] Retornando 4 archivos
+[2025-06-16 19:18:43] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:18:43] Procesando 4 archivos
+[2025-06-16 19:18:43] Retornando 4 archivos
+[2025-06-16 19:20:01] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:20:01] Procesando 4 archivos
+[2025-06-16 19:20:01] Retornando 4 archivos
+[2025-06-16 19:20:27] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:20:27] Procesando 4 archivos
+[2025-06-16 19:20:27] Retornando 4 archivos
+[2025-06-16 19:24:44] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:24:44] Procesando 4 archivos
+[2025-06-16 19:24:44] Retornando 4 archivos
+[2025-06-16 19:27:23] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:27:23] Procesando 4 archivos
+[2025-06-16 19:27:23] Retornando 4 archivos
+[2025-06-16 19:27:49] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:27:49] Procesando 4 archivos
+[2025-06-16 19:27:49] Retornando 4 archivos
+[2025-06-16 19:34:23] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:34:23] Procesando 4 archivos
+[2025-06-16 19:34:23] Retornando 4 archivos
+[2025-06-16 19:34:29] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:34:30] Procesando 4 archivos
+[2025-06-16 19:34:30] Retornando 4 archivos
+[2025-06-16 19:34:41] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:34:41] Procesando 4 archivos
+[2025-06-16 19:34:41] Retornando 4 archivos
+[2025-06-16 19:34:45] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:34:45] Procesando 4 archivos
+[2025-06-16 19:34:45] Retornando 4 archivos
+[2025-06-16 19:35:48] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:35:48] Procesando 4 archivos
+[2025-06-16 19:35:48] Retornando 4 archivos
+[2025-06-16 19:36:02] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:36:02] Procesando 4 archivos
+[2025-06-16 19:36:02] Retornando 4 archivos
+[2025-06-16 19:36:11] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:36:11] Procesando 4 archivos
+[2025-06-16 19:36:11] Retornando 4 archivos
+[2025-06-16 19:36:21] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:36:22] Procesando 4 archivos
+[2025-06-16 19:36:22] Retornando 4 archivos
+[2025-06-16 19:36:30] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:36:31] Procesando 4 archivos
+[2025-06-16 19:36:31] Retornando 4 archivos
+[2025-06-16 19:36:33] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:36:33] Procesando 4 archivos
+[2025-06-16 19:36:33] Retornando 4 archivos
+[2025-06-16 19:37:14] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:37:14] Procesando 4 archivos
+[2025-06-16 19:37:14] Retornando 4 archivos
+[2025-06-16 19:37:29] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:37:30] Procesando 4 archivos
+[2025-06-16 19:37:30] Retornando 4 archivos
+[2025-06-16 19:37:38] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:37:38] Procesando 4 archivos
+[2025-06-16 19:37:38] Retornando 4 archivos
+[2025-06-16 19:39:31] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:39:31] Procesando 4 archivos
+[2025-06-16 19:39:31] Retornando 4 archivos
+[2025-06-16 19:43:51] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:43:51] Procesando 4 archivos
+[2025-06-16 19:43:51] Retornando 4 archivos
+[2025-06-16 19:44:04] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:44:05] Procesando 4 archivos
+[2025-06-16 19:44:05] Retornando 4 archivos
+[2025-06-16 19:44:10] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:44:10] Procesando 4 archivos
+[2025-06-16 19:44:10] Retornando 4 archivos
+[2025-06-16 19:44:20] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:44:20] Procesando 4 archivos
+[2025-06-16 19:44:20] Retornando 4 archivos
+[2025-06-16 19:44:33] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:44:33] Procesando 4 archivos
+[2025-06-16 19:44:33] Retornando 4 archivos
+[2025-06-16 19:44:43] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:44:44] Procesando 4 archivos
+[2025-06-16 19:44:44] Retornando 4 archivos
+[2025-06-16 19:44:58] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:44:58] Procesando 4 archivos
+[2025-06-16 19:44:58] Retornando 4 archivos
+[2025-06-16 19:53:38] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:53:38] Procesando 4 archivos
+[2025-06-16 19:53:38] Retornando 4 archivos
+[2025-06-16 19:53:45] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:53:45] Procesando 4 archivos
+[2025-06-16 19:53:45] Retornando 4 archivos
+[2025-06-16 19:56:43] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:56:43] Procesando 4 archivos
+[2025-06-16 19:56:43] Retornando 4 archivos
+[2025-06-16 19:56:50] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:56:50] Procesando 4 archivos
+[2025-06-16 19:56:50] Retornando 4 archivos
+[2025-06-16 19:57:04] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 19:57:05] Procesando 4 archivos
+[2025-06-16 19:57:05] Retornando 4 archivos
+[2025-06-16 20:12:20] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 20:12:20] Procesando 4 archivos
+[2025-06-16 20:12:20] Retornando 4 archivos
+[2025-06-16 20:13:31] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 20:13:31] Procesando 4 archivos
+[2025-06-16 20:13:31] Retornando 4 archivos
+[2025-06-16 20:14:01] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 20:14:01] Procesando 4 archivos
+[2025-06-16 20:14:01] Retornando 4 archivos
+[2025-06-16 20:21:54] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 20:21:54] Procesando 4 archivos
+[2025-06-16 20:21:54] Retornando 4 archivos
+[2025-06-16 20:21:56] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 20:21:56] Procesando 4 archivos
+[2025-06-16 20:21:56] Retornando 4 archivos
+[2025-06-16 20:22:02] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 20:22:02] Procesando 4 archivos
+[2025-06-16 20:22:02] Retornando 4 archivos
+[2025-06-16 20:22:17] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 20:22:17] Procesando 4 archivos
+[2025-06-16 20:22:17] Retornando 4 archivos
+[2025-06-16 20:24:40] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 20:24:40] Procesando 4 archivos
+[2025-06-16 20:24:40] Retornando 4 archivos
+[2025-06-16 20:24:43] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 20:24:44] Procesando 4 archivos
+[2025-06-16 20:24:44] Retornando 4 archivos
+[2025-06-16 20:25:46] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 20:25:46] Procesando 4 archivos
+[2025-06-16 20:25:46] Retornando 4 archivos
+[2025-06-16 20:25:49] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 20:25:49] Procesando 4 archivos
+[2025-06-16 20:25:49] Retornando 4 archivos
+[2025-06-16 20:28:55] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 20:28:55] Procesando 4 archivos
+[2025-06-16 20:28:55] Retornando 4 archivos
+[2025-06-16 20:29:03] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 20:29:03] Procesando 4 archivos
+[2025-06-16 20:29:03] Retornando 4 archivos
+[2025-06-16 20:30:50] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 20:30:50] Procesando 4 archivos
+[2025-06-16 20:30:50] Retornando 4 archivos
+[2025-06-16 20:30:55] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 20:30:56] Procesando 4 archivos
+[2025-06-16 20:30:56] Retornando 4 archivos
+[2025-06-16 20:30:58] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 20:30:59] Procesando 4 archivos
+[2025-06-16 20:30:59] Retornando 4 archivos
+[2025-06-16 20:53:58] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 20:53:58] Procesando 4 archivos
+[2025-06-16 20:53:58] Retornando 4 archivos
+[2025-06-16 20:54:15] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 20:54:15] Procesando 4 archivos
+[2025-06-16 20:54:15] Retornando 4 archivos
+[2025-06-16 20:55:15] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 20:55:15] Procesando 4 archivos
+[2025-06-16 20:55:15] Retornando 4 archivos
+[2025-06-16 20:59:46] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 20:59:46] Procesando 4 archivos
+[2025-06-16 20:59:46] Retornando 4 archivos
+[2025-06-16 21:03:46] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 21:03:46] Procesando 4 archivos
+[2025-06-16 21:03:46] Retornando 4 archivos
+[2025-06-16 21:04:20] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 21:04:20] Procesando 4 archivos
+[2025-06-16 21:04:20] Retornando 4 archivos
+[2025-06-16 21:05:29] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 21:05:29] Procesando 4 archivos
+[2025-06-16 21:05:29] Retornando 4 archivos
+[2025-06-16 21:10:20] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 21:10:20] Procesando 4 archivos
+[2025-06-16 21:10:20] Retornando 4 archivos
+[2025-06-16 21:10:46] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 21:10:46] Procesando 4 archivos
+[2025-06-16 21:10:46] Retornando 4 archivos
+[2025-06-16 21:10:51] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 21:10:52] Procesando 4 archivos
+[2025-06-16 21:10:52] Retornando 4 archivos
+[2025-06-16 21:11:31] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 21:11:31] Procesando 4 archivos
+[2025-06-16 21:11:31] Retornando 4 archivos
+[2025-06-16 21:11:36] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 21:11:36] Procesando 4 archivos
+[2025-06-16 21:11:36] Retornando 4 archivos
+[2025-06-16 21:12:24] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 21:12:24] Procesando 4 archivos
+[2025-06-16 21:12:24] Retornando 4 archivos
+[2025-06-16 21:13:03] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 21:13:03] Procesando 4 archivos
+[2025-06-16 21:13:03] Retornando 4 archivos
+[2025-06-16 21:27:15] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 21:27:15] Procesando 4 archivos
+[2025-06-16 21:27:15] Retornando 4 archivos
+[2025-06-16 21:36:56] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 21:36:56] Procesando 5 archivos
+[2025-06-16 21:36:56] Retornando 5 archivos
+[2025-06-16 21:37:10] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 21:37:10] Procesando 5 archivos
+[2025-06-16 21:37:10] Retornando 5 archivos
+[2025-06-16 21:41:53] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 21:41:53] Procesando 5 archivos
+[2025-06-16 21:41:53] Retornando 5 archivos
+[2025-06-16 21:46:19] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 21:46:19] Procesando 5 archivos
+[2025-06-16 21:46:19] Retornando 5 archivos
+[2025-06-16 21:52:35] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 21:52:35] Procesando 7 archivos
+[2025-06-16 21:52:35] Retornando 7 archivos
+[2025-06-16 21:53:38] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 21:53:38] Procesando 7 archivos
+[2025-06-16 21:53:38] Retornando 7 archivos
+[2025-06-16 21:53:57] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 21:53:57] Procesando 7 archivos
+[2025-06-16 21:53:57] Retornando 7 archivos
+[2025-06-16 21:54:51] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 21:54:51] Procesando 7 archivos
+[2025-06-16 21:54:51] Retornando 7 archivos
+[2025-06-16 22:08:13] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 22:08:14] Procesando 7 archivos
+[2025-06-16 22:08:14] Retornando 7 archivos
+[2025-06-16 23:39:52] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 23:39:52] Procesando 7 archivos
+[2025-06-16 23:39:52] Retornando 7 archivos
+[2025-06-16 23:54:12] Listando archivos de biblioteca - Versión optimizada
+[2025-06-16 23:54:12] Procesando 11 archivos
+[2025-06-16 23:54:12] Retornando 11 archivos

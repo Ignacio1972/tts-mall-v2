@@ -1,0 +1,42 @@
+[2025-06-18 17:58:29] Listando archivos de biblioteca - Versión optimizada
+[2025-06-18 17:58:30] Procesando 150 archivos
+[2025-06-18 17:58:30] Retornando 50 archivos
+[2025-06-18 18:02:28] Renombrando archivo: tts20250617233032.mp3 -> tts20250617233032_test.mp3
+[2025-06-18 18:02:29] Ejecutando comando: sudo docker exec azuracast mv '/var/azuracast/stations/test/media/Grabaciones/tts20250617233032.mp3' '/var/azuracast/stations/test/media/Grabaciones/tts20250617233032_test.mp3' 2>&1
+[2025-06-18 18:02:29] Archivo renombrado exitosamente. Sincronizando AzuraCast...
+[2025-06-18 18:02:29] Ejecutando sincronización: sudo docker exec azuracast php /var/azuracast/www/backend/bin/console azuracast:media:reprocess 1 2>&1
+[2025-06-18 18:02:29] Resultado sincronización: 
+Manually Reprocess Media
+========================
+
+Reprocessing media for station: Mall
+Marked 224 record(s) for reprocessing.
+
+[2025-06-18 18:02:55] Renombrando archivo: tts20250617233228.mp3 -> tts20250617233228_test2.mp3
+[2025-06-18 18:02:55] Ejecutando comando: sudo docker exec azuracast mv '/var/azuracast/stations/test/media/Grabaciones/tts20250617233228.mp3' '/var/azuracast/stations/test/media/Grabaciones/tts20250617233228_test2.mp3' 2>&1
+[2025-06-18 18:02:56] Archivo renombrado exitosamente. Sincronizando AzuraCast...
+[2025-06-18 18:02:56] Ejecutando sincronización: sudo docker exec azuracast php /var/azuracast/www/backend/bin/console azuracast:media:reprocess 1 2>&1
+[2025-06-18 18:02:56] Resultado sincronización: 
+Manually Reprocess Media
+========================
+
+Reprocessing media for station: Mall
+Marked 0 record(s) for reprocessing.
+
+[2025-06-18 18:03:06] Listando archivos de biblioteca - Versión optimizada
+[2025-06-18 18:03:06] Procesando 155 archivos
+[2025-06-18 18:03:06] Retornando 50 archivos
+[2025-06-18 18:03:15] Renombrando archivo: tts20250618180156.mp3 -> tts20250618180156_test.mp3
+[2025-06-18 18:03:15] Ejecutando comando: sudo docker exec azuracast mv '/var/azuracast/stations/test/media/Grabaciones/tts20250618180156.mp3' '/var/azuracast/stations/test/media/Grabaciones/tts20250618180156_test.mp3' 2>&1
+[2025-06-18 18:03:15] Archivo renombrado exitosamente. Sincronizando AzuraCast...
+[2025-06-18 18:03:15] Ejecutando sincronización: sudo docker exec azuracast php /var/azuracast/www/backend/bin/console azuracast:media:reprocess 1 2>&1
+[2025-06-18 18:03:15] Resultado sincronización: 
+Manually Reprocess Media
+========================
+
+Reprocessing media for station: Mall
+Marked 0 record(s) for reprocessing.
+
+[2025-06-18 18:03:23] Listando archivos de biblioteca - Versión optimizada
+[2025-06-18 18:03:23] Procesando 155 archivos
+[2025-06-18 18:03:23] Retornando 50 archivos

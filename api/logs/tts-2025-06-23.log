@@ -1,0 +1,535 @@
+[2025-06-23 02:33:09] [TEST] Datos recibidos: {"action":"generate_audio","text":"\u00a1No se lo pierdan! Gran show de magia familiar este s\u00e1bado 20 a las 4 de la tarde en el patio de comidas","voice":"ruben","speed":"muy_lento","emphasis":false,"voice_settings":{"style":0.84,"stability":0.66,"similarity_boost":0.42,"use_speaker_boost":true},"pause_settings":{"enabled":true,"sentence":0.17,"comma":0.03,"custom_markers":[]},"emphasis_settings":{"enabled":false,"level":"soft","custom_words":[],"auto_numbers":true,"auto_prices":true},"modulation_settings":{"pitch":8,"volume":0,"dynamic_rate":false}}
+[2025-06-23 02:33:09] [TEST] Iniciando generación de audio
+[2025-06-23 02:33:09] [TEST] Voice settings recibidos: {"style":0.84,"stability":0.66,"similarity_boost":0.42,"use_speaker_boost":true}
+[2025-06-23 02:33:09] [TEST] Pause settings recibidos: {"enabled":true,"sentence":0.17,"comma":0.03,"custom_markers":[]}
+[2025-06-23 02:33:09] [TEST] Emphasis settings recibidos: {"enabled":false,"level":"soft","custom_words":[],"auto_numbers":true,"auto_prices":true}
+[2025-06-23 02:33:09] [TEST] Modulation settings recibidos: {"pitch":8,"volume":0,"dynamic_rate":false}
+[2025-06-23 02:33:09] [TEST] Generator options completas: {"speed":"muy_lento","emphasis":false,"voice_settings":{"style":0.84,"stability":0.66,"similarity_boost":0.42,"use_speaker_boost":true},"pause_settings":{"enabled":true,"sentence":0.17,"comma":0.03,"custom_markers":[]},"emphasis_settings":{"enabled":false,"level":"soft","custom_words":[],"auto_numbers":true,"auto_prices":true},"emphasis_words":[],"modulation_settings":{"pitch":8,"volume":0,"dynamic_rate":false}}
+[2025-06-23 02:33:09] [TEST] Generando desde texto directo
+[2025-06-23 02:33:09] [TEST] Texto original: ¡No se lo pierdan! Gran show de magia familiar este sábado 20 a las 4 de la tarde en el patio de comidas
+[2025-06-23 02:33:09] [TEST] Pasando pause_settings a speech-controls: {"enabled":true,"sentence":0.17,"comma":0.03,"custom_markers":[]}
+[2025-06-23 02:33:09] [TEST] Pasando emphasis_settings a speech-controls: {"enabled":false,"level":"soft","custom_words":[],"auto_numbers":true,"auto_prices":true}
+[2025-06-23 02:33:09] [TEST] Pasando modulation_settings a speech-controls: {"pitch":8,"volume":0,"dynamic_rate":false}
+[2025-06-23 02:33:09] [TEST] Speech Controls - processText options: {"speed":"muy_lento","language":"es","emphasis":false,"emphasis_words":[],"pauses":true,"pause_length":"medium","emotion":"neutral","pause_settings":{"enabled":true,"sentence":0.17,"comma":0.03,"custom_markers":[]},"emphasis_settings":{"enabled":false,"level":"soft","custom_words":[],"auto_numbers":true,"auto_prices":true},"modulation_settings":{"pitch":8,"volume":0,"dynamic_rate":false}}
+[2025-06-23 02:33:09] [TEST] Usando pausas avanzadas
+[2025-06-23 02:33:09] [TEST] Texto procesado con SSML: <speak><prosody rate="x-slow">¡No se lo pierdan! <break time="0.17s"/> Gran show de magia familiar este sábado 20 a las 4 de la tarde en el patio de comidas</prosody></speak>
+[2025-06-23 02:33:09] [TEST] Voice settings finales: {"stability":0.66,"similarity_boost":0.42,"style":0.84,"use_speaker_boost":true}
+[2025-06-23 02:33:09] [TEST] === TTS-SERVICE: Options recibidas: {"model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.66,"similarity_boost":0.42,"style":0.84,"use_speaker_boost":true},"language":"es","enable_ssml":false,"seed":null}
+[2025-06-23 02:33:09] [TEST] TTS Enhanced - Voz: ruben -> ID: rp876bky8TK6Abie5pir
+[2025-06-23 02:33:09] [TEST] Voice settings mezclados con frontend: {"stability":0.66,"similarity_boost":0.42,"style":0.84,"use_speaker_boost":true}
+[2025-06-23 02:33:09] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"x-slow\">\u00a1No se lo pierdan! <break time=\"0.17s\"\/> Gran show de magia familiar este s\u00e1bado 20 a las 4 de la tarde en el patio de comidas<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.66,"similarity_boost":0.42,"style":0.84,"use_speaker_boost":true},"enable_ssml":false}
+[2025-06-23 02:33:09] [TEST] Voice settings finales: style=0.84, stability=0.66, similarity=0.42
+[2025-06-23 02:33:12] [TEST] Respuesta HTTP: 200
+[2025-06-23 02:33:12] [TEST] Audio generado exitosamente, tamaño: 137971 bytes
+[2025-06-23 02:33:12] [TEST] Archivo temporal creado para preview: test_1750645992.mp3
+[2025-06-23 02:33:12] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1750645992.mp3.copy
+[2025-06-23 02:33:12] [TEST] Archivo original - Channels: 1, Sample Rate: 44100, Bitrate: 128000
+[2025-06-23 02:33:12] [TEST] Ejecutando comando de silencio: ffmpeg -f lavfi -i anullsrc=channel_layout=mono:sample_rate=44100 -t 3 -c:a libmp3lame -b:a 128000 -ac 1 -ar 44100 -y '/var/www/tts-radio/api/temp/silence_6858bce8981f7.mp3' 2>&1
+[2025-06-23 02:33:12] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_6858bce8981f7.mp3
+[2025-06-23 02:33:12] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_6858bce8aea2f.txt
+[2025-06-23 02:33:12] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_6858bce8aea2f.txt' -c:a libmp3lame -b:a 128000 -ac 1 -ar 44100 -y '/var/www/tts-radio/api/temp/test_1750645992_with_silence.mp3' 2>&1
+[2025-06-23 02:33:12] [TEST] Archivo final - Channels: 1, Sample Rate: 44100
+[2025-06-23 02:33:12] [TEST] ✅ Silencio agregado exitosamente manteniendo formato original. Tamaño: 234937 bytes
+[2025-06-23 02:33:12] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250623023312.mp3
+[2025-06-23 02:33:13] [TEST] Audio generado y subido exitosamente: tts20250623023312.mp3
+[2025-06-23 02:33:30] [TEST] Datos recibidos: {"action":"generate_audio","text":"\u00a1No se lo pierdan! Gran show de magia familiar este s\u00e1bado 20 a las 4 de la tarde en el patio de comidas","voice":"ruben","speed":"emergencia","emphasis":false,"voice_settings":{"style":0.84,"stability":0.66,"similarity_boost":0.42,"use_speaker_boost":true},"pause_settings":{"enabled":true,"sentence":0.17,"comma":0.03,"custom_markers":[]},"emphasis_settings":{"enabled":false,"level":"soft","custom_words":[],"auto_numbers":true,"auto_prices":true},"modulation_settings":{"pitch":8,"volume":0,"dynamic_rate":false}}
+[2025-06-23 02:33:30] [TEST] Iniciando generación de audio
+[2025-06-23 02:33:30] [TEST] Voice settings recibidos: {"style":0.84,"stability":0.66,"similarity_boost":0.42,"use_speaker_boost":true}
+[2025-06-23 02:33:30] [TEST] Pause settings recibidos: {"enabled":true,"sentence":0.17,"comma":0.03,"custom_markers":[]}
+[2025-06-23 02:33:30] [TEST] Emphasis settings recibidos: {"enabled":false,"level":"soft","custom_words":[],"auto_numbers":true,"auto_prices":true}
+[2025-06-23 02:33:30] [TEST] Modulation settings recibidos: {"pitch":8,"volume":0,"dynamic_rate":false}
+[2025-06-23 02:33:30] [TEST] Generator options completas: {"speed":"emergencia","emphasis":false,"voice_settings":{"style":0.84,"stability":0.66,"similarity_boost":0.42,"use_speaker_boost":true},"pause_settings":{"enabled":true,"sentence":0.17,"comma":0.03,"custom_markers":[]},"emphasis_settings":{"enabled":false,"level":"soft","custom_words":[],"auto_numbers":true,"auto_prices":true},"emphasis_words":[],"modulation_settings":{"pitch":8,"volume":0,"dynamic_rate":false}}
+[2025-06-23 02:33:30] [TEST] Generando desde texto directo
+[2025-06-23 02:33:30] [TEST] Texto original: ¡No se lo pierdan! Gran show de magia familiar este sábado 20 a las 4 de la tarde en el patio de comidas
+[2025-06-23 02:33:30] [TEST] Pasando pause_settings a speech-controls: {"enabled":true,"sentence":0.17,"comma":0.03,"custom_markers":[]}
+[2025-06-23 02:33:30] [TEST] Pasando emphasis_settings a speech-controls: {"enabled":false,"level":"soft","custom_words":[],"auto_numbers":true,"auto_prices":true}
+[2025-06-23 02:33:30] [TEST] Pasando modulation_settings a speech-controls: {"pitch":8,"volume":0,"dynamic_rate":false}
+[2025-06-23 02:33:30] [TEST] Speech Controls - processText options: {"speed":"emergencia","language":"es","emphasis":false,"emphasis_words":[],"pauses":true,"pause_length":"medium","emotion":"neutral","pause_settings":{"enabled":true,"sentence":0.17,"comma":0.03,"custom_markers":[]},"emphasis_settings":{"enabled":false,"level":"soft","custom_words":[],"auto_numbers":true,"auto_prices":true},"modulation_settings":{"pitch":8,"volume":0,"dynamic_rate":false}}
+[2025-06-23 02:33:30] [TEST] Usando pausas avanzadas
+[2025-06-23 02:33:30] [TEST] Texto procesado con SSML: <speak><prosody rate="x-fast">¡No se lo pierdan! <break time="0.17s"/> Gran show de magia familiar este sábado 20 a las 4 de la tarde en el patio de comidas</prosody></speak>
+[2025-06-23 02:33:30] [TEST] Voice settings finales: {"stability":0.66,"similarity_boost":0.42,"style":0.84,"use_speaker_boost":true}
+[2025-06-23 02:33:30] [TEST] === TTS-SERVICE: Options recibidas: {"model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.66,"similarity_boost":0.42,"style":0.84,"use_speaker_boost":true},"language":"es","enable_ssml":false,"seed":null}
+[2025-06-23 02:33:30] [TEST] TTS Enhanced - Voz: ruben -> ID: rp876bky8TK6Abie5pir
+[2025-06-23 02:33:30] [TEST] Voice settings mezclados con frontend: {"stability":0.66,"similarity_boost":0.42,"style":0.84,"use_speaker_boost":true}
+[2025-06-23 02:33:30] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"x-fast\">\u00a1No se lo pierdan! <break time=\"0.17s\"\/> Gran show de magia familiar este s\u00e1bado 20 a las 4 de la tarde en el patio de comidas<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.66,"similarity_boost":0.42,"style":0.84,"use_speaker_boost":true},"enable_ssml":false}
+[2025-06-23 02:33:30] [TEST] Voice settings finales: style=0.84, stability=0.66, similarity=0.42
+[2025-06-23 02:33:32] [TEST] Respuesta HTTP: 200
+[2025-06-23 02:33:32] [TEST] Audio generado exitosamente, tamaño: 135045 bytes
+[2025-06-23 02:33:32] [TEST] Archivo temporal creado para preview: test_1750646012.mp3
+[2025-06-23 02:33:32] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1750646012.mp3.copy
+[2025-06-23 02:33:32] [TEST] Archivo original - Channels: 1, Sample Rate: 44100, Bitrate: 128000
+[2025-06-23 02:33:32] [TEST] Ejecutando comando de silencio: ffmpeg -f lavfi -i anullsrc=channel_layout=mono:sample_rate=44100 -t 3 -c:a libmp3lame -b:a 128000 -ac 1 -ar 44100 -y '/var/www/tts-radio/api/temp/silence_6858bcfcd8266.mp3' 2>&1
+[2025-06-23 02:33:32] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_6858bcfcd8266.mp3
+[2025-06-23 02:33:32] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_6858bcfcedaa7.txt
+[2025-06-23 02:33:32] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_6858bcfcedaa7.txt' -c:a libmp3lame -b:a 128000 -ac 1 -ar 44100 -y '/var/www/tts-radio/api/temp/test_1750646012_with_silence.mp3' 2>&1
+[2025-06-23 02:33:33] [TEST] Archivo final - Channels: 1, Sample Rate: 44100
+[2025-06-23 02:33:33] [TEST] ✅ Silencio agregado exitosamente manteniendo formato original. Tamaño: 232011 bytes
+[2025-06-23 02:33:33] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250623023333.mp3
+[2025-06-23 02:33:33] [TEST] Audio generado y subido exitosamente: tts20250623023333.mp3
+[2025-06-23 14:36:28] [TEST] Datos recibidos: {"action":"list_templates"}
+[2025-06-23 14:43:48] [TEST] Datos recibidos: {"action":"list_templates"}
+[2025-06-23 15:13:43] [TEST] Datos recibidos: {"action":"list_templates"}
+[2025-06-23 15:21:12] [TEST] Datos recibidos: {"action":"list_templates"}
+[2025-06-23 16:23:24] [TEST] Datos recibidos: {"action":"list_templates"}
+[2025-06-23 16:27:01] [TEST] Datos recibidos: {"action":"generate_audio","text":"\u00a1No se lo pierdan! Gran show de magia familiar este s\u00e1bado 20 a las 4 de la tarde en el patio de comidas, No se olviden, este s\u00e1bado a las 4 de la tarde !","voice":"fernanda","speed":"normal","emphasis":true,"voice_settings":{"style":0.5,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true},"pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:27:01] [TEST] Iniciando generación de audio
+[2025-06-23 16:27:01] [TEST] Voice settings recibidos: {"style":0.5,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}
+[2025-06-23 16:27:01] [TEST] Pause settings recibidos: {"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]}
+[2025-06-23 16:27:01] [TEST] Emphasis settings recibidos: {"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true}
+[2025-06-23 16:27:01] [TEST] Modulation settings recibidos: {"pitch":0,"volume":0,"dynamic_rate":false}
+[2025-06-23 16:27:01] [TEST] Generator options completas: {"speed":"normal","emphasis":true,"voice_settings":{"style":0.5,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true},"pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"emphasis_words":[],"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:27:01] [TEST] Generando desde texto directo
+[2025-06-23 16:27:01] [TEST] Texto original: ¡No se lo pierdan! Gran show de magia familiar este sábado 20 a las 4 de la tarde en el patio de comidas, No se olviden, este sábado a las 4 de la tarde !
+[2025-06-23 16:27:01] [TEST] Pasando pause_settings a speech-controls: {"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]}
+[2025-06-23 16:27:01] [TEST] Pasando emphasis_settings a speech-controls: {"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true}
+[2025-06-23 16:27:01] [TEST] Pasando modulation_settings a speech-controls: {"pitch":0,"volume":0,"dynamic_rate":false}
+[2025-06-23 16:27:01] [TEST] Speech Controls - processText options: {"speed":"normal","language":"es","emphasis":true,"emphasis_words":[],"pauses":true,"pause_length":"medium","emotion":"neutral","pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:27:01] [TEST] Usando énfasis avanzado
+[2025-06-23 16:27:01] [TEST] Usando pausas avanzadas
+[2025-06-23 16:27:01] [TEST] Texto procesado con SSML: <speak><prosody rate="medium"><prosody pitch="+10%" volume="+2dB">¡No se lo pierdan!</prosody> <emphasis level="medium">Gran</emphasis> <emphasis level="medium">show</emphasis> de magia familiar este sábado <emphasis level="medium">20</emphasis> a las <emphasis level="medium">4</emphasis> de la tarde en el patio de comidas, <break time="0.2s"/> No se olviden, <break time="0.2s"/> este sábado a las <emphasis level="medium">4</emphasis> de la tarde !</prosody></speak>
+[2025-06-23 16:27:01] [TEST] Voice settings finales: {"stability":0.75,"similarity_boost":0.8,"style":0.5,"use_speaker_boost":true}
+[2025-06-23 16:27:01] [TEST] === TTS-SERVICE: Options recibidas: {"model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"style":0.5,"use_speaker_boost":true},"language":"es","enable_ssml":false,"seed":null}
+[2025-06-23 16:27:01] [TEST] TTS Enhanced - Voz: fernanda -> ID: JM2A9JbRp8XUJ7bdCXJc
+[2025-06-23 16:27:01] [TEST] Voice settings mezclados con frontend: {"stability":0.75,"similarity_boost":0.8,"style":0.5,"use_speaker_boost":true}
+[2025-06-23 16:27:01] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\"><prosody pitch=\"+10%\" volume=\"+2dB\">\u00a1No se lo pierdan!<\/prosody> <emphasis level=\"medium\">Gran<\/emphasis> <emphasis level=\"medium\">show<\/emphasis> de magia familiar este s\u00e1bado <emphasis level=\"medium\">20<\/emphasis> a las <emphasis level=\"medium\">4<\/emphasis> de la tarde en el patio de comidas, <break time=\"0.2s\"\/> No se olviden, <break time=\"0.2s\"\/> este s\u00e1bado a las <emphasis level=\"medium\">4<\/emphasis> de la tarde !<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"style":0.5,"use_speaker_boost":true},"enable_ssml":false}
+[2025-06-23 16:27:01] [TEST] Voice settings finales: style=0.5, stability=0.75, similarity=0.8
+[2025-06-23 16:27:03] [TEST] Respuesta HTTP: 200
+[2025-06-23 16:27:03] [TEST] Audio generado exitosamente, tamaño: 162631 bytes
+[2025-06-23 16:27:03] [TEST] Archivo temporal creado para preview: test_1750696023.mp3
+[2025-06-23 16:27:03] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1750696023.mp3.copy
+[2025-06-23 16:27:03] [TEST] Archivo original - Channels: 1, Sample Rate: 44100, Bitrate: 128000
+[2025-06-23 16:27:03] [TEST] Ejecutando comando de silencio: ffmpeg -f lavfi -i anullsrc=channel_layout=mono:sample_rate=44100 -t 3 -c:a libmp3lame -b:a 128000 -ac 1 -ar 44100 -y '/var/www/tts-radio/api/temp/silence_68598057b3470.mp3' 2>&1
+[2025-06-23 16:27:03] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_68598057b3470.mp3
+[2025-06-23 16:27:03] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_68598057cc8ba.txt
+[2025-06-23 16:27:03] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_68598057cc8ba.txt' -c:a libmp3lame -b:a 128000 -ac 1 -ar 44100 -y '/var/www/tts-radio/api/temp/test_1750696023_with_silence.mp3' 2>&1
+[2025-06-23 16:27:04] [TEST] Archivo final - Channels: 1, Sample Rate: 44100
+[2025-06-23 16:27:04] [TEST] ✅ Silencio agregado exitosamente manteniendo formato original. Tamaño: 259596 bytes
+[2025-06-23 16:27:04] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250623162704.mp3
+[2025-06-23 16:27:04] [TEST] Audio generado y subido exitosamente: tts20250623162704.mp3
+[2025-06-23 16:27:25] [TEST] Datos recibidos: {"action":"generate_audio","text":"\u00a1No se lo pierdan! Gran show de magia familiar este s\u00e1bado 20 a las 4 de la tarde en el patio de comidas, No se olviden, este s\u00e1bado a las 4 de la tarde !","voice":"cristian","speed":"normal","emphasis":true,"voice_settings":{"style":0.5,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true},"pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:27:25] [TEST] Iniciando generación de audio
+[2025-06-23 16:27:25] [TEST] Voice settings recibidos: {"style":0.5,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}
+[2025-06-23 16:27:25] [TEST] Pause settings recibidos: {"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]}
+[2025-06-23 16:27:25] [TEST] Emphasis settings recibidos: {"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true}
+[2025-06-23 16:27:25] [TEST] Modulation settings recibidos: {"pitch":0,"volume":0,"dynamic_rate":false}
+[2025-06-23 16:27:25] [TEST] Generator options completas: {"speed":"normal","emphasis":true,"voice_settings":{"style":0.5,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true},"pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"emphasis_words":[],"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:27:25] [TEST] Generando desde texto directo
+[2025-06-23 16:27:25] [TEST] Texto original: ¡No se lo pierdan! Gran show de magia familiar este sábado 20 a las 4 de la tarde en el patio de comidas, No se olviden, este sábado a las 4 de la tarde !
+[2025-06-23 16:27:25] [TEST] Pasando pause_settings a speech-controls: {"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]}
+[2025-06-23 16:27:25] [TEST] Pasando emphasis_settings a speech-controls: {"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true}
+[2025-06-23 16:27:25] [TEST] Pasando modulation_settings a speech-controls: {"pitch":0,"volume":0,"dynamic_rate":false}
+[2025-06-23 16:27:25] [TEST] Speech Controls - processText options: {"speed":"normal","language":"es","emphasis":true,"emphasis_words":[],"pauses":true,"pause_length":"medium","emotion":"neutral","pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:27:25] [TEST] Usando énfasis avanzado
+[2025-06-23 16:27:25] [TEST] Usando pausas avanzadas
+[2025-06-23 16:27:25] [TEST] Texto procesado con SSML: <speak><prosody rate="medium"><prosody pitch="+10%" volume="+2dB">¡No se lo pierdan!</prosody> <emphasis level="medium">Gran</emphasis> <emphasis level="medium">show</emphasis> de magia familiar este sábado <emphasis level="medium">20</emphasis> a las <emphasis level="medium">4</emphasis> de la tarde en el patio de comidas, <break time="0.2s"/> No se olviden, <break time="0.2s"/> este sábado a las <emphasis level="medium">4</emphasis> de la tarde !</prosody></speak>
+[2025-06-23 16:27:25] [TEST] Voice settings finales: {"stability":0.75,"similarity_boost":0.8,"style":0.5,"use_speaker_boost":true}
+[2025-06-23 16:27:25] [TEST] === TTS-SERVICE: Options recibidas: {"model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"style":0.5,"use_speaker_boost":true},"language":"es","enable_ssml":false,"seed":null}
+[2025-06-23 16:27:25] [TEST] TTS Enhanced - Voz: cristian -> ID: nNS8uylvF9GBWVSiIt5h
+[2025-06-23 16:27:25] [TEST] Voice settings mezclados con frontend: {"stability":0.75,"similarity_boost":0.8,"style":0.5,"use_speaker_boost":true}
+[2025-06-23 16:27:25] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\"><prosody pitch=\"+10%\" volume=\"+2dB\">\u00a1No se lo pierdan!<\/prosody> <emphasis level=\"medium\">Gran<\/emphasis> <emphasis level=\"medium\">show<\/emphasis> de magia familiar este s\u00e1bado <emphasis level=\"medium\">20<\/emphasis> a las <emphasis level=\"medium\">4<\/emphasis> de la tarde en el patio de comidas, <break time=\"0.2s\"\/> No se olviden, <break time=\"0.2s\"\/> este s\u00e1bado a las <emphasis level=\"medium\">4<\/emphasis> de la tarde !<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"style":0.5,"use_speaker_boost":true},"enable_ssml":false}
+[2025-06-23 16:27:25] [TEST] Voice settings finales: style=0.5, stability=0.75, similarity=0.8
+[2025-06-23 16:27:28] [TEST] Respuesta HTTP: 200
+[2025-06-23 16:27:28] [TEST] Audio generado exitosamente, tamaño: 135045 bytes
+[2025-06-23 16:27:28] [TEST] Archivo temporal creado para preview: test_1750696048.mp3
+[2025-06-23 16:27:28] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1750696048.mp3.copy
+[2025-06-23 16:27:28] [TEST] Archivo original - Channels: 1, Sample Rate: 44100, Bitrate: 128000
+[2025-06-23 16:27:28] [TEST] Ejecutando comando de silencio: ffmpeg -f lavfi -i anullsrc=channel_layout=mono:sample_rate=44100 -t 3 -c:a libmp3lame -b:a 128000 -ac 1 -ar 44100 -y '/var/www/tts-radio/api/temp/silence_685980702c873.mp3' 2>&1
+[2025-06-23 16:27:28] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_685980702c873.mp3
+[2025-06-23 16:27:28] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_685980703f56d.txt
+[2025-06-23 16:27:28] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_685980703f56d.txt' -c:a libmp3lame -b:a 128000 -ac 1 -ar 44100 -y '/var/www/tts-radio/api/temp/test_1750696048_with_silence.mp3' 2>&1
+[2025-06-23 16:27:28] [TEST] Archivo final - Channels: 1, Sample Rate: 44100
+[2025-06-23 16:27:28] [TEST] ✅ Silencio agregado exitosamente manteniendo formato original. Tamaño: 232011 bytes
+[2025-06-23 16:27:28] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250623162728.mp3
+[2025-06-23 16:27:29] [TEST] Audio generado y subido exitosamente: tts20250623162728.mp3
+[2025-06-23 16:27:55] [TEST] Datos recibidos: {"action":"generate_audio","text":"\u00a1No se lo pierdan! Gran show de magia familiar este s\u00e1bado 20 a las 4 de la tarde en el patio de comidas, No se olviden, este s\u00e1bado a las 4 de la tarde !","voice":"cristian","speed":"normal","emphasis":true,"voice_settings":{"style":0.5,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true},"pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:27:55] [TEST] Iniciando generación de audio
+[2025-06-23 16:27:55] [TEST] Voice settings recibidos: {"style":0.5,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}
+[2025-06-23 16:27:55] [TEST] Pause settings recibidos: {"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]}
+[2025-06-23 16:27:55] [TEST] Emphasis settings recibidos: {"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true}
+[2025-06-23 16:27:55] [TEST] Modulation settings recibidos: {"pitch":0,"volume":0,"dynamic_rate":false}
+[2025-06-23 16:27:55] [TEST] Generator options completas: {"speed":"normal","emphasis":true,"voice_settings":{"style":0.5,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true},"pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"emphasis_words":[],"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:27:55] [TEST] Generando desde texto directo
+[2025-06-23 16:27:55] [TEST] Texto original: ¡No se lo pierdan! Gran show de magia familiar este sábado 20 a las 4 de la tarde en el patio de comidas, No se olviden, este sábado a las 4 de la tarde !
+[2025-06-23 16:27:55] [TEST] Pasando pause_settings a speech-controls: {"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]}
+[2025-06-23 16:27:55] [TEST] Pasando emphasis_settings a speech-controls: {"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true}
+[2025-06-23 16:27:55] [TEST] Pasando modulation_settings a speech-controls: {"pitch":0,"volume":0,"dynamic_rate":false}
+[2025-06-23 16:27:55] [TEST] Speech Controls - processText options: {"speed":"normal","language":"es","emphasis":true,"emphasis_words":[],"pauses":true,"pause_length":"medium","emotion":"neutral","pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:27:55] [TEST] Usando énfasis avanzado
+[2025-06-23 16:27:55] [TEST] Usando pausas avanzadas
+[2025-06-23 16:27:55] [TEST] Texto procesado con SSML: <speak><prosody rate="medium"><prosody pitch="+10%" volume="+2dB">¡No se lo pierdan!</prosody> <emphasis level="medium">Gran</emphasis> <emphasis level="medium">show</emphasis> de magia familiar este sábado <emphasis level="medium">20</emphasis> a las <emphasis level="medium">4</emphasis> de la tarde en el patio de comidas, <break time="0.2s"/> No se olviden, <break time="0.2s"/> este sábado a las <emphasis level="medium">4</emphasis> de la tarde !</prosody></speak>
+[2025-06-23 16:27:55] [TEST] Voice settings finales: {"stability":0.75,"similarity_boost":0.8,"style":0.5,"use_speaker_boost":true}
+[2025-06-23 16:27:55] [TEST] === TTS-SERVICE: Options recibidas: {"model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"style":0.5,"use_speaker_boost":true},"language":"es","enable_ssml":false,"seed":null}
+[2025-06-23 16:27:55] [TEST] TTS Enhanced - Voz: cristian -> ID: nNS8uylvF9GBWVSiIt5h
+[2025-06-23 16:27:55] [TEST] Voice settings mezclados con frontend: {"stability":0.75,"similarity_boost":0.8,"style":0.5,"use_speaker_boost":true}
+[2025-06-23 16:27:55] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\"><prosody pitch=\"+10%\" volume=\"+2dB\">\u00a1No se lo pierdan!<\/prosody> <emphasis level=\"medium\">Gran<\/emphasis> <emphasis level=\"medium\">show<\/emphasis> de magia familiar este s\u00e1bado <emphasis level=\"medium\">20<\/emphasis> a las <emphasis level=\"medium\">4<\/emphasis> de la tarde en el patio de comidas, <break time=\"0.2s\"\/> No se olviden, <break time=\"0.2s\"\/> este s\u00e1bado a las <emphasis level=\"medium\">4<\/emphasis> de la tarde !<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"style":0.5,"use_speaker_boost":true},"enable_ssml":false}
+[2025-06-23 16:27:55] [TEST] Voice settings finales: style=0.5, stability=0.75, similarity=0.8
+[2025-06-23 16:27:58] [TEST] Respuesta HTTP: 200
+[2025-06-23 16:27:58] [TEST] Audio generado exitosamente, tamaño: 136717 bytes
+[2025-06-23 16:27:58] [TEST] Archivo temporal creado para preview: test_1750696078.mp3
+[2025-06-23 16:27:58] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1750696078.mp3.copy
+[2025-06-23 16:27:58] [TEST] Archivo original - Channels: 1, Sample Rate: 44100, Bitrate: 128000
+[2025-06-23 16:27:58] [TEST] Ejecutando comando de silencio: ffmpeg -f lavfi -i anullsrc=channel_layout=mono:sample_rate=44100 -t 3 -c:a libmp3lame -b:a 128000 -ac 1 -ar 44100 -y '/var/www/tts-radio/api/temp/silence_6859808e42ddb.mp3' 2>&1
+[2025-06-23 16:27:58] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_6859808e42ddb.mp3
+[2025-06-23 16:27:58] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_6859808e5899c.txt
+[2025-06-23 16:27:58] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_6859808e5899c.txt' -c:a libmp3lame -b:a 128000 -ac 1 -ar 44100 -y '/var/www/tts-radio/api/temp/test_1750696078_with_silence.mp3' 2>&1
+[2025-06-23 16:27:58] [TEST] Archivo final - Channels: 1, Sample Rate: 44100
+[2025-06-23 16:27:58] [TEST] ✅ Silencio agregado exitosamente manteniendo formato original. Tamaño: 233683 bytes
+[2025-06-23 16:27:58] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250623162758.mp3
+[2025-06-23 16:27:59] [TEST] Audio generado y subido exitosamente: tts20250623162758.mp3
+[2025-06-23 16:28:38] [TEST] Datos recibidos: {"action":"generate_audio","text":"\u00a1No se lo pierdan! Gran show de magia familiar este s\u00e1bado 20 a las 4 de la tarde en el patio de comidas, No se olviden, este s\u00e1bado a las 4 de la tarde !","voice":"valeria","speed":"normal","emphasis":true,"voice_settings":{"style":0.5,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true},"pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:28:38] [TEST] Iniciando generación de audio
+[2025-06-23 16:28:38] [TEST] Voice settings recibidos: {"style":0.5,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}
+[2025-06-23 16:28:38] [TEST] Pause settings recibidos: {"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]}
+[2025-06-23 16:28:38] [TEST] Emphasis settings recibidos: {"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true}
+[2025-06-23 16:28:38] [TEST] Modulation settings recibidos: {"pitch":0,"volume":0,"dynamic_rate":false}
+[2025-06-23 16:28:38] [TEST] Generator options completas: {"speed":"normal","emphasis":true,"voice_settings":{"style":0.5,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true},"pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"emphasis_words":[],"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:28:38] [TEST] Generando desde texto directo
+[2025-06-23 16:28:38] [TEST] Texto original: ¡No se lo pierdan! Gran show de magia familiar este sábado 20 a las 4 de la tarde en el patio de comidas, No se olviden, este sábado a las 4 de la tarde !
+[2025-06-23 16:28:38] [TEST] Pasando pause_settings a speech-controls: {"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]}
+[2025-06-23 16:28:38] [TEST] Pasando emphasis_settings a speech-controls: {"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true}
+[2025-06-23 16:28:38] [TEST] Pasando modulation_settings a speech-controls: {"pitch":0,"volume":0,"dynamic_rate":false}
+[2025-06-23 16:28:38] [TEST] Speech Controls - processText options: {"speed":"normal","language":"es","emphasis":true,"emphasis_words":[],"pauses":true,"pause_length":"medium","emotion":"neutral","pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:28:38] [TEST] Usando énfasis avanzado
+[2025-06-23 16:28:38] [TEST] Usando pausas avanzadas
+[2025-06-23 16:28:38] [TEST] Texto procesado con SSML: <speak><prosody rate="medium"><prosody pitch="+10%" volume="+2dB">¡No se lo pierdan!</prosody> <emphasis level="medium">Gran</emphasis> <emphasis level="medium">show</emphasis> de magia familiar este sábado <emphasis level="medium">20</emphasis> a las <emphasis level="medium">4</emphasis> de la tarde en el patio de comidas, <break time="0.2s"/> No se olviden, <break time="0.2s"/> este sábado a las <emphasis level="medium">4</emphasis> de la tarde !</prosody></speak>
+[2025-06-23 16:28:38] [TEST] Voice settings finales: {"stability":0.75,"similarity_boost":0.8,"style":0.5,"use_speaker_boost":true}
+[2025-06-23 16:28:38] [TEST] === TTS-SERVICE: Options recibidas: {"model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"style":0.5,"use_speaker_boost":true},"language":"es","enable_ssml":false,"seed":null}
+[2025-06-23 16:28:38] [TEST] TTS Enhanced - Voz: valeria -> ID: 22VndfJPBU7AZORAZZTT
+[2025-06-23 16:28:38] [TEST] Voice settings mezclados con frontend: {"stability":0.75,"similarity_boost":0.8,"style":0.5,"use_speaker_boost":true}
+[2025-06-23 16:28:38] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\"><prosody pitch=\"+10%\" volume=\"+2dB\">\u00a1No se lo pierdan!<\/prosody> <emphasis level=\"medium\">Gran<\/emphasis> <emphasis level=\"medium\">show<\/emphasis> de magia familiar este s\u00e1bado <emphasis level=\"medium\">20<\/emphasis> a las <emphasis level=\"medium\">4<\/emphasis> de la tarde en el patio de comidas, <break time=\"0.2s\"\/> No se olviden, <break time=\"0.2s\"\/> este s\u00e1bado a las <emphasis level=\"medium\">4<\/emphasis> de la tarde !<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"style":0.5,"use_speaker_boost":true},"enable_ssml":false}
+[2025-06-23 16:28:38] [TEST] Voice settings finales: style=0.5, stability=0.75, similarity=0.8
+[2025-06-23 16:28:40] [TEST] Respuesta HTTP: 200
+[2025-06-23 16:28:40] [TEST] Audio generado exitosamente, tamaño: 153018 bytes
+[2025-06-23 16:28:40] [TEST] Archivo temporal creado para preview: test_1750696120.mp3
+[2025-06-23 16:28:40] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1750696120.mp3.copy
+[2025-06-23 16:28:41] [TEST] Archivo original - Channels: 1, Sample Rate: 44100, Bitrate: 128000
+[2025-06-23 16:28:41] [TEST] Ejecutando comando de silencio: ffmpeg -f lavfi -i anullsrc=channel_layout=mono:sample_rate=44100 -t 3 -c:a libmp3lame -b:a 128000 -ac 1 -ar 44100 -y '/var/www/tts-radio/api/temp/silence_685980b910e0b.mp3' 2>&1
+[2025-06-23 16:28:41] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_685980b910e0b.mp3
+[2025-06-23 16:28:41] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_685980b926391.txt
+[2025-06-23 16:28:41] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_685980b926391.txt' -c:a libmp3lame -b:a 128000 -ac 1 -ar 44100 -y '/var/www/tts-radio/api/temp/test_1750696120_with_silence.mp3' 2>&1
+[2025-06-23 16:28:41] [TEST] Archivo final - Channels: 1, Sample Rate: 44100
+[2025-06-23 16:28:41] [TEST] ✅ Silencio agregado exitosamente manteniendo formato original. Tamaño: 249983 bytes
+[2025-06-23 16:28:41] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250623162841.mp3
+[2025-06-23 16:28:41] [TEST] Audio generado y subido exitosamente: tts20250623162841.mp3
+[2025-06-23 16:29:19] [TEST] Datos recibidos: {"action":"generate_audio","text":"\u00a1No se lo pierdan! Gran show de magia familiar este s\u00e1bado 20 a las 4 de la tarde en el patio de comidas, No se olviden, este s\u00e1bado a las 4 de la tarde !","voice":"yorman","speed":"normal","emphasis":true,"voice_settings":{"style":0.5,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true},"pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:29:19] [TEST] Iniciando generación de audio
+[2025-06-23 16:29:19] [TEST] Voice settings recibidos: {"style":0.5,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}
+[2025-06-23 16:29:19] [TEST] Pause settings recibidos: {"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]}
+[2025-06-23 16:29:19] [TEST] Emphasis settings recibidos: {"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true}
+[2025-06-23 16:29:19] [TEST] Modulation settings recibidos: {"pitch":0,"volume":0,"dynamic_rate":false}
+[2025-06-23 16:29:19] [TEST] Generator options completas: {"speed":"normal","emphasis":true,"voice_settings":{"style":0.5,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true},"pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"emphasis_words":[],"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:29:19] [TEST] Generando desde texto directo
+[2025-06-23 16:29:19] [TEST] Texto original: ¡No se lo pierdan! Gran show de magia familiar este sábado 20 a las 4 de la tarde en el patio de comidas, No se olviden, este sábado a las 4 de la tarde !
+[2025-06-23 16:29:19] [TEST] Pasando pause_settings a speech-controls: {"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]}
+[2025-06-23 16:29:19] [TEST] Pasando emphasis_settings a speech-controls: {"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true}
+[2025-06-23 16:29:19] [TEST] Pasando modulation_settings a speech-controls: {"pitch":0,"volume":0,"dynamic_rate":false}
+[2025-06-23 16:29:19] [TEST] Speech Controls - processText options: {"speed":"normal","language":"es","emphasis":true,"emphasis_words":[],"pauses":true,"pause_length":"medium","emotion":"neutral","pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:29:19] [TEST] Usando énfasis avanzado
+[2025-06-23 16:29:19] [TEST] Usando pausas avanzadas
+[2025-06-23 16:29:19] [TEST] Texto procesado con SSML: <speak><prosody rate="medium"><prosody pitch="+10%" volume="+2dB">¡No se lo pierdan!</prosody> <emphasis level="medium">Gran</emphasis> <emphasis level="medium">show</emphasis> de magia familiar este sábado <emphasis level="medium">20</emphasis> a las <emphasis level="medium">4</emphasis> de la tarde en el patio de comidas, <break time="0.2s"/> No se olviden, <break time="0.2s"/> este sábado a las <emphasis level="medium">4</emphasis> de la tarde !</prosody></speak>
+[2025-06-23 16:29:19] [TEST] Voice settings finales: {"stability":0.75,"similarity_boost":0.8,"style":0.5,"use_speaker_boost":true}
+[2025-06-23 16:29:19] [TEST] === TTS-SERVICE: Options recibidas: {"model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"style":0.5,"use_speaker_boost":true},"language":"es","enable_ssml":false,"seed":null}
+[2025-06-23 16:29:19] [TEST] TTS Enhanced - Voz: yorman -> ID: J2Jb9yZNvpXUNAL3a2bw
+[2025-06-23 16:29:19] [TEST] Voice settings mezclados con frontend: {"stability":0.75,"similarity_boost":0.8,"style":0.5,"use_speaker_boost":true}
+[2025-06-23 16:29:19] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"medium\"><prosody pitch=\"+10%\" volume=\"+2dB\">\u00a1No se lo pierdan!<\/prosody> <emphasis level=\"medium\">Gran<\/emphasis> <emphasis level=\"medium\">show<\/emphasis> de magia familiar este s\u00e1bado <emphasis level=\"medium\">20<\/emphasis> a las <emphasis level=\"medium\">4<\/emphasis> de la tarde en el patio de comidas, <break time=\"0.2s\"\/> No se olviden, <break time=\"0.2s\"\/> este s\u00e1bado a las <emphasis level=\"medium\">4<\/emphasis> de la tarde !<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"style":0.5,"use_speaker_boost":true},"enable_ssml":false}
+[2025-06-23 16:29:19] [TEST] Voice settings finales: style=0.5, stability=0.75, similarity=0.8
+[2025-06-23 16:29:22] [TEST] Respuesta HTTP: 200
+[2025-06-23 16:29:22] [TEST] Audio generado exitosamente, tamaño: 197739 bytes
+[2025-06-23 16:29:22] [TEST] Archivo temporal creado para preview: test_1750696162.mp3
+[2025-06-23 16:29:22] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1750696162.mp3.copy
+[2025-06-23 16:29:22] [TEST] Archivo original - Channels: 1, Sample Rate: 44100, Bitrate: 128000
+[2025-06-23 16:29:22] [TEST] Ejecutando comando de silencio: ffmpeg -f lavfi -i anullsrc=channel_layout=mono:sample_rate=44100 -t 3 -c:a libmp3lame -b:a 128000 -ac 1 -ar 44100 -y '/var/www/tts-radio/api/temp/silence_685980e26230a.mp3' 2>&1
+[2025-06-23 16:29:22] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_685980e26230a.mp3
+[2025-06-23 16:29:22] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_685980e27800d.txt
+[2025-06-23 16:29:22] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_685980e27800d.txt' -c:a libmp3lame -b:a 128000 -ac 1 -ar 44100 -y '/var/www/tts-radio/api/temp/test_1750696162_with_silence.mp3' 2>&1
+[2025-06-23 16:29:22] [TEST] Archivo final - Channels: 1, Sample Rate: 44100
+[2025-06-23 16:29:22] [TEST] ✅ Silencio agregado exitosamente manteniendo formato original. Tamaño: 294705 bytes
+[2025-06-23 16:29:22] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250623162922.mp3
+[2025-06-23 16:29:23] [TEST] Audio generado y subido exitosamente: tts20250623162922.mp3
+[2025-06-23 16:29:45] [TEST] Datos recibidos: {"action":"generate_audio","text":"\u00a1No se lo pierdan! Gran show de magia familiar este s\u00e1bado 20 a las 4 de la tarde en el patio de comidas, No se olviden, este s\u00e1bado a las 4 de la tarde !","voice":"yorman","speed":"rapido","emphasis":true,"voice_settings":{"style":0.5,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true},"pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:29:45] [TEST] Iniciando generación de audio
+[2025-06-23 16:29:45] [TEST] Voice settings recibidos: {"style":0.5,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}
+[2025-06-23 16:29:45] [TEST] Pause settings recibidos: {"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]}
+[2025-06-23 16:29:45] [TEST] Emphasis settings recibidos: {"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true}
+[2025-06-23 16:29:45] [TEST] Modulation settings recibidos: {"pitch":0,"volume":0,"dynamic_rate":false}
+[2025-06-23 16:29:45] [TEST] Generator options completas: {"speed":"rapido","emphasis":true,"voice_settings":{"style":0.5,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true},"pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"emphasis_words":[],"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:29:45] [TEST] Generando desde texto directo
+[2025-06-23 16:29:45] [TEST] Texto original: ¡No se lo pierdan! Gran show de magia familiar este sábado 20 a las 4 de la tarde en el patio de comidas, No se olviden, este sábado a las 4 de la tarde !
+[2025-06-23 16:29:45] [TEST] Pasando pause_settings a speech-controls: {"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]}
+[2025-06-23 16:29:45] [TEST] Pasando emphasis_settings a speech-controls: {"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true}
+[2025-06-23 16:29:45] [TEST] Pasando modulation_settings a speech-controls: {"pitch":0,"volume":0,"dynamic_rate":false}
+[2025-06-23 16:29:45] [TEST] Speech Controls - processText options: {"speed":"rapido","language":"es","emphasis":true,"emphasis_words":[],"pauses":true,"pause_length":"medium","emotion":"neutral","pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:29:45] [TEST] Usando énfasis avanzado
+[2025-06-23 16:29:45] [TEST] Usando pausas avanzadas
+[2025-06-23 16:29:45] [TEST] Texto procesado con SSML: <speak><prosody rate="fast"><prosody pitch="+10%" volume="+2dB">¡No se lo pierdan!</prosody> <emphasis level="medium">Gran</emphasis> <emphasis level="medium">show</emphasis> de magia familiar este sábado <emphasis level="medium">20</emphasis> a las <emphasis level="medium">4</emphasis> de la tarde en el patio de comidas, <break time="0.2s"/> No se olviden, <break time="0.2s"/> este sábado a las <emphasis level="medium">4</emphasis> de la tarde !</prosody></speak>
+[2025-06-23 16:29:45] [TEST] Voice settings finales: {"stability":0.75,"similarity_boost":0.8,"style":0.5,"use_speaker_boost":true}
+[2025-06-23 16:29:45] [TEST] === TTS-SERVICE: Options recibidas: {"model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"style":0.5,"use_speaker_boost":true},"language":"es","enable_ssml":false,"seed":null}
+[2025-06-23 16:29:45] [TEST] TTS Enhanced - Voz: yorman -> ID: J2Jb9yZNvpXUNAL3a2bw
+[2025-06-23 16:29:45] [TEST] Voice settings mezclados con frontend: {"stability":0.75,"similarity_boost":0.8,"style":0.5,"use_speaker_boost":true}
+[2025-06-23 16:29:45] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"fast\"><prosody pitch=\"+10%\" volume=\"+2dB\">\u00a1No se lo pierdan!<\/prosody> <emphasis level=\"medium\">Gran<\/emphasis> <emphasis level=\"medium\">show<\/emphasis> de magia familiar este s\u00e1bado <emphasis level=\"medium\">20<\/emphasis> a las <emphasis level=\"medium\">4<\/emphasis> de la tarde en el patio de comidas, <break time=\"0.2s\"\/> No se olviden, <break time=\"0.2s\"\/> este s\u00e1bado a las <emphasis level=\"medium\">4<\/emphasis> de la tarde !<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"style":0.5,"use_speaker_boost":true},"enable_ssml":false}
+[2025-06-23 16:29:45] [TEST] Voice settings finales: style=0.5, stability=0.75, similarity=0.8
+[2025-06-23 16:29:48] [TEST] Respuesta HTTP: 200
+[2025-06-23 16:29:48] [TEST] Audio generado exitosamente, tamaño: 191052 bytes
+[2025-06-23 16:29:48] [TEST] Archivo temporal creado para preview: test_1750696188.mp3
+[2025-06-23 16:29:48] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1750696188.mp3.copy
+[2025-06-23 16:29:48] [TEST] Archivo original - Channels: 1, Sample Rate: 44100, Bitrate: 128000
+[2025-06-23 16:29:48] [TEST] Ejecutando comando de silencio: ffmpeg -f lavfi -i anullsrc=channel_layout=mono:sample_rate=44100 -t 3 -c:a libmp3lame -b:a 128000 -ac 1 -ar 44100 -y '/var/www/tts-radio/api/temp/silence_685980fc8f2aa.mp3' 2>&1
+[2025-06-23 16:29:48] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_685980fc8f2aa.mp3
+[2025-06-23 16:29:48] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_685980fca6db9.txt
+[2025-06-23 16:29:48] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_685980fca6db9.txt' -c:a libmp3lame -b:a 128000 -ac 1 -ar 44100 -y '/var/www/tts-radio/api/temp/test_1750696188_with_silence.mp3' 2>&1
+[2025-06-23 16:29:49] [TEST] Archivo final - Channels: 1, Sample Rate: 44100
+[2025-06-23 16:29:49] [TEST] ✅ Silencio agregado exitosamente manteniendo formato original. Tamaño: 288017 bytes
+[2025-06-23 16:29:49] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250623162949.mp3
+[2025-06-23 16:29:49] [TEST] Audio generado y subido exitosamente: tts20250623162949.mp3
+[2025-06-23 16:30:07] [TEST] Datos recibidos: {"action":"generate_audio","text":"\u00a1No se lo pierdan! Gran show de magia familiar este s\u00e1bado 20 a las 4 de la tarde en el patio de comidas, No se olviden, este s\u00e1bado a las 4 de la tarde !","voice":"yorman","speed":"rapido","emphasis":true,"voice_settings":{"style":0.72,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true},"pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:30:07] [TEST] Iniciando generación de audio
+[2025-06-23 16:30:07] [TEST] Voice settings recibidos: {"style":0.72,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}
+[2025-06-23 16:30:07] [TEST] Pause settings recibidos: {"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]}
+[2025-06-23 16:30:07] [TEST] Emphasis settings recibidos: {"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true}
+[2025-06-23 16:30:07] [TEST] Modulation settings recibidos: {"pitch":0,"volume":0,"dynamic_rate":false}
+[2025-06-23 16:30:07] [TEST] Generator options completas: {"speed":"rapido","emphasis":true,"voice_settings":{"style":0.72,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true},"pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"emphasis_words":[],"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:30:07] [TEST] Generando desde texto directo
+[2025-06-23 16:30:07] [TEST] Texto original: ¡No se lo pierdan! Gran show de magia familiar este sábado 20 a las 4 de la tarde en el patio de comidas, No se olviden, este sábado a las 4 de la tarde !
+[2025-06-23 16:30:07] [TEST] Pasando pause_settings a speech-controls: {"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]}
+[2025-06-23 16:30:07] [TEST] Pasando emphasis_settings a speech-controls: {"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true}
+[2025-06-23 16:30:07] [TEST] Pasando modulation_settings a speech-controls: {"pitch":0,"volume":0,"dynamic_rate":false}
+[2025-06-23 16:30:07] [TEST] Speech Controls - processText options: {"speed":"rapido","language":"es","emphasis":true,"emphasis_words":[],"pauses":true,"pause_length":"medium","emotion":"neutral","pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:30:07] [TEST] Usando énfasis avanzado
+[2025-06-23 16:30:07] [TEST] Usando pausas avanzadas
+[2025-06-23 16:30:07] [TEST] Texto procesado con SSML: <speak><prosody rate="fast"><prosody pitch="+10%" volume="+2dB">¡No se lo pierdan!</prosody> <emphasis level="medium">Gran</emphasis> <emphasis level="medium">show</emphasis> de magia familiar este sábado <emphasis level="medium">20</emphasis> a las <emphasis level="medium">4</emphasis> de la tarde en el patio de comidas, <break time="0.2s"/> No se olviden, <break time="0.2s"/> este sábado a las <emphasis level="medium">4</emphasis> de la tarde !</prosody></speak>
+[2025-06-23 16:30:07] [TEST] Voice settings finales: {"stability":0.75,"similarity_boost":0.8,"style":0.72,"use_speaker_boost":true}
+[2025-06-23 16:30:07] [TEST] === TTS-SERVICE: Options recibidas: {"model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"style":0.72,"use_speaker_boost":true},"language":"es","enable_ssml":false,"seed":null}
+[2025-06-23 16:30:07] [TEST] TTS Enhanced - Voz: yorman -> ID: J2Jb9yZNvpXUNAL3a2bw
+[2025-06-23 16:30:07] [TEST] Voice settings mezclados con frontend: {"stability":0.75,"similarity_boost":0.8,"style":0.72,"use_speaker_boost":true}
+[2025-06-23 16:30:07] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"fast\"><prosody pitch=\"+10%\" volume=\"+2dB\">\u00a1No se lo pierdan!<\/prosody> <emphasis level=\"medium\">Gran<\/emphasis> <emphasis level=\"medium\">show<\/emphasis> de magia familiar este s\u00e1bado <emphasis level=\"medium\">20<\/emphasis> a las <emphasis level=\"medium\">4<\/emphasis> de la tarde en el patio de comidas, <break time=\"0.2s\"\/> No se olviden, <break time=\"0.2s\"\/> este s\u00e1bado a las <emphasis level=\"medium\">4<\/emphasis> de la tarde !<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"style":0.72,"use_speaker_boost":true},"enable_ssml":false}
+[2025-06-23 16:30:07] [TEST] Voice settings finales: style=0.72, stability=0.75, similarity=0.8
+[2025-06-23 16:30:10] [TEST] Respuesta HTTP: 200
+[2025-06-23 16:30:10] [TEST] Audio generado exitosamente, tamaño: 190216 bytes
+[2025-06-23 16:30:10] [TEST] Archivo temporal creado para preview: test_1750696210.mp3
+[2025-06-23 16:30:10] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1750696210.mp3.copy
+[2025-06-23 16:30:10] [TEST] Archivo original - Channels: 1, Sample Rate: 44100, Bitrate: 128000
+[2025-06-23 16:30:10] [TEST] Ejecutando comando de silencio: ffmpeg -f lavfi -i anullsrc=channel_layout=mono:sample_rate=44100 -t 3 -c:a libmp3lame -b:a 128000 -ac 1 -ar 44100 -y '/var/www/tts-radio/api/temp/silence_685981123e00e.mp3' 2>&1
+[2025-06-23 16:30:10] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_685981123e00e.mp3
+[2025-06-23 16:30:10] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_6859811265bf4.txt
+[2025-06-23 16:30:10] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_6859811265bf4.txt' -c:a libmp3lame -b:a 128000 -ac 1 -ar 44100 -y '/var/www/tts-radio/api/temp/test_1750696210_with_silence.mp3' 2>&1
+[2025-06-23 16:30:10] [TEST] Archivo final - Channels: 1, Sample Rate: 44100
+[2025-06-23 16:30:10] [TEST] ✅ Silencio agregado exitosamente manteniendo formato original. Tamaño: 287182 bytes
+[2025-06-23 16:30:10] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250623163010.mp3
+[2025-06-23 16:30:11] [TEST] Audio generado y subido exitosamente: tts20250623163010.mp3
+[2025-06-23 16:30:50] [TEST] Datos recibidos: {"action":"generate_audio","text":"\u00a1No se lo pierdan! Gran show de magia familiar este s\u00e1bado 20 a las 4 de la tarde en el patio de comidas, No se olviden, este s\u00e1bado a las 4 de la tarde !","voice":"yorman","speed":"emergencia","emphasis":true,"voice_settings":{"style":0.86,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true},"pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:30:50] [TEST] Iniciando generación de audio
+[2025-06-23 16:30:50] [TEST] Voice settings recibidos: {"style":0.86,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}
+[2025-06-23 16:30:50] [TEST] Pause settings recibidos: {"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]}
+[2025-06-23 16:30:50] [TEST] Emphasis settings recibidos: {"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true}
+[2025-06-23 16:30:50] [TEST] Modulation settings recibidos: {"pitch":0,"volume":0,"dynamic_rate":false}
+[2025-06-23 16:30:50] [TEST] Generator options completas: {"speed":"emergencia","emphasis":true,"voice_settings":{"style":0.86,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true},"pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"emphasis_words":[],"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:30:50] [TEST] Generando desde texto directo
+[2025-06-23 16:30:50] [TEST] Texto original: ¡No se lo pierdan! Gran show de magia familiar este sábado 20 a las 4 de la tarde en el patio de comidas, No se olviden, este sábado a las 4 de la tarde !
+[2025-06-23 16:30:50] [TEST] Pasando pause_settings a speech-controls: {"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]}
+[2025-06-23 16:30:50] [TEST] Pasando emphasis_settings a speech-controls: {"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true}
+[2025-06-23 16:30:50] [TEST] Pasando modulation_settings a speech-controls: {"pitch":0,"volume":0,"dynamic_rate":false}
+[2025-06-23 16:30:50] [TEST] Speech Controls - processText options: {"speed":"emergencia","language":"es","emphasis":true,"emphasis_words":[],"pauses":true,"pause_length":"medium","emotion":"neutral","pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:30:50] [TEST] Usando énfasis avanzado
+[2025-06-23 16:30:50] [TEST] Usando pausas avanzadas
+[2025-06-23 16:30:50] [TEST] Texto procesado con SSML: <speak><prosody rate="x-fast"><prosody pitch="+10%" volume="+2dB">¡No se lo pierdan!</prosody> <emphasis level="medium">Gran</emphasis> <emphasis level="medium">show</emphasis> de magia familiar este sábado <emphasis level="medium">20</emphasis> a las <emphasis level="medium">4</emphasis> de la tarde en el patio de comidas, <break time="0.2s"/> No se olviden, <break time="0.2s"/> este sábado a las <emphasis level="medium">4</emphasis> de la tarde !</prosody></speak>
+[2025-06-23 16:30:50] [TEST] Voice settings finales: {"stability":0.75,"similarity_boost":0.8,"style":0.86,"use_speaker_boost":true}
+[2025-06-23 16:30:50] [TEST] === TTS-SERVICE: Options recibidas: {"model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"style":0.86,"use_speaker_boost":true},"language":"es","enable_ssml":false,"seed":null}
+[2025-06-23 16:30:50] [TEST] TTS Enhanced - Voz: yorman -> ID: J2Jb9yZNvpXUNAL3a2bw
+[2025-06-23 16:30:50] [TEST] Voice settings mezclados con frontend: {"stability":0.75,"similarity_boost":0.8,"style":0.86,"use_speaker_boost":true}
+[2025-06-23 16:30:50] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"x-fast\"><prosody pitch=\"+10%\" volume=\"+2dB\">\u00a1No se lo pierdan!<\/prosody> <emphasis level=\"medium\">Gran<\/emphasis> <emphasis level=\"medium\">show<\/emphasis> de magia familiar este s\u00e1bado <emphasis level=\"medium\">20<\/emphasis> a las <emphasis level=\"medium\">4<\/emphasis> de la tarde en el patio de comidas, <break time=\"0.2s\"\/> No se olviden, <break time=\"0.2s\"\/> este s\u00e1bado a las <emphasis level=\"medium\">4<\/emphasis> de la tarde !<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"style":0.86,"use_speaker_boost":true},"enable_ssml":false}
+[2025-06-23 16:30:50] [TEST] Voice settings finales: style=0.86, stability=0.75, similarity=0.8
+[2025-06-23 16:30:53] [TEST] Respuesta HTTP: 200
+[2025-06-23 16:30:53] [TEST] Audio generado exitosamente, tamaño: 193978 bytes
+[2025-06-23 16:30:53] [TEST] Archivo temporal creado para preview: test_1750696253.mp3
+[2025-06-23 16:30:53] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1750696253.mp3.copy
+[2025-06-23 16:30:53] [TEST] Archivo original - Channels: 1, Sample Rate: 44100, Bitrate: 128000
+[2025-06-23 16:30:53] [TEST] Ejecutando comando de silencio: ffmpeg -f lavfi -i anullsrc=channel_layout=mono:sample_rate=44100 -t 3 -c:a libmp3lame -b:a 128000 -ac 1 -ar 44100 -y '/var/www/tts-radio/api/temp/silence_6859813d1fccc.mp3' 2>&1
+[2025-06-23 16:30:53] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_6859813d1fccc.mp3
+[2025-06-23 16:30:53] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_6859813d3427e.txt
+[2025-06-23 16:30:53] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_6859813d3427e.txt' -c:a libmp3lame -b:a 128000 -ac 1 -ar 44100 -y '/var/www/tts-radio/api/temp/test_1750696253_with_silence.mp3' 2>&1
+[2025-06-23 16:30:53] [TEST] Archivo final - Channels: 1, Sample Rate: 44100
+[2025-06-23 16:30:53] [TEST] ✅ Silencio agregado exitosamente manteniendo formato original. Tamaño: 290943 bytes
+[2025-06-23 16:30:53] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250623163053.mp3
+[2025-06-23 16:30:54] [TEST] Audio generado y subido exitosamente: tts20250623163053.mp3
+[2025-06-23 16:31:44] [TEST] Datos recibidos: {"action":"generate_audio","text":"\u00a1No se lo pierdan! Gran show de magia familiar este s\u00e1bado 20 a las 4 de la tarde en el patio de comidas, No se olviden, este s\u00e1bado a las 4 de la tarde !","voice":"rosa","speed":"emergencia","emphasis":true,"voice_settings":{"style":0.86,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true},"pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:31:44] [TEST] Iniciando generación de audio
+[2025-06-23 16:31:44] [TEST] Voice settings recibidos: {"style":0.86,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}
+[2025-06-23 16:31:44] [TEST] Pause settings recibidos: {"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]}
+[2025-06-23 16:31:44] [TEST] Emphasis settings recibidos: {"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true}
+[2025-06-23 16:31:44] [TEST] Modulation settings recibidos: {"pitch":0,"volume":0,"dynamic_rate":false}
+[2025-06-23 16:31:44] [TEST] Generator options completas: {"speed":"emergencia","emphasis":true,"voice_settings":{"style":0.86,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true},"pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"emphasis_words":[],"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:31:44] [TEST] Generando desde texto directo
+[2025-06-23 16:31:44] [TEST] Texto original: ¡No se lo pierdan! Gran show de magia familiar este sábado 20 a las 4 de la tarde en el patio de comidas, No se olviden, este sábado a las 4 de la tarde !
+[2025-06-23 16:31:44] [TEST] Pasando pause_settings a speech-controls: {"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]}
+[2025-06-23 16:31:44] [TEST] Pasando emphasis_settings a speech-controls: {"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true}
+[2025-06-23 16:31:44] [TEST] Pasando modulation_settings a speech-controls: {"pitch":0,"volume":0,"dynamic_rate":false}
+[2025-06-23 16:31:44] [TEST] Speech Controls - processText options: {"speed":"emergencia","language":"es","emphasis":true,"emphasis_words":[],"pauses":true,"pause_length":"medium","emotion":"neutral","pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:31:44] [TEST] Usando énfasis avanzado
+[2025-06-23 16:31:44] [TEST] Usando pausas avanzadas
+[2025-06-23 16:31:44] [TEST] Texto procesado con SSML: <speak><prosody rate="x-fast"><prosody pitch="+10%" volume="+2dB">¡No se lo pierdan!</prosody> <emphasis level="medium">Gran</emphasis> <emphasis level="medium">show</emphasis> de magia familiar este sábado <emphasis level="medium">20</emphasis> a las <emphasis level="medium">4</emphasis> de la tarde en el patio de comidas, <break time="0.2s"/> No se olviden, <break time="0.2s"/> este sábado a las <emphasis level="medium">4</emphasis> de la tarde !</prosody></speak>
+[2025-06-23 16:31:44] [TEST] Voice settings finales: {"stability":0.75,"similarity_boost":0.8,"style":0.86,"use_speaker_boost":true}
+[2025-06-23 16:31:44] [TEST] === TTS-SERVICE: Options recibidas: {"model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"style":0.86,"use_speaker_boost":true},"language":"es","enable_ssml":false,"seed":null}
+[2025-06-23 16:31:44] [TEST] TTS Enhanced - Voz: rosa -> ID: Yeu6FDmacNCxWs1YwWdK
+[2025-06-23 16:31:44] [TEST] Voice settings mezclados con frontend: {"stability":0.75,"similarity_boost":0.8,"style":0.86,"use_speaker_boost":true}
+[2025-06-23 16:31:44] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"x-fast\"><prosody pitch=\"+10%\" volume=\"+2dB\">\u00a1No se lo pierdan!<\/prosody> <emphasis level=\"medium\">Gran<\/emphasis> <emphasis level=\"medium\">show<\/emphasis> de magia familiar este s\u00e1bado <emphasis level=\"medium\">20<\/emphasis> a las <emphasis level=\"medium\">4<\/emphasis> de la tarde en el patio de comidas, <break time=\"0.2s\"\/> No se olviden, <break time=\"0.2s\"\/> este s\u00e1bado a las <emphasis level=\"medium\">4<\/emphasis> de la tarde !<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"style":0.86,"use_speaker_boost":true},"enable_ssml":false}
+[2025-06-23 16:31:44] [TEST] Voice settings finales: style=0.86, stability=0.75, similarity=0.8
+[2025-06-23 16:31:46] [TEST] Respuesta HTTP: 200
+[2025-06-23 16:31:46] [TEST] Audio generado exitosamente, tamaño: 144658 bytes
+[2025-06-23 16:31:46] [TEST] Archivo temporal creado para preview: test_1750696306.mp3
+[2025-06-23 16:31:46] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1750696306.mp3.copy
+[2025-06-23 16:31:46] [TEST] Archivo original - Channels: 1, Sample Rate: 44100, Bitrate: 128000
+[2025-06-23 16:31:46] [TEST] Ejecutando comando de silencio: ffmpeg -f lavfi -i anullsrc=channel_layout=mono:sample_rate=44100 -t 3 -c:a libmp3lame -b:a 128000 -ac 1 -ar 44100 -y '/var/www/tts-radio/api/temp/silence_6859817285c3d.mp3' 2>&1
+[2025-06-23 16:31:46] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_6859817285c3d.mp3
+[2025-06-23 16:31:46] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_685981729a71d.txt
+[2025-06-23 16:31:46] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_685981729a71d.txt' -c:a libmp3lame -b:a 128000 -ac 1 -ar 44100 -y '/var/www/tts-radio/api/temp/test_1750696306_with_silence.mp3' 2>&1
+[2025-06-23 16:31:46] [TEST] Archivo final - Channels: 1, Sample Rate: 44100
+[2025-06-23 16:31:46] [TEST] ✅ Silencio agregado exitosamente manteniendo formato original. Tamaño: 241624 bytes
+[2025-06-23 16:31:46] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250623163146.mp3
+[2025-06-23 16:31:47] [TEST] Audio generado y subido exitosamente: tts20250623163146.mp3
+[2025-06-23 16:32:11] [TEST] Datos recibidos: {"action":"generate_audio","text":"\u00a1No se lo pierdan! Gran show de magia familiar este s\u00e1bado 20 a las 4 de la tarde en el patio de comidas, No se olviden, este s\u00e1bado a las 4 de la tarde !","voice":"vicente","speed":"emergencia","emphasis":true,"voice_settings":{"style":0.86,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true},"pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:32:11] [TEST] Iniciando generación de audio
+[2025-06-23 16:32:11] [TEST] Voice settings recibidos: {"style":0.86,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}
+[2025-06-23 16:32:11] [TEST] Pause settings recibidos: {"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]}
+[2025-06-23 16:32:11] [TEST] Emphasis settings recibidos: {"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true}
+[2025-06-23 16:32:11] [TEST] Modulation settings recibidos: {"pitch":0,"volume":0,"dynamic_rate":false}
+[2025-06-23 16:32:11] [TEST] Generator options completas: {"speed":"emergencia","emphasis":true,"voice_settings":{"style":0.86,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true},"pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"emphasis_words":[],"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:32:11] [TEST] Generando desde texto directo
+[2025-06-23 16:32:11] [TEST] Texto original: ¡No se lo pierdan! Gran show de magia familiar este sábado 20 a las 4 de la tarde en el patio de comidas, No se olviden, este sábado a las 4 de la tarde !
+[2025-06-23 16:32:11] [TEST] Pasando pause_settings a speech-controls: {"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]}
+[2025-06-23 16:32:11] [TEST] Pasando emphasis_settings a speech-controls: {"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true}
+[2025-06-23 16:32:11] [TEST] Pasando modulation_settings a speech-controls: {"pitch":0,"volume":0,"dynamic_rate":false}
+[2025-06-23 16:32:11] [TEST] Speech Controls - processText options: {"speed":"emergencia","language":"es","emphasis":true,"emphasis_words":[],"pauses":true,"pause_length":"medium","emotion":"neutral","pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:32:11] [TEST] Usando énfasis avanzado
+[2025-06-23 16:32:11] [TEST] Usando pausas avanzadas
+[2025-06-23 16:32:11] [TEST] Texto procesado con SSML: <speak><prosody rate="x-fast"><prosody pitch="+10%" volume="+2dB">¡No se lo pierdan!</prosody> <emphasis level="medium">Gran</emphasis> <emphasis level="medium">show</emphasis> de magia familiar este sábado <emphasis level="medium">20</emphasis> a las <emphasis level="medium">4</emphasis> de la tarde en el patio de comidas, <break time="0.2s"/> No se olviden, <break time="0.2s"/> este sábado a las <emphasis level="medium">4</emphasis> de la tarde !</prosody></speak>
+[2025-06-23 16:32:11] [TEST] Voice settings finales: {"stability":0.75,"similarity_boost":0.8,"style":0.86,"use_speaker_boost":true}
+[2025-06-23 16:32:11] [TEST] === TTS-SERVICE: Options recibidas: {"model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"style":0.86,"use_speaker_boost":true},"language":"es","enable_ssml":false,"seed":null}
+[2025-06-23 16:32:11] [TEST] TTS Enhanced - Voz: vicente -> ID: toHqs8ENHjZX53stqKOK
+[2025-06-23 16:32:11] [TEST] Voice settings mezclados con frontend: {"stability":0.75,"similarity_boost":0.8,"style":0.86,"use_speaker_boost":true}
+[2025-06-23 16:32:11] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"x-fast\"><prosody pitch=\"+10%\" volume=\"+2dB\">\u00a1No se lo pierdan!<\/prosody> <emphasis level=\"medium\">Gran<\/emphasis> <emphasis level=\"medium\">show<\/emphasis> de magia familiar este s\u00e1bado <emphasis level=\"medium\">20<\/emphasis> a las <emphasis level=\"medium\">4<\/emphasis> de la tarde en el patio de comidas, <break time=\"0.2s\"\/> No se olviden, <break time=\"0.2s\"\/> este s\u00e1bado a las <emphasis level=\"medium\">4<\/emphasis> de la tarde !<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"style":0.86,"use_speaker_boost":true},"enable_ssml":false}
+[2025-06-23 16:32:11] [TEST] Voice settings finales: style=0.86, stability=0.75, similarity=0.8
+[2025-06-23 16:32:14] [TEST] Respuesta HTTP: 200
+[2025-06-23 16:32:14] [TEST] Audio generado exitosamente, tamaño: 175169 bytes
+[2025-06-23 16:32:14] [TEST] Archivo temporal creado para preview: test_1750696334.mp3
+[2025-06-23 16:32:14] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1750696334.mp3.copy
+[2025-06-23 16:32:14] [TEST] Archivo original - Channels: 1, Sample Rate: 44100, Bitrate: 128000
+[2025-06-23 16:32:14] [TEST] Ejecutando comando de silencio: ffmpeg -f lavfi -i anullsrc=channel_layout=mono:sample_rate=44100 -t 3 -c:a libmp3lame -b:a 128000 -ac 1 -ar 44100 -y '/var/www/tts-radio/api/temp/silence_6859818e15771.mp3' 2>&1
+[2025-06-23 16:32:14] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_6859818e15771.mp3
+[2025-06-23 16:32:14] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_6859818e3ce78.txt
+[2025-06-23 16:32:14] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_6859818e3ce78.txt' -c:a libmp3lame -b:a 128000 -ac 1 -ar 44100 -y '/var/www/tts-radio/api/temp/test_1750696334_with_silence.mp3' 2>&1
+[2025-06-23 16:32:14] [TEST] Archivo final - Channels: 1, Sample Rate: 44100
+[2025-06-23 16:32:14] [TEST] ✅ Silencio agregado exitosamente manteniendo formato original. Tamaño: 272135 bytes
+[2025-06-23 16:32:14] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250623163214.mp3
+[2025-06-23 16:32:15] [TEST] Audio generado y subido exitosamente: tts20250623163214.mp3
+[2025-06-23 16:32:32] [TEST] Datos recibidos: {"action":"generate_audio","text":"\u00a1No se lo pierdan! Gran show de magia familiar este s\u00e1bado 20 a las 4 de la tarde en el patio de comidas, No se olviden, este s\u00e1bado a las 4 de la tarde !","voice":"zabra","speed":"emergencia","emphasis":true,"voice_settings":{"style":0.86,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true},"pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:32:32] [TEST] Iniciando generación de audio
+[2025-06-23 16:32:32] [TEST] Voice settings recibidos: {"style":0.86,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}
+[2025-06-23 16:32:32] [TEST] Pause settings recibidos: {"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]}
+[2025-06-23 16:32:32] [TEST] Emphasis settings recibidos: {"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true}
+[2025-06-23 16:32:32] [TEST] Modulation settings recibidos: {"pitch":0,"volume":0,"dynamic_rate":false}
+[2025-06-23 16:32:32] [TEST] Generator options completas: {"speed":"emergencia","emphasis":true,"voice_settings":{"style":0.86,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true},"pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"emphasis_words":[],"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:32:32] [TEST] Generando desde texto directo
+[2025-06-23 16:32:32] [TEST] Texto original: ¡No se lo pierdan! Gran show de magia familiar este sábado 20 a las 4 de la tarde en el patio de comidas, No se olviden, este sábado a las 4 de la tarde !
+[2025-06-23 16:32:32] [TEST] Pasando pause_settings a speech-controls: {"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]}
+[2025-06-23 16:32:32] [TEST] Pasando emphasis_settings a speech-controls: {"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true}
+[2025-06-23 16:32:32] [TEST] Pasando modulation_settings a speech-controls: {"pitch":0,"volume":0,"dynamic_rate":false}
+[2025-06-23 16:32:32] [TEST] Speech Controls - processText options: {"speed":"emergencia","language":"es","emphasis":true,"emphasis_words":[],"pauses":true,"pause_length":"medium","emotion":"neutral","pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:32:32] [TEST] Usando énfasis avanzado
+[2025-06-23 16:32:32] [TEST] Usando pausas avanzadas
+[2025-06-23 16:32:32] [TEST] Texto procesado con SSML: <speak><prosody rate="x-fast"><prosody pitch="+10%" volume="+2dB">¡No se lo pierdan!</prosody> <emphasis level="medium">Gran</emphasis> <emphasis level="medium">show</emphasis> de magia familiar este sábado <emphasis level="medium">20</emphasis> a las <emphasis level="medium">4</emphasis> de la tarde en el patio de comidas, <break time="0.2s"/> No se olviden, <break time="0.2s"/> este sábado a las <emphasis level="medium">4</emphasis> de la tarde !</prosody></speak>
+[2025-06-23 16:32:32] [TEST] Voice settings finales: {"stability":0.75,"similarity_boost":0.8,"style":0.86,"use_speaker_boost":true}
+[2025-06-23 16:32:32] [TEST] === TTS-SERVICE: Options recibidas: {"model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"style":0.86,"use_speaker_boost":true},"language":"es","enable_ssml":false,"seed":null}
+[2025-06-23 16:32:32] [TEST] TTS Enhanced - Voz: zabra -> ID: G6LT3kjUUW86fQaWfBaj
+[2025-06-23 16:32:32] [TEST] Voice settings mezclados con frontend: {"stability":0.75,"similarity_boost":0.8,"style":0.86,"use_speaker_boost":true}
+[2025-06-23 16:32:32] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"x-fast\"><prosody pitch=\"+10%\" volume=\"+2dB\">\u00a1No se lo pierdan!<\/prosody> <emphasis level=\"medium\">Gran<\/emphasis> <emphasis level=\"medium\">show<\/emphasis> de magia familiar este s\u00e1bado <emphasis level=\"medium\">20<\/emphasis> a las <emphasis level=\"medium\">4<\/emphasis> de la tarde en el patio de comidas, <break time=\"0.2s\"\/> No se olviden, <break time=\"0.2s\"\/> este s\u00e1bado a las <emphasis level=\"medium\">4<\/emphasis> de la tarde !<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"style":0.86,"use_speaker_boost":true},"enable_ssml":false}
+[2025-06-23 16:32:32] [TEST] Voice settings finales: style=0.86, stability=0.75, similarity=0.8
+[2025-06-23 16:32:36] [TEST] Respuesta HTTP: 200
+[2025-06-23 16:32:36] [TEST] Audio generado exitosamente, tamaño: 291780 bytes
+[2025-06-23 16:32:36] [TEST] Archivo temporal creado para preview: test_1750696356.mp3
+[2025-06-23 16:32:36] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1750696356.mp3.copy
+[2025-06-23 16:32:36] [TEST] Archivo original - Channels: 1, Sample Rate: 44100, Bitrate: 128000
+[2025-06-23 16:32:36] [TEST] Ejecutando comando de silencio: ffmpeg -f lavfi -i anullsrc=channel_layout=mono:sample_rate=44100 -t 3 -c:a libmp3lame -b:a 128000 -ac 1 -ar 44100 -y '/var/www/tts-radio/api/temp/silence_685981a425083.mp3' 2>&1
+[2025-06-23 16:32:36] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_685981a425083.mp3
+[2025-06-23 16:32:36] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_685981a43c469.txt
+[2025-06-23 16:32:36] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_685981a43c469.txt' -c:a libmp3lame -b:a 128000 -ac 1 -ar 44100 -y '/var/www/tts-radio/api/temp/test_1750696356_with_silence.mp3' 2>&1
+[2025-06-23 16:32:36] [TEST] Archivo final - Channels: 1, Sample Rate: 44100
+[2025-06-23 16:32:36] [TEST] ✅ Silencio agregado exitosamente manteniendo formato original. Tamaño: 388746 bytes
+[2025-06-23 16:32:36] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250623163236.mp3
+[2025-06-23 16:32:37] [TEST] Audio generado y subido exitosamente: tts20250623163236.mp3
+[2025-06-23 16:33:03] [TEST] Datos recibidos: {"action":"generate_audio","text":"\u00a1No se lo pierdan! Gran show de magia familiar este s\u00e1bado 20 a las 4 de la tarde en el patio de comidas, No se olviden, este s\u00e1bado a las 4 de la tarde !","voice":"zabra","speed":"lento","emphasis":true,"voice_settings":{"style":0.86,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true},"pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:33:03] [TEST] Iniciando generación de audio
+[2025-06-23 16:33:03] [TEST] Voice settings recibidos: {"style":0.86,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}
+[2025-06-23 16:33:03] [TEST] Pause settings recibidos: {"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]}
+[2025-06-23 16:33:03] [TEST] Emphasis settings recibidos: {"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true}
+[2025-06-23 16:33:03] [TEST] Modulation settings recibidos: {"pitch":0,"volume":0,"dynamic_rate":false}
+[2025-06-23 16:33:03] [TEST] Generator options completas: {"speed":"lento","emphasis":true,"voice_settings":{"style":0.86,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true},"pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"emphasis_words":[],"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:33:03] [TEST] Generando desde texto directo
+[2025-06-23 16:33:03] [TEST] Texto original: ¡No se lo pierdan! Gran show de magia familiar este sábado 20 a las 4 de la tarde en el patio de comidas, No se olviden, este sábado a las 4 de la tarde !
+[2025-06-23 16:33:03] [TEST] Pasando pause_settings a speech-controls: {"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]}
+[2025-06-23 16:33:03] [TEST] Pasando emphasis_settings a speech-controls: {"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true}
+[2025-06-23 16:33:03] [TEST] Pasando modulation_settings a speech-controls: {"pitch":0,"volume":0,"dynamic_rate":false}
+[2025-06-23 16:33:03] [TEST] Speech Controls - processText options: {"speed":"lento","language":"es","emphasis":true,"emphasis_words":[],"pauses":true,"pause_length":"medium","emotion":"neutral","pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:33:03] [TEST] Usando énfasis avanzado
+[2025-06-23 16:33:03] [TEST] Usando pausas avanzadas
+[2025-06-23 16:33:03] [TEST] Texto procesado con SSML: <speak><prosody rate="slow"><prosody pitch="+10%" volume="+2dB">¡No se lo pierdan!</prosody> <emphasis level="medium">Gran</emphasis> <emphasis level="medium">show</emphasis> de magia familiar este sábado <emphasis level="medium">20</emphasis> a las <emphasis level="medium">4</emphasis> de la tarde en el patio de comidas, <break time="0.2s"/> No se olviden, <break time="0.2s"/> este sábado a las <emphasis level="medium">4</emphasis> de la tarde !</prosody></speak>
+[2025-06-23 16:33:03] [TEST] Voice settings finales: {"stability":0.75,"similarity_boost":0.8,"style":0.86,"use_speaker_boost":true}
+[2025-06-23 16:33:03] [TEST] === TTS-SERVICE: Options recibidas: {"model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"style":0.86,"use_speaker_boost":true},"language":"es","enable_ssml":false,"seed":null}
+[2025-06-23 16:33:03] [TEST] TTS Enhanced - Voz: zabra -> ID: G6LT3kjUUW86fQaWfBaj
+[2025-06-23 16:33:03] [TEST] Voice settings mezclados con frontend: {"stability":0.75,"similarity_boost":0.8,"style":0.86,"use_speaker_boost":true}
+[2025-06-23 16:33:03] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"slow\"><prosody pitch=\"+10%\" volume=\"+2dB\">\u00a1No se lo pierdan!<\/prosody> <emphasis level=\"medium\">Gran<\/emphasis> <emphasis level=\"medium\">show<\/emphasis> de magia familiar este s\u00e1bado <emphasis level=\"medium\">20<\/emphasis> a las <emphasis level=\"medium\">4<\/emphasis> de la tarde en el patio de comidas, <break time=\"0.2s\"\/> No se olviden, <break time=\"0.2s\"\/> este s\u00e1bado a las <emphasis level=\"medium\">4<\/emphasis> de la tarde !<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"style":0.86,"use_speaker_boost":true},"enable_ssml":false}
+[2025-06-23 16:33:03] [TEST] Voice settings finales: style=0.86, stability=0.75, similarity=0.8
+[2025-06-23 16:33:06] [TEST] Respuesta HTTP: 200
+[2025-06-23 16:33:06] [TEST] Audio generado exitosamente, tamaño: 298049 bytes
+[2025-06-23 16:33:06] [TEST] Archivo temporal creado para preview: test_1750696386.mp3
+[2025-06-23 16:33:06] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1750696386.mp3.copy
+[2025-06-23 16:33:07] [TEST] Archivo original - Channels: 1, Sample Rate: 44100, Bitrate: 128000
+[2025-06-23 16:33:07] [TEST] Ejecutando comando de silencio: ffmpeg -f lavfi -i anullsrc=channel_layout=mono:sample_rate=44100 -t 3 -c:a libmp3lame -b:a 128000 -ac 1 -ar 44100 -y '/var/www/tts-radio/api/temp/silence_685981c311d73.mp3' 2>&1
+[2025-06-23 16:33:07] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_685981c311d73.mp3
+[2025-06-23 16:33:07] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_685981c329908.txt
+[2025-06-23 16:33:07] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_685981c329908.txt' -c:a libmp3lame -b:a 128000 -ac 1 -ar 44100 -y '/var/www/tts-radio/api/temp/test_1750696386_with_silence.mp3' 2>&1
+[2025-06-23 16:33:07] [TEST] Archivo final - Channels: 1, Sample Rate: 44100
+[2025-06-23 16:33:07] [TEST] ✅ Silencio agregado exitosamente manteniendo formato original. Tamaño: 395015 bytes
+[2025-06-23 16:33:07] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250623163307.mp3
+[2025-06-23 16:33:08] [TEST] Audio generado y subido exitosamente: tts20250623163307.mp3
+[2025-06-23 16:33:28] [TEST] Datos recibidos: {"action":"generate_audio","text":"\u00a1No se lo pierdan! Gran show de magia familiar este s\u00e1bado 20 a las 4 de la tarde en el patio de comidas, No se olviden, este s\u00e1bado a las 4 de la tarde !","voice":"azucena","speed":"lento","emphasis":true,"voice_settings":{"style":0.86,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true},"pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:33:28] [TEST] Iniciando generación de audio
+[2025-06-23 16:33:28] [TEST] Voice settings recibidos: {"style":0.86,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true}
+[2025-06-23 16:33:28] [TEST] Pause settings recibidos: {"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]}
+[2025-06-23 16:33:28] [TEST] Emphasis settings recibidos: {"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true}
+[2025-06-23 16:33:28] [TEST] Modulation settings recibidos: {"pitch":0,"volume":0,"dynamic_rate":false}
+[2025-06-23 16:33:28] [TEST] Generator options completas: {"speed":"lento","emphasis":true,"voice_settings":{"style":0.86,"stability":0.75,"similarity_boost":0.8,"use_speaker_boost":true},"pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"emphasis_words":[],"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:33:28] [TEST] Generando desde texto directo
+[2025-06-23 16:33:28] [TEST] Texto original: ¡No se lo pierdan! Gran show de magia familiar este sábado 20 a las 4 de la tarde en el patio de comidas, No se olviden, este sábado a las 4 de la tarde !
+[2025-06-23 16:33:28] [TEST] Pasando pause_settings a speech-controls: {"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]}
+[2025-06-23 16:33:28] [TEST] Pasando emphasis_settings a speech-controls: {"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true}
+[2025-06-23 16:33:28] [TEST] Pasando modulation_settings a speech-controls: {"pitch":0,"volume":0,"dynamic_rate":false}
+[2025-06-23 16:33:28] [TEST] Speech Controls - processText options: {"speed":"lento","language":"es","emphasis":true,"emphasis_words":[],"pauses":true,"pause_length":"medium","emotion":"neutral","pause_settings":{"enabled":true,"sentence":0.5,"comma":0.2,"custom_markers":[]},"emphasis_settings":{"enabled":true,"level":"medium","custom_words":[],"auto_numbers":true,"auto_prices":true},"modulation_settings":{"pitch":0,"volume":0,"dynamic_rate":false}}
+[2025-06-23 16:33:28] [TEST] Usando énfasis avanzado
+[2025-06-23 16:33:28] [TEST] Usando pausas avanzadas
+[2025-06-23 16:33:28] [TEST] Texto procesado con SSML: <speak><prosody rate="slow"><prosody pitch="+10%" volume="+2dB">¡No se lo pierdan!</prosody> <emphasis level="medium">Gran</emphasis> <emphasis level="medium">show</emphasis> de magia familiar este sábado <emphasis level="medium">20</emphasis> a las <emphasis level="medium">4</emphasis> de la tarde en el patio de comidas, <break time="0.2s"/> No se olviden, <break time="0.2s"/> este sábado a las <emphasis level="medium">4</emphasis> de la tarde !</prosody></speak>
+[2025-06-23 16:33:28] [TEST] Voice settings finales: {"stability":0.75,"similarity_boost":0.8,"style":0.86,"use_speaker_boost":true}
+[2025-06-23 16:33:28] [TEST] === TTS-SERVICE: Options recibidas: {"model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"style":0.86,"use_speaker_boost":true},"language":"es","enable_ssml":false,"seed":null}
+[2025-06-23 16:33:28] [TEST] TTS Enhanced - Voz: azucena -> ID: ay4iqk10DLwc8KGSrf2t
+[2025-06-23 16:33:28] [TEST] Voice settings mezclados con frontend: {"stability":0.75,"similarity_boost":0.8,"style":0.86,"use_speaker_boost":true}
+[2025-06-23 16:33:28] [TEST] Request a ElevenLabs: {"text":"<speak><prosody rate=\"slow\"><prosody pitch=\"+10%\" volume=\"+2dB\">\u00a1No se lo pierdan!<\/prosody> <emphasis level=\"medium\">Gran<\/emphasis> <emphasis level=\"medium\">show<\/emphasis> de magia familiar este s\u00e1bado <emphasis level=\"medium\">20<\/emphasis> a las <emphasis level=\"medium\">4<\/emphasis> de la tarde en el patio de comidas, <break time=\"0.2s\"\/> No se olviden, <break time=\"0.2s\"\/> este s\u00e1bado a las <emphasis level=\"medium\">4<\/emphasis> de la tarde !<\/prosody><\/speak>","model_id":"eleven_multilingual_v2","voice_settings":{"stability":0.75,"similarity_boost":0.8,"style":0.86,"use_speaker_boost":true},"enable_ssml":false}
+[2025-06-23 16:33:28] [TEST] Voice settings finales: style=0.86, stability=0.75, similarity=0.8
+[2025-06-23 16:33:31] [TEST] Respuesta HTTP: 200
+[2025-06-23 16:33:31] [TEST] Audio generado exitosamente, tamaño: 173080 bytes
+[2025-06-23 16:33:31] [TEST] Archivo temporal creado para preview: test_1750696411.mp3
+[2025-06-23 16:33:31] [TEST] === Iniciando addSilenceToAudio con archivo: /var/www/tts-radio/api/temp/test_1750696411.mp3.copy
+[2025-06-23 16:33:31] [TEST] Archivo original - Channels: 1, Sample Rate: 44100, Bitrate: 128000
+[2025-06-23 16:33:31] [TEST] Ejecutando comando de silencio: ffmpeg -f lavfi -i anullsrc=channel_layout=mono:sample_rate=44100 -t 3 -c:a libmp3lame -b:a 128000 -ac 1 -ar 44100 -y '/var/www/tts-radio/api/temp/silence_685981dba753c.mp3' 2>&1
+[2025-06-23 16:33:31] [TEST] Archivo de silencio creado: /var/www/tts-radio/api/temp/silence_685981dba753c.mp3
+[2025-06-23 16:33:31] [TEST] Archivo de lista creado: /var/www/tts-radio/api/temp/concat_685981dbbd863.txt
+[2025-06-23 16:33:31] [TEST] Ejecutando concat: ffmpeg -f concat -safe 0 -i '/var/www/tts-radio/api/temp/concat_685981dbbd863.txt' -c:a libmp3lame -b:a 128000 -ac 1 -ar 44100 -y '/var/www/tts-radio/api/temp/test_1750696411_with_silence.mp3' 2>&1
+[2025-06-23 16:33:32] [TEST] Archivo final - Channels: 1, Sample Rate: 44100
+[2025-06-23 16:33:32] [TEST] ✅ Silencio agregado exitosamente manteniendo formato original. Tamaño: 270045 bytes
+[2025-06-23 16:33:32] [TEST] Subiendo archivo a AzuraCast: Grabaciones/tts20250623163332.mp3
+[2025-06-23 16:33:32] [TEST] Audio generado y subido exitosamente: tts20250623163332.mp3
+[2025-06-23 17:35:20] [TEST] Datos recibidos: {"action":"list_templates"}
+[2025-06-23 17:36:03] [TEST] Datos recibidos: {"action":"list_templates"}
+[2025-06-23 17:36:50] [TEST] Datos recibidos: {"action":"list_templates"}
+[2025-06-23 17:39:17] [TEST] Datos recibidos: {"action":"list_templates"}
+[2025-06-23 17:39:36] [TEST] Datos recibidos: {"action":"list_templates"}
+[2025-06-23 17:40:38] [TEST] Datos recibidos: {"action":"list_templates"}
+[2025-06-23 17:41:55] [TEST] Datos recibidos: {"action":"list_templates"}

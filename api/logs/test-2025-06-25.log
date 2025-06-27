@@ -1,0 +1,8 @@
+[2025-06-25 15:08:14] [TEST] === TEST ENDPOINT START ===
+[2025-06-25 15:08:14] [TEST] Input received: {"voice":"fernanda","text":"Hola, este es un mensaje de prueba para el sistema TTS del Mall Barrio Independencia. \u00a1Bienvenidos a todos nuestros visitantes!","voice_settings":{"stability":0.54,"similarity_boost":0.54,"style":0.55,"use_speaker_boost":false}}
+[2025-06-25 15:08:14] [TEST] Voice settings: {"stability":0.54,"similarity_boost":0.54,"style":0.55,"use_speaker_boost":false}
+[2025-06-25 15:08:14] [TEST] Calling generateEnhancedTTS with voice: fernanda
+[2025-06-25 15:09:11] [TEST] === TEST ENDPOINT START ===
+[2025-06-25 15:09:11] [TEST] Input received: {"voice":"fernanda","text":"Hola, este es un mensaje de prueba para el sistema TTS del Mall Barrio Independencia. \u00a1Bienvenidos a todos nuestros visitantes!","voice_settings":{"stability":0.75,"similarity_boost":0.85,"style":0.5,"use_speaker_boost":true}}
+[2025-06-25 15:09:11] [TEST] Voice settings: {"stability":0.75,"similarity_boost":0.85,"style":0.5,"use_speaker_boost":true}
+[2025-06-25 15:09:11] [TEST] Calling generateEnhancedTTS with voice: fernanda
