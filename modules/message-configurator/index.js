@@ -78,6 +78,15 @@ export default class MessageConfiguratorModule {
             document.head.appendChild(link);
         }
         
+        // CSS para el modal de guardado
+        if (!document.querySelector('#save-modal-styles')) {
+            const link = document.createElement('link');
+            link.id = 'save-modal-styles';
+            link.rel = 'stylesheet';
+            link.href = '/v2/modules/message-configurator/styles/save-message-modal.css';
+            document.head.appendChild(link);
+        }
+        
         // Agregar CSS para SimpleSlider si no existe
         if (!document.querySelector('#simple-slider-styles')) {
             const style = document.createElement('style');
@@ -279,21 +288,107 @@ export default class MessageConfiguratorModule {
                 processedTextEl.textContent = result.processed_text;
             }
             
+            // Mostrar botón de guardar
+            const saveBtn = this.container.querySelector('#saveMessageBtn');
+            if (saveBtn) {
+                saveBtn.style.display = 'inline-flex';
+            }
+            
         } catch (error) {
             this.uiHandler.showStatus(error.message, 'error');
         }
     }
     
-    handleSaveMessage() {
+    async handleSaveMessage() {
         const message = this.stateManager.getCurrentMessage();
-        if (!message.name) {
-            this.uiHandler.showStatus('Dale un nombre al mensaje', 'error');
+        
+        // Verificar que hay texto
+        if (!message.text?.trim()) {
+            this.uiHandler.showStatus('No hay mensaje para guardar', 'error');
             return;
         }
         
-        storageManager.save(`message_${message.id}`, message);
-        this.uiHandler.showStatus('Mensaje guardado', 'success');
-        eventBus.emit('message:saved', message);
+        // Verificar que hay audio generado
+        if (!message.audioFilename || !message.azuracastFilename) {
+            this.uiHandler.showStatus('Debes generar el audio primero', 'error');
+            return;
+        }
+        
+        try {
+            // Cargar y mostrar modal
+            const { default: SaveMessageModal } = await import('./components/save-message-modal.js');
+            
+            const result = await SaveMessageModal.open({
+                messageText: message.text
+            });
+            
+            // Preparar datos completos para guardar
+            const messageData = {
+                ...message,
+                id: message.id || this.generateId(),
+                title: result.title,
+                category: result.category,
+                excerpt: message.text.substring(0, 100) + '...',
+                savedAt: Date.now()
+            };
+            
+            // Guardar en storage local
+            storageManager.save(`library_message_${messageData.id}`, messageData);
+            
+            // Guardar en backend
+            await this.saveToBackend(messageData);
+            
+            // Emitir evento
+            eventBus.emit('message:saved:library', messageData);
+            
+            this.uiHandler.showStatus('¡Mensaje guardado en la biblioteca!', 'success');
+            
+            // Preguntar si crear nuevo mensaje
+            setTimeout(() => {
+                if (confirm('¿Deseas crear un nuevo mensaje?')) {
+                    this.handleNewMessage();
+                }
+            }, 1000);
+            
+        } catch (error) {
+            if (error.message && error.message !== 'Cancelado por usuario') {
+                console.error('Error guardando mensaje:', error);
+                this.uiHandler.showStatus('Error al guardar', 'error');
+            }
+        }
+    }
+    
+    async saveToBackend(messageData) {
+        try {
+            const response = await fetch('/v2/api/library-metadata.php', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({
+                    action: 'save',
+                    data: messageData
+                })
+            });
+            
+            if (!response.ok) {
+                throw new Error('Error al guardar en servidor');
+            }
+            
+            const result = await response.json();
+            
+            if (!result.success) {
+                throw new Error(result.error || 'Error desconocido');
+            }
+            
+        } catch (error) {
+            console.error('Error guardando en backend:', error);
+            // No lanzar error para que al menos quede guardado localmente
+        }
+    }
+    
+    generateId() {
+        return 'msg_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
     }
     
     async handleSendRadio() {
@@ -320,6 +415,12 @@ export default class MessageConfiguratorModule {
         const playerContainer = this.container.querySelector('#audio-player-container');
         if (playerContainer) {
             playerContainer.style.display = 'none';
+        }
+        
+        // Ocultar botón de guardar
+        const saveBtn = this.container.querySelector('#saveMessageBtn');
+        if (saveBtn) {
+            saveBtn.style.display = 'none';
         }
         
         // Limpiar el audio actual

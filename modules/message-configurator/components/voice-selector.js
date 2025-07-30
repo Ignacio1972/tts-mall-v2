@@ -101,7 +101,7 @@ export class VoiceSelector {
             }
         ];
         
-        this.selectedVoice = 'fernanda'; // Default
+        this.selectedVoice = 'cristian'; // Default
         this.onChange = null;
     }
     

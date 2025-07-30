@@ -1,0 +1,27 @@
+# Logs y temporales
+api/logs/*.log
+api/temp/*.mp3
+api/temp/*.wav
+logs/
+
+# Datos
+api/data/
+
+# Configuración sensible
+api/config.php
+
+# Base de datos
+*.db
+calendario/api/db/*.db
+
+# Backups
+*.backup
+*.tar.gz
+backup_*
+
+# Archivos con fechas
+*"("*")"*
+
+# Archivos temporales
+*.tmp
+.DS_Store

@@ -264,6 +264,31 @@ select.form-control {
     border: 1px solid #3a4252;
 }
 
+/* Estados del botón */
+.btn-loading { /* opacity, cursor, etc. */ }
+.btn-success-flash { /* color verde, transición */ }
+
+/* Animación del spinner */
+@keyframes spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.btn-loading {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+.btn-success-flash {
+    background-color: #10b981 !important;
+    transition: background-color 0.3s ease;
+}
+
 /* Texto procesado - diseño mejorado */
 .processed-text {
     background: #161922;
@@ -446,4 +471,26 @@ select.form-control {
         width: 100%;
         justify-content: center;
     }
+}
+/* Estados del botón */
+.btn-loading {
+    opacity: 0.8;
+    cursor: not-allowed;
+    pointer-events: none;
+}
+
+.btn-spinner {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    border-top-color: white;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+}
+
+/* Para el botón de éxito */
+.btn-success-flash {
+    background: linear-gradient(135deg, #10b981, #059669) !important;
+    transition: all 0.3s ease;
 }

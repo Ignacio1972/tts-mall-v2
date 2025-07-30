@@ -8,7 +8,7 @@ export const MessageSchema = {
     id: null,          // Generated UUID
     name: '',          // Nombre del mensaje
     text: '',          // Texto del mensaje
-    voice: 'fernanda', // Voz seleccionada
+    voice: 'cristian', // Voz seleccionada
     settings: {
         speed: 'normal',
         style: 0.5,
@@ -35,7 +35,7 @@ export const MessageSchema = {
 export const VoiceProfileSchema = {
     id: null,
     name: '',
-    voice: 'fernanda',
+    voice: 'cristian',
     settings: {
         style: 0.5,
         stability: 0.75,

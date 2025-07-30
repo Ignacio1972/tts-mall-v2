@@ -11,8 +11,13 @@ class Router {
     constructor() {
         this.routes = new Map();
         this.currentRoute = null;
-        this.defaultRoute = '/configuracion';
+        this.defaultRoute = '/radio';
         this.initialized = false;
+        this.routes.set('/calendario', 'calendar');
+        // Agregar después de las otras rutas
+ // this.routes.set('/calendario', 'calendar');
+
+
     }
     
     /**
@@ -25,6 +30,7 @@ class Router {
         this.routes.set('/configuracion', 'message-configurator');
         this.routes.set('/campanas', 'campaign-library');
         this.routes.set('/historial', 'audio-history');
+        this.routes.set('/radio', 'radio'); 
         
         // Escuchar cambios de hash
         window.addEventListener('hashchange', () => this.handleRoute());
